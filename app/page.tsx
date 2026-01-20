@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const MainSection = () => {
   return (
-    <>
+    <main>
     <div className="article-body">
       <div className="main-section">
         {/* First column - One large card */}
@@ -15,7 +15,8 @@ const MainSection = () => {
             alt="Inflation Menace"
           />
           <h2 className="card-title">
-            Inflation Menace vs Pandemic Recovery: CEO of the AEA Bank Guide
+            <Link href="/category/demo">
+              Inflation Menace vs Pandemic Recovery: CEO of the AEA Bank Guide</Link>
           </h2>
           <p className="card-description">
             Music expresses feeling and thought, without language...Music
@@ -563,7 +564,7 @@ const MainSection = () => {
 
 
 
-    </>
+    </main>
   );
 };
 
