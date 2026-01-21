@@ -1,6 +1,20 @@
+/* 1. IMPORT FONTS (this must be the first rule) */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* 2. Your global styles start here */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Merriweather', serif;
+}
 
 /* Existing Styles */
 * {
@@ -9,17 +23,14 @@
   box-sizing: border-box;
 }
 
-:root {
-  --font-geist-sans: "Geist", sans-serif;
-  --font-geist-mono: "Geist Mono", monospace;
-}
-
 html,
 body {
   height: 100%; /* Ensures the body takes up the full height of the viewport */
   width: 100%;
   /* display: flex; */
   flex-direction: column; /* Allowing the page to take up full height */
+  
+
 }
 
 body {
@@ -1533,4 +1544,7 @@ body {
     height: 200px; /* Adjust image height for mobile */
   }
 }
+
+
+
 
