@@ -1,8 +1,8 @@
 
 import Link from "next/link";
-import { FaFacebookF, FaXTwitter, FaEnvelope } from "react-icons/fa6";
+import { FaFacebookF, FaXTwitter, FaEnvelope, FaInstagram, FaRedditAlien, FaUserCircle } from "react-icons/fa6";
 import { FiShare2, FiMoreHorizontal } from "react-icons/fi";
-import { FaYoutube, FaTelegramPlane } from "react-icons/fa";
+import { FaYoutube, FaTelegramPlane, FaPlus } from "react-icons/fa";
 
 export default function Page({ params }) {
   return (
@@ -311,79 +311,108 @@ export default function Page({ params }) {
     
     
   </div>
+ <div className="article-container">
+  
+  {/* Share Section */}
   <div className="mt-10">
-  <hr className="border-t-2 border-dotted border-gray-400" />
-  <div className="mt-6 flex flex-col sm:flex-row justify-between items-start gap-6">
-    {/* Left Side: Share Section */}
-    <div className="flex items-center gap-4">
-      <span className="text-lg font-semibold">Share This Article</span>
+    <hr className="border-t-2 border-dotted border-gray-400" />
+    <div className="flex justify-between items-center mt-6">
+      <div className="flex items-center gap-2">
+        <span className="text-sm font-semibold">Share</span>
+      </div>
       <div className="flex items-center gap-3">
-        <a href="#" className="w-9 h-9 flex items-center justify-center rounded-lg border border-gray-400 text-gray-600 hover:bg-blue-600 hover:text-white transition">
-          <FaFacebookF />
+        {/* Facebook Icon */}
+        <a href="#" target="_blank" title="Share on Facebook" className="w-9 h-9 flex items-center justify-center rounded-full border border-gray-400 text-gray-600 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition">
+          <FaFacebookF className="w-5 h-5" />
         </a>
-        <a href="#" className="w-9 h-9 flex items-center justify-center rounded-lg border border-gray-400 text-gray-600 hover:bg-blue-500 hover:text-white transition">
-          <FaXTwitter />
+        {/* Twitter Icon */}
+        <a href="#" target="_blank" title="Share on X" className="w-9 h-9 flex items-center justify-center rounded-full border border-gray-400 text-gray-600 hover:bg-blue-500 hover:text-white hover:border-blue-500 transition">
+          <FaXTwitter className="w-5 h-5" />
         </a>
-        <a href="#" className="w-9 h-9 flex items-center justify-center rounded-lg border border-gray-400 text-gray-600 hover:bg-red-600 hover:text-white transition">
-          <FaEnvelope />
+        {/* LinkedIn Icon */}
+        <a href="#" target="_blank" title="Share on reddit" className="w-9 h-9 flex items-center justify-center rounded-full border border-gray-400 text-gray-600 hover:bg-blue-700 hover:text-white hover:border-blue-700 transition">
+          <FaRedditAlien className="w-5 h-5" />
+        </a>
+        {/* Medium Icon */}
+        <a href="#" target="_blank" title="Share on Intagram" className="w-9 h-9 flex items-center justify-center rounded-full border border-gray-400 text-gray-600 hover:bg-black hover:text-white hover:border-black transition">
+          <FaInstagram className="w-5 h-5" />
+        </a>
+      </div>
+    </div>
+  </div>
+
+  {/* Author Section */}
+  <div className="mt-10">
+    
+    <div className="mt-6 flex justify-between items-center gap-6">
+      <div className="flex items-center gap-4">
+        {/* Author Image */}
+        <img src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b35-860x561.jpg" alt="Hugh Son" className="w-16 h-16 object-cover rounded-full" />
+        <div>
+          {/* Author Name */}
+          <a href="#" title="Hugh Son" className="font-semibold text-sm text-gray-900 hover:text-blue-600 hover:underline">
+            Hugh Son
+          </a>
+          {/* Author Role */}
+          <p className="text-gray-500 text-xs">Senior Editor</p>
+        </div>
+      </div>
+      <div className="flex flex-col sm:flex-row items-center gap-4">
+        <span className="text-sm text-gray-600 hidden sm:block">Follow:</span>
+        <div className="flex items-center gap-3">
+          {/* Social Media Icons */}
+          <a href="#" target="_blank" className="text-gray-600 hover:text-blue-600">
+            <FaXTwitter className="w-5 h-5" />
+          </a>
+          <a href="#" target="_blank" className="text-gray-600 hover:text-blue-600">
+            <FaInstagram className="w-5 h-5" />
+          </a>
+        </div>
+      </div>
+    </div>
+    {/* Author Bio */}
+    <p className="mt-6 text-sm text-gray-600">
+      Inspiring the world through Personal Development and Entrepreneurship. Experimenter in life, productivity, and creativity. Work in Foxiz.
+    </p>
+  </div>
+
+  {/* Previous/Next Articles Section */}
+  <div className="mt-10">
+  
+  <div className="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-8">
+    {/* Previous Article */}
+    <div className="flex flex-col items-start gap-4 lg:block hidden">
+      <span className="text-sm text-gray-600">Previous Article</span>
+      <div className="flex items-center gap-4 mt-4 hover:text-blue-600 cursor-pointer transition">
+        <a href="#" title="Previous Article Title">
+          <div className="flex items-center gap-4">
+            <img src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b35-860x561.jpg" alt="Previous Article" className="w-16 h-16 object-cover rounded-full" />
+            <h3 className="text-sm font-semibold text-gray-900">Previous Article Title</h3>
+          </div>
         </a>
       </div>
     </div>
 
-    {/* Right Side: Author Info */}
-    <div className="flex items-center gap-4">
-      <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Author" width={56} height={56} className="rounded-full" />
-      <div>
-        <p className="font-semibold text-sm">Jane M. Carter</p>
-        <p className="text-gray-500 text-xs">Senior Editor</p>
+    <hr className="my-6 border-t border-gray-300 lg:hidden" />
+
+    {/* Next Article */}
+    <div className="flex flex-col items-end gap-4 text-right lg:block hidden">
+      <span className="text-sm text-gray-600">Next Article</span>
+      <div className="flex items-center gap-4 mt-4 sm:flex-row-reverse hover:text-blue-600 cursor-pointer transition">
+        <a href="#" title="Next Article Title">
+          <div className="flex items-center gap-4">
+            <img src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b35-860x561.jpg" alt="Next Article" className="w-16 h-16 object-cover rounded-full" />
+            <h3 className="text-sm font-semibold text-gray-900">Next Article Title</h3>
+          </div>
+        </a>
       </div>
     </div>
   </div>
-
-  <hr className="my-6 border-t border-gray-300" />
-
-  {/* Next Article */}
-  <div className="flex items-center justify-between mt-6">
-    <span className="text-sm text-gray-600">Next Article</span>
-    <div className="flex items-center gap-4 hover:text-blue-600 cursor-pointer transition">
-      <Link href="/next-article">
-        <div className="flex items-center gap-4">
-          <img
-            src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b43-150x150.jpg"
-            alt="Next Article Image"
-            width={100}
-            height={100}
-            className="object-cover rounded-lg flex-shrink-0"
-          />
-          <h3 className="text-sm font-semibold">How to Mark Yourself Safe on Social Media</h3>
-        </div>
-      </Link>
-    </div>
-  </div>
-
-  <hr className="my-6 border-t border-gray-300" />
-
-  {/* Previous Article */}
-  <div className="flex items-center justify-between mt-6">
-    <span className="text-sm text-gray-600">Previous Article</span>
-    <div className="flex items-center gap-4 hover:text-blue-600 cursor-pointer transition">
-      <Link href="/previous-article">
-        <div className="flex items-center gap-4">
-          <img
-            src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b43-150x150.jpg"
-            alt="Previous Article Image"
-            width={100}
-            height={100}
-            className="object-cover rounded-lg flex-shrink-0"
-          />
-          <h3 className="text-sm font-semibold">These are The Countries Where Crypto is Restricted or Illegal</h3>
-        </div>
-      </Link>
-    </div>
-  </div>
-
-  <hr className="my-6 border-t border-gray-300" />
 </div>
+
+</div>
+
+
 
 
   
@@ -470,18 +499,236 @@ export default function Page({ params }) {
 
         {/* ---------- FUTURE BLOCK PLACE ---------- */}
         
-        <div className="border-t border-dashed border-gray-300"></div>
+        <div className="sidebar-container p-4 bg-white ">
+      {/* Popular News Section */}
+      <div className="popular-news mb-6">
+        <h2 className="text-xl font-semibold text-gray-800">Popular News</h2>
 
-        <div className="bg-white p-6">
-          <h3 className="font-bold mb-2">Popular Posts</h3>
-          ...
+        {/* Main News Item */}
+        <div className="main-news mt-4">
+          {/* Image of the news */}
+          <div className="news-image mt-4">
+            <img
+              src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b48-420x280.jpg"
+              alt="News Image"
+              width={350}
+              height={200}
+              className="w-full h-auto object-cover "
+            />
+          </div>
+          <h3 className="text-lg font-semibold text-gray-900 hover:text-blue-600 cursor-pointer">
+            Wall Street Interns Return To Office, After 2 Year Of Zoom Meetings
+          </h3>
+
+          <div className="flex items-center gap-4 mt-2">
+            {/* Author's Image */}
+            <img
+              src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b48-420x280.jpg"
+              alt="Author Image"
+              className="w-10 h-10 rounded-full"
+            />
+            <div>
+              <p className="text-sm font-semibold text-gray-700">By Hugh Son</p>
+              
+            </div>
+            <div><p className="text-xs text-gray-500">4 years ago</p></div>
+          </div>
+
+          
         </div>
+
+        {/* Four Additional News Items */}
+        <div className="additional-news mt-6">
+      <ul className="space-y-4">
+        <li className="flex items-center gap-2">
+          {/* + icon with no hover effect, just static */}
+          <FaPlus className="text-gray-800" />
+          {/* Link with hover effects */}
+          <a href="#" className="text-sm text-gray-800 hover:text-black hover:underline hover:underline-orange transition-all duration-300">
+            Here Are 12 Names on The 2025 Ballot for President, 9 for VP
+          </a>
+        </li>
+        <li className="flex items-center gap-2">
+          {/* + icon with no hover effect, just static */}
+          <FaPlus className="text-gray-800" />
+          {/* Link with hover effects */}
+          <a href="#" className="text-sm text-gray-800 hover:text-black hover:underline hover:underline-orange transition-all duration-300">
+            Here Are The 4 Cheapest Electric Vehicles You Can Buy
+          </a>
+        </li>
+        <li className="flex items-center gap-2">
+          {/* + icon with no hover effect, just static */}
+          <FaPlus className="text-gray-800" />
+          {/* Link with hover effects */}
+          <a href="#" className="text-sm text-gray-800 hover:text-black hover:underline hover:underline-orange transition-all duration-300">
+            How to Mark Yourself ‘Safe’ on Socials Media
+          </a>
+        </li>
+        <li className="flex items-center gap-2">
+          {/* + icon with no hover effect, just static */}
+          <FaPlus className="text-gray-800" />
+          {/* Link with hover effects */}
+          <a href="#" className="text-sm text-gray-800 hover:text-black hover:underline hover:underline-orange transition-all duration-300">
+            Corsair HS80 RGB Wireless Gaming Headset Review
+          </a>
+        </li>
+      </ul>
+    </div>
+      </div>
+
+      {/* Advertisement Section */}
+      <div className="ad-image mt-8">
+        <p className="text-center text-sm text-gray-500 mb-2">- Ads -</p>
+        <img
+          src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b48-420x280.jpg" // Replace with your ad image path
+          alt="Advertisement"
+          width={350}
+          height={200}
+          className="w-full h-auto object-cover "
+          
+        />
+        
+      </div>
+    </div>
        
 
       </div>
     </aside>
+     
 
   </div>
+  <div className="mt-10 mb-10">
+  {/* Section Header */}
+  <div className="flex items-center justify-between mb-6">
+    <h2 className="text-xl font-semibold text-gray-900">You Might Also Like</h2>
+  </div>
+  <div className="w-full border-t-4 border-orange-500 mb-6"></div>
+
+  {/* Articles */}
+  
+  {/* Desktop View (Grid Layout) */}
+  <div className="hidden lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    {/* Card 1 */}
+    <div className="flex flex-col items-start">
+      <img
+        src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b9-330x220.jpg"
+        alt="Article Image"
+        width={350}
+        height={200}
+      />
+      <p className="mt-2 text-sm text-gray-900 font-semibold">
+        Personal loan Interest Rates Rise, Still Much Lower than Same Time Last Year
+      </p>
+      <p className="text-xs text-gray-500">4 years ago</p>
+    </div>
+
+    {/* Card 2 */}
+    <div className="flex flex-col items-start">
+      <img
+        src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b9-330x220.jpg"
+        alt="Article Image"
+        width={350}
+        height={200}
+      />
+      <p className="mt-2 text-sm text-gray-900 font-semibold">
+        How Science Failed to Unlock The Mysteries of the Human Brain
+      </p>
+      <p className="text-xs text-gray-500">4 years ago</p>
+    </div>
+
+    {/* Card 3 */}
+    <div className="flex flex-col items-start">
+      <img
+        src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b9-330x220.jpg"
+        alt="Article Image"
+        width={350}
+        height={200}
+      />
+      <p className="mt-2 text-sm text-gray-900 font-semibold">
+        Black Holes Born With Magnetic Fields Quickly Shed Them
+      </p>
+      <p className="text-xs text-gray-500">4 years ago</p>
+    </div>
+
+    {/* Card 4 */}
+    <div className="flex flex-col items-start">
+      <img
+        src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b9-330x220.jpg"
+        alt="Article Image"
+        width={350}
+        height={200}
+      />
+      <p className="mt-2 text-sm text-gray-900 font-semibold">
+        Treasury Signals Crypto Miners Won’t Face IRS Reporting Rule
+      </p>
+      <p className="text-xs text-gray-500">4 years ago</p>
+    </div>
+  </div>
+
+  {/* Mobile View (Flex Layout) */}
+  <div className="lg:hidden space-y-5">
+    {/* Item 1 */}
+    <div className="flex items-start gap-4 border-b pb-4">
+      <div className="flex-1">
+        <h3 className="text-sm font-semibold text-gray-900 leading-snug">
+          Personal loan Interest Rates Rise, Still Much Lower than Same Time Last Year
+        </h3>
+        <p className="text-xs text-gray-500 mt-1">4 years ago</p>
+      </div>
+      <img
+        src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b9-330x220.jpg"
+        alt="Article"
+        className="w-20 h-16 object-cover "
+      />
+    </div>
+
+    {/* Item 2 */}
+    <div className="flex items-start gap-4 border-b pb-4">
+      <div className="flex-1">
+        <h3 className="text-sm font-semibold text-gray-900 leading-snug">
+          How Science Failed to Unlock The Mysteries of the Human Brain
+        </h3>
+        <p className="text-xs text-gray-500 mt-1">4 years ago</p>
+      </div>
+      <img
+        src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b9-330x220.jpg"
+        alt="Article"
+        className="w-20 h-16 object-cover "
+      />
+    </div>
+
+    {/* Item 3 */}
+    <div className="flex items-start gap-4 border-b pb-4">
+      <div className="flex-1">
+        <h3 className="text-sm font-semibold text-gray-900 leading-snug">
+          Black Holes Born With Magnetic Fields Quickly Shed Them
+        </h3>
+        <p className="text-xs text-gray-500 mt-1">4 years ago</p>
+      </div>
+      <img
+        src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b9-330x220.jpg"
+        alt="Article"
+        className="w-20 h-16 object-cover "
+      />
+    </div>
+
+    {/* Item 4 */}
+    <div className="flex items-start gap-4">
+      <div className="flex-1">
+        <h3 className="text-sm font-semibold text-gray-900 leading-snug">
+          Treasury Signals Crypto Miners Won’t Face IRS Reporting Rule
+        </h3>
+        <p className="text-xs text-gray-500 mt-1">4 years ago</p>
+      </div>
+      <img
+        src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b9-330x220.jpg"
+        alt="Article"
+        className="w-20 h-16 object-cover "
+      />
+    </div>
+  </div>
+</div>
+
 </section>
 
 

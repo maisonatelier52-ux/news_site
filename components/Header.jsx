@@ -113,7 +113,7 @@ const Header = ({ allSearchItems = [] }) => {
       <nav className={`navbar ${isMenuOpen ? "open" : ""}`}>
         <ul className="main-menu">
           <li><a href="">Home</a></li>
-          <li><a href="">US</a></li>
+          <li><a href="/category">US</a></li>
           <li><a href="">Politics</a></li>
           <li><a href="">Business</a></li>
           <li><a href="">Technology</a></li>
