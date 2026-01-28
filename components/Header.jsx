@@ -1,19 +1,28 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { BsSubstack } from "react-icons/bs";
 import { SiMedium } from "react-icons/si";
-import { CiSearch } from "react-icons/ci";
-import Link from "next/link";
 
 const Header = ({ allSearchItems = [] }) => {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // For toggling menu on mobile
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Function to handle search input
+  // ✅ Categories with slugs (FINAL ORDER)
+  const categories = [
+    { name: "Crime", slug: "/crime" },
+    { name: "Politics", slug: "/politics" },
+    { name: "Courts", slug: "/courts" },
+    { name: "Investigations", slug: "/investigations" },
+    { name: "U.S. News", slug: "/us-news" },
+    { name: "Civil Rights", slug: "/civil-rights" },
+    { name: "Law & Justice", slug: "/law-and-justice" },
+  ];
+
   function handleSearchInput(e) {
     const value = e.target.value;
     setQuery(value);
@@ -30,95 +39,113 @@ const Header = ({ allSearchItems = [] }) => {
     setResults(filtered.slice(0, 6));
   }
 
-  // Toggle mobile menu visibility
-  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
-
   return (
-    <header className="header-wrap">
-      {/* Logo Section */}
-      <div className="logo-sec">
-        <div className="logo-sec-inner">
-          <div className="logo-sec-left">
-            <a href="/" className="logo" title="Foxiz News">
-              <img
-                className="logo-default"
-                src="https://foxiz.io/business/wp-content/uploads/sites/6/2022/02/logo.png"
-                alt="Foxiz News"
-                height="70"
-                width="269"
-              />
+    <header className="bg-white border-b border-gray-200 relative">
+
+      {/* TOP BAR */}
+      <div className="flex items-center justify-between px-4 md:px-[10%] py-3">
+
+        {/* LOGO */}
+        <Link href="/" className="block">
+          <img
+            src="https://foxiz.io/business/wp-content/uploads/sites/6/2022/02/logo.png"
+            alt="CourtNews.org"
+            className="h-[60px] w-auto"
+          />
+        </Link>
+
+        {/* DESKTOP RIGHT */}
+        <div className="hidden md:flex items-center gap-4">
+
+          {/* SOCIAL ICONS */}
+          <div className="flex items-center gap-4 text-gray-700 text-lg">
+            <a href="#" aria-label="Facebook" className="hover:text-orange-500">
+              <FaFacebookF />
+            </a>
+            <a href="#" aria-label="X" className="hover:text-orange-500">
+              <FaXTwitter />
+            </a>
+            <a href="#" aria-label="Substack" className="hover:text-orange-500">
+              <BsSubstack />
+            </a>
+            <a href="#" aria-label="Medium" className="hover:text-orange-500">
+              <SiMedium />
             </a>
           </div>
 
-          {/* Hamburger Menu (for mobile) */}
-          <div className="hamburger-menu" onClick={toggleMenu}>
-            <div className="line"></div>
-            <div className="line"></div>
-            <div className="line"></div>
-          </div>
-
-          {/* Navigation and Search */}
-          <div className="logo-sec-right">
-            <div className="header-social-list">
-              <a href="#" aria-label="Facebook" target="_blank" rel="noopener nofollow">
-                <FaFacebookF />
-              </a>
-              <a href="#" aria-label="X" target="_blank" rel="noopener nofollow">
-                <FaXTwitter />
-              </a>
-              <a href="#" aria-label="substack" target="_blank" rel="noopener nofollow">
-                <BsSubstack />
-              </a>
-              <a href="#" aria-label="medium" target="_blank" rel="noopener nofollow">
-                <SiMedium />
-              </a>
-            </div>
-            <div className="header-search">
-              <input
-                type="text"
-                className="search-bar"
-                placeholder="Search News..."
-                value={query}
-                onChange={handleSearchInput}
-              />
-              {/* <CiSearch /> */}
-            </div>
-          </div>
+          {/* SEARCH */}
+          <input
+            type="text"
+            placeholder="Search news..."
+            value={query}
+            onChange={handleSearchInput}
+            className="border border-gray-300 rounded-full px-4 py-2 text-sm focus:outline-none focus:border-orange-500 w-[200px]"
+          />
         </div>
+
+        {/* MOBILE MENU BUTTON */}
+        <button
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          className="md:hidden flex flex-col justify-between w-7 h-6"
+          aria-label="Menu"
+        >
+          <span className="block h-[3px] bg-gray-800"></span>
+          <span className="block h-[3px] bg-gray-800"></span>
+          <span className="block h-[3px] bg-gray-800"></span>
+        </button>
       </div>
 
-      {/* Search Results Dropdown */}
+      {/* SEARCH RESULTS */}
       {results.length > 0 && (
-        <div className="absolute z-20 bg-white border w-full shadow-lg mt-1 rounded">
+        <div className="absolute left-0 right-0 bg-white border shadow-lg z-50">
           {results.map((item) => (
             <Link
-              key={`${item.type}-${item.slug}`}
-              href={item.href}
-              title={item.heading}
-              className="block px-3 py-2 hover:bg-gray-100 text-sm"
+              key={item.slug}
+              href={item.href || `/${item.category}/${item.slug}`}
+              className="block px-4 py-2 text-sm hover:bg-gray-100"
               onClick={() => {
                 setResults([]);
                 setQuery("");
               }}
             >
               {item.heading.length > 60
-                ? item.heading.slice(0, 60) + "..."
+                ? item.heading.slice(0, 60) + "…"
                 : item.heading}
             </Link>
           ))}
         </div>
       )}
 
-      {/* Navbar - Categories Section (Mobile scrollable categories) */}
-      <nav className={`navbar ${isMenuOpen ? "open" : ""}`}>
-        <ul className="main-menu">
-          <li><a href="">Home</a></li>
-          <li><a href="/category">US</a></li>
-          <li><a href="">Politics</a></li>
-          <li><a href="">Business</a></li>
-          <li><a href="">Technology</a></li>
-          <li><a href="">Sports</a></li>
-          <li><a href="">Investigation</a></li>
+      {/* NAVIGATION */}
+      <nav
+        className={`border-t border-gray-200 md:block ${
+          isMenuOpen ? "block" : "hidden"
+        }`}
+      >
+        <ul className="flex flex-col md:flex-row md:items-center gap-2 md:gap-1 px-4 md:px-[10%] py-2">
+
+          {/* HOME */}
+          <li>
+            <Link
+              href="/"
+              className="block px-4 py-2 font-semibold text-gray-700 rounded hover:bg-gray-100 hover:text-orange-500"
+            >
+              Home
+            </Link>
+          </li>
+
+          {/* CATEGORY LINKS */}
+          {categories.map((cat) => (
+            <li key={cat.slug}>
+              <Link
+                href={cat.slug}
+                className="block px-4 py-2 font-semibold text-gray-700 rounded hover:bg-gray-100 hover:text-orange-500"
+              >
+                {cat.name}
+              </Link>
+            </li>
+          ))}
+
         </ul>
       </nav>
     </header>

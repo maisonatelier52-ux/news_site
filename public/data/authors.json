@@ -1,0 +1,123 @@
+{
+  "categories": [
+    {
+      "category": "crime",
+      "author": {
+        "id": 1,
+        "name": "Laura Mitchell",
+        "gender": "Female",
+        "profileImage": "/images/laura-mitchell.webp",
+        "country": "USA",
+        "bio": "Laura Mitchell is a crime reporter based in Chicago, covering violent crime, law enforcement operations, and public safety issues across major U.S. cities.",
+        "social": {
+          "twitter": "https://x.com/LauraMitchellNews",
+          "quora": "https://www.quora.com/profile/Laura-Mitchell-127",
+          "reddit": "https://www.reddit.com/user/Laura_Mitchell_News/",
+          "medium": "https://medium.com/@lauramitchellnews"
+        }
+      }
+    },
+    {
+      "category": "politics",
+      "author": {
+        "id": 2,
+        "name": "Andrew Collins",
+        "gender": "Male",
+        "profileImage": "/images/andrew-collins.webp",
+        "country": "USA",
+        "bio": "Andrew Collins is a Washington, D.C.–based political correspondent reporting on Congress, the White House, elections, and national policy debates.",
+        "social": {
+          "twitter": "https://x.com/AndrewCollinsDC",
+          "quora": "https://www.quora.com/profile/Andrew-Collins-241",
+          "reddit": "https://www.reddit.com/user/Andrew_Collins_DC/",
+          "medium": "https://medium.com/@andrewcollinsdc"
+        }
+      }
+    },
+    {
+      "category": "courts",
+      "author": {
+        "id": 3,
+        "name": "Rebecca Lawson",
+        "gender": "Female",
+        "profileImage": "/images/rebecca-lawson.webp",
+        "country": "USA",
+        "bio": "Rebecca Lawson is a legal affairs journalist covering federal courts, Supreme Court rulings, and landmark constitutional cases.",
+        "social": {
+          "twitter": "https://x.com/RebeccaLawsonLaw",
+          "quora": "https://www.quora.com/profile/Rebecca-Lawson-88",
+          "reddit": "https://www.reddit.com/user/Rebecca_Lawson_Law/",
+          "medium": "https://medium.com/@rebeccalawsonlaw"
+        }
+      }
+    },
+    {
+      "category": "investigations",
+      "author": {
+        "id": 4,
+        "name": "Michael Grant",
+        "gender": "Male",
+        "profileImage": "/images/michael-grant.webp",
+        "country": "USA",
+        "bio": "Michael Grant is an investigative journalist focusing on corruption, government accountability, corporate misconduct, and data-driven reporting.",
+        "social": {
+          "twitter": "https://x.com/MichaelGrantInvestigates",
+          "quora": "https://www.quora.com/profile/Michael-Grant-317",
+          "reddit": "https://www.reddit.com/user/Michael_Grant_INV/",
+          "medium": "https://medium.com/@michaelgrantinvestigates"
+        }
+      }
+    },
+    {
+      "category": "us-news",
+      "author": {
+        "id": 5,
+        "name": "Emily Parker",
+        "gender": "Female",
+        "profileImage": "/images/emily-parker.webp",
+        "country": "USA",
+        "bio": "Emily Parker is a national correspondent covering breaking U.S. news, federal agencies, disasters, and major domestic developments.",
+        "social": {
+          "twitter": "https://x.com/EmilyParkerNews",
+          "quora": "https://www.quora.com/profile/Emily-Parker-196",
+          "reddit": "https://www.reddit.com/user/Emily_Parker_US/",
+          "medium": "https://medium.com/@emilyparkernews"
+        }
+      }
+    },
+    {
+      "category": "civil-rights",
+      "author": {
+        "id": 6,
+        "name": "Jasmine Walker",
+        "gender": "Female",
+        "profileImage": "/images/jasmine-walker.webp",
+        "country": "USA",
+        "bio": "Jasmine Walker reports on civil rights, social justice movements, voting rights, policing reform, and equality issues across the United States.",
+        "social": {
+          "twitter": "https://x.com/JasmineWalkerCR",
+          "quora": "https://www.quora.com/profile/Jasmine-Walker-142",
+          "reddit": "https://www.reddit.com/user/Jasmine_Walker_CR/",
+          "medium": "https://medium.com/@jasminewalkercivilrights"
+        }
+      }
+    },
+    {
+      "category": "law-and-justice",
+      "author": {
+        "id": 7,
+        "name": "Thomas Bennett",
+        "gender": "Male",
+        "profileImage": "/images/thomas-bennett.webp",
+        "country": "USA",
+        "bio": "Thomas Bennett is a senior legal journalist covering criminal justice reform, federal law enforcement, legislation, and national legal policy.",
+        "social": {
+          "twitter": "https://x.com/ThomasBennettLaw",
+          "quora": "https://www.quora.com/profile/Thomas-Bennett-214",
+          "reddit": "https://www.reddit.com/user/Thomas_Bennett_Law/",
+          "medium": "https://medium.com/@thomasbennettlaw"
+        }
+      }
+    }
+  ]
+}

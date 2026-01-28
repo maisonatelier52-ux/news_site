@@ -1,75 +1,76 @@
 import React from "react";
 import Link from "next/link";
-import { FaFacebookF, FaTwitter } from "react-icons/fa";  // Corrected to FaTwitter
+import { FaFacebookF, FaTwitter } from "react-icons/fa";
 import { SiYoutube, SiRss } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <footer className="footer-wrap">
-      <div className="footer-container">
+    <footer className="bg-[#111] text-white py-10 w-full">
+      <div className="max-w-[1300px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-5 px-4">
+
         {/* Logo Section */}
-        <div className="footer-logo">
+        <div>
           <img
             src="https://foxiz.io/business/wp-content/uploads/sites/6/2022/02/logo.png"
             alt="Foxiz Logo"
-            className="footer-logo-img"
+            className="w-[180px] mb-3"
           />
-          <p className="footer-description">
-            We influence 20 million users and is the number one business and
+          <p className="text-sm text-gray-300">
+            We influence 20 million users and are the number one business and
             technology news network on the planet.
           </p>
         </div>
 
-        {/* Categories Section */}
-        <div className="footer-categories">
-          <div className="footer-category-column">
-            <Link href="#">Innovate</Link>
-            <Link href="#">Gadget</Link>
-            <Link href="#">PC Hardware</Link>
-            <Link href="#">Review</Link>
-            <Link href="#">Software</Link>
-          </div>
-          <div className="footer-category-column">
-            <Link href="#">Medicine</Link>
-            <Link href="#">Children</Link>
-            <Link href="#">Coronavirus</Link>
-            <Link href="#">Nutrition</Link>
-            <Link href="#">Disease</Link>
-          </div>
-          <div className="footer-category-column">
-            <Link href="#">Stars</Link>
-            <Link href="#">Screen</Link>
-            <Link href="#">Culture</Link>
-            <Link href="#">Media</Link>
-            <Link href="#">Videos</Link>
-          </div>
-        </div>
+{/* Categories */}
+<div className="md:col-span-2">
+  <div className="grid grid-cols-2 gap-6 text-gray-300 md:grid-cols-3">
 
-        {/* Social Media and Footer Links */}
-        <div className="footer-social-links">
-          <div className="footer-social">
-            <h4>Find Us on Socials</h4>
-            <div className="footer-social-icons">
-              <Link href="#" aria-label="Facebook">
-                <FaFacebookF />
-              </Link>
-              <Link href="#" aria-label="Twitter">
-                <FaTwitter />
-              </Link>
-              <Link href="#" aria-label="YouTube">
-                <SiYoutube />
-              </Link>
-              <Link href="#" aria-label="RSS Feed">
-                <SiRss />
-              </Link>
-            </div>
-          </div>
+    {/* Column 1 */}
+    <div className="flex flex-col gap-2">
+      <Link href="#" className="hover:text-orange-500">Innovate</Link>
+      <Link href="#" className="hover:text-orange-500">Gadget</Link>
+      <Link href="#" className="hover:text-orange-500">PC Hardware</Link>
+      <Link href="#" className="hover:text-orange-500">Review</Link>
+      <Link href="#" className="hover:text-orange-500">Software</Link>
+    </div>
 
+    {/* Column 2 */}
+    <div className="flex flex-col gap-2">
+      <Link href="#" className="hover:text-orange-500">Medicine</Link>
+      <Link href="#" className="hover:text-orange-500">Children</Link>
+      <Link href="#" className="hover:text-orange-500">Coronavirus</Link>
+      <Link href="#" className="hover:text-orange-500">Nutrition</Link>
+      <Link href="#" className="hover:text-orange-500">Disease</Link>
+    </div>
+
+
+  </div>
+</div>
+
+
+        {/* Social */}
+        <div className="md:pl-5 text-center md:text-left">
+          <h4 className="mb-3 font-semibold">Find Us on Socials</h4>
+          <div className="flex justify-center md:justify-start gap-4 text-xl text-gray-300">
+            <Link href="#" aria-label="Facebook" className="hover:text-orange-500">
+              <FaFacebookF />
+            </Link>
+            <Link href="#" aria-label="Twitter" className="hover:text-orange-500">
+              <FaTwitter />
+            </Link>
+            <Link href="#" aria-label="YouTube" className="hover:text-orange-500">
+              <SiYoutube />
+            </Link>
+            <Link href="#" aria-label="RSS Feed" className="hover:text-orange-500">
+              <SiRss />
+            </Link>
+          </div>
         </div>
       </div>
 
-      <div className="footer-bottom">
-        <p>&copy;  News Network. Ruby Design Company. All Rights Reserved.</p>
+      {/* Bottom */}
+      <div className="text-center text-xs text-gray-500 mt-8 px-4">
+        © News Network. Ruby Design Company. All Rights Reserved.
       </div>
     </footer>
   );

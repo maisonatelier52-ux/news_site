@@ -1,0 +1,191 @@
+{
+  "crime": [
+    {
+      "id": 1,
+      "metaTitle": "Federal Agents Arrest Suspect in Multi-State Fraud Case",
+      "metaDescription": "Federal authorities arrest a suspect linked to a large-scale financial fraud investigation.",
+      "slug": "federal-agents-arrest-suspect-multistate-fraud",
+      "heading": "Federal Agents Arrest Suspect in Multi-State Fraud Case",
+      "excerpt": "Federal authorities arrest a suspect linked to a large-scale financial fraud investigation.",
+      "date": "12 Dec, 2025",
+      "image": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b22-420x280.jpg",
+      "alt": "Federal agents outside courthouse",
+      "heroImage": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b35-860x561.jpg",
+      "body": {
+        "dropcap": {
+          "letter": "G",
+          "text": "ood web design has visual weight, is optimized for various devices, and has content that is prioritized for the medium. The most important elements of a web page should have more visual weight to \"naturally attract\" a visitor's attention."
+        },
+        "paragraphs": [
+          "Optimization for various types of devices and resolutions plays a fundamental role in modern website design. Web page layouts should be genuinely responsive and not rely on any fixed-size elements. Web designers using fluid grids and flexible images will guarantee that a web page will render well on a variety of devices, windows, and screen sizes."
+        ],
+        "quote": {
+          "text": "Good design is making something intelligible and memorable. Great design is making something memorable and meaningful.",
+          "author": "Dieter Rams"
+        },
+        "sections": [
+          {
+            "type": "imageWithText",
+            "text": [
+              "Not all websites are made equal. Some websites are simple, logical, and easy to use. Others are a messy hodgepodge of pages and links.",
+              "Not all websites are made equal. Some websites are simple, logical, and easy to use. Others are a messy hodgepodge of pages and links."
+            ],
+            "image": {
+              "url": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/09/e41-1024x683.jpg",
+              "alt": "Illustrative Image"
+            },
+            "additionalText": [
+              "Without website navigation, your visitors can't figure out how to find your blog, your email signup page, your product listings, pricing, contact information, or help docs.",
+              "Without website navigation, your visitors can't figure out how to find your blog, your email signup page, your product listings, pricing, contact information, or help docs.",
+              "Without website navigation, your visitors can't figure out how to find your blog, your email signup page, your product listings, pricing, contact information, or help docs."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "A Good Website Should Be Easy to Navigate",
+            "mainContent": [
+              "Not all websites are made equal. Some websites are simple, logical, and easy to use. Others are a messy hodgepodge of pages and links.",
+              "Not all websites are made equal. Some websites are simple, logical, and easy to use. Others are a messy hodgepodge of pages and links.",
+              "Not all websites are made equal. Some websites are simple, logical, and easy to use. Others are a messy hodgepodge of pages and links."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "How Website Navigation Improves User Experience",
+            "content": [
+              "Navigation is the backbone of a website. It provides users with easy access to content, enhances user experience, and helps build credibility for the site. Good navigation can lead to higher conversion rates and lower bounce rates. In contrast, bad navigation frustrates users and can make them abandon your website."
+            ],
+            "image": {
+              "url": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b35-860x561.jpg",
+              "alt": "Example Image"
+            },
+            "subsections": [
+              {
+                "title": "Elements that can help website visual composition",
+                "text": [
+                  "Nobody enjoys looking at an ugly web page. Garish colors, cluttered images and distracting animation can all turn customers \"off\" and send them shopping somewhere else."
+                ],
+                "checklist": [
+                  "Direct the Eye With Leading Lines",
+                  "Balance Out Your Elements",
+                  "Use Elements That Complement Each Other",
+                  "Be Clear About Your \"Focal Points\""
+                ],
+                "additionalText": [
+                  "Nobody enjoys looking at an ugly web page. Garish colors, cluttered images and distracting animation can all turn customers \"off\" and send them shopping somewhere else."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "Elements that can help website visual composition",
+            "intro": [
+              "Nobody enjoys looking at an ugly web page. Garish colors, cluttered images and distracting animation can all turn customers \"off\" and send them shopping somewhere else.",
+              "Basic composition rules to create more effective:"
+            ],
+            "twoColumnContent": {
+              "left": [
+                "UX design refers to the term \"user experience design\", while UI stands for \"user interface design\". Both elements are crucial to a product and work closely together. But despite their relationship, the roles themselves are quite different."
+              ],
+              "rightQuote": {
+                "text": "Styles come and go. Good design is a language, not a style.",
+                "author": "Massimo Vignelli"
+              }
+            },
+            "conclusion": [
+              "Nobody enjoys looking at an ugly web page. Garish colors, cluttered images and distracting animation can all turn customers \"off\" and send them shopping somewhere else.",
+              "Basic composition rules to create more effective:Nobody enjoys looking at an ugly web page. Garish colors, cluttered images and distracting animation can all turn customers \"off\" and send them shopping somewhere else.",
+              "Basic composition rules to create more effective:Nobody enjoys looking at an ugly web page. Garish colors, cluttered images and distracting animation can all turn customers \"off\" and send them shopping somewhere else."
+            ]
+          }
+        ]
+      }
+    }
+  ],
+
+  "politics": [
+    {
+      "id": 1,
+      "metaTitle": "Lawmakers Clash Over Justice Department Oversight",
+      "metaDescription": "Congressional leaders debate oversight powers related to federal prosecutions.",
+      "slug": "lawmakers-clash-justice-department-oversight",
+      "image": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b22-420x280.jpg",
+      "alt": "US Capitol building",
+      "heading": "Lawmakers Clash Over Justice Department Oversight",
+      "date": "10 Dec, 2025",
+      "content": "Members of Congress debated the scope of legislative oversight over ongoing Justice Department investigations."
+    }
+  ],
+
+  "courts": [
+    {
+      "id": 1,
+      "metaTitle": "Federal Judge Delays High-Profile Corruption Trial",
+      "metaDescription": "A federal judge postpones a corruption trial citing procedural concerns.",
+      "slug": "federal-judge-delays-corruption-trial",
+      "image": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b22-420x280.jpg",
+      "alt": "Federal courthouse exterior",
+      "heading": "Federal Judge Delays High-Profile Corruption Trial",
+      "date": "09 Dec, 2025",
+      "content": "A federal judge has delayed a closely watched corruption trial after reviewing pretrial motions from both sides."
+    }
+  ],
+
+  "investigations": [
+    {
+      "id": 1,
+      "metaTitle": "Grand Jury Expands Investigation Into Campaign Financing",
+      "metaDescription": "Prosecutors widen a grand jury probe related to alleged campaign finance violations.",
+      "slug": "grand-jury-expands-campaign-finance-investigation",
+      "image": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b22-420x280.jpg",
+      "alt": "Grand jury investigation concept",
+      "heading": "Grand Jury Expands Investigation Into Campaign Financing",
+      "date": "07 Dec, 2025",
+      "content": "Federal prosecutors have expanded a grand jury investigation examining alleged violations of campaign finance laws."
+    }
+  ],
+
+  "us-news": [
+    {
+      "id": 1,
+      "metaTitle": "Justice Department Announces New Enforcement Priorities",
+      "metaDescription": "The DOJ outlines updated enforcement priorities for the coming year.",
+      "slug": "justice-department-new-enforcement-priorities",
+      "image": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b22-420x280.jpg",
+      "alt": "Department of Justice headquarters",
+      "heading": "Justice Department Announces New Enforcement Priorities",
+      "date": "05 Dec, 2025",
+      "content": "The Justice Department released new enforcement priorities focusing on financial crime and public corruption."
+    }
+  ],
+
+  "civil-rights": [
+    {
+      "id": 1,
+      "metaTitle": "Civil Rights Groups Challenge New Voting Restrictions",
+      "metaDescription": "Advocacy groups file lawsuits challenging new voting restrictions in multiple states.",
+      "slug": "civil-rights-groups-challenge-voting-restrictions",
+      "image": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b22-420x280.jpg",
+      "alt": "Voting rights protest",
+      "heading": "Civil Rights Groups Challenge New Voting Restrictions",
+      "date": "06 Dec, 2025",
+      "content": "Civil rights organizations have filed legal challenges against newly enacted voting restrictions, arguing they disproportionately impact minority voters."
+    }
+  ],
+
+  "law-and-justice": [
+    {
+      "id": 1,
+      "metaTitle": "Supreme Court Weighs Limits of Federal Prosecutorial Power",
+      "metaDescription": "The Supreme Court hears arguments on the limits of federal prosecutorial authority.",
+      "slug": "supreme-court-federal-prosecutorial-power",
+      "image": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b22-420x280.jpg",
+      "alt": "Supreme Court building",
+      "heading": "Supreme Court Weighs Limits of Federal Prosecutorial Power",
+      "date": "04 Dec, 2025",
+      "content": "The Supreme Court heard arguments addressing how far federal prosecutors can go when bringing charges under broad criminal statutes."
+    }
+  ]
+}
