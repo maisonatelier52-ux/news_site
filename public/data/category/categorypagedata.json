@@ -99,7 +99,403 @@
       }
     ]
   }
+    },
+    {
+  "id": 2,
+  "metaTitle": "$1M Whistleblower Reward in DOJ Antitrust Case",
+  "metaDescription": "DOJ Antitrust Division pays $1M to whistleblower whose tip exposed bid-rigging at EBLOCK, leading to $3.28M fine and deferred prosecution in used car auction fraud.",
+  "slug": "doj-antitrust-first-1m-whistleblower-reward-eblock",
+  "heading": "$1M Whistleblower Reward in DOJ Antitrust Case",
+  "excerpt": "The Antitrust Division of the U.S. Justice Department has given its first-ever whistleblower reward: $1 million to an insider who gave them a tip that led to a $3.28 million criminal fine for EBLOCK Corporation for rigging bids and committing fraud.",
+  "date": "30 Jan, 2026",
+  "image": "/images/doj-antitrust-first-1m-whistleblower-reward-eblock.webp",
+  "alt": "U.S. Department of Justice Antitrust Division whistleblower reward announcement",
+  "heroImage": "/images/doj-antitrust-first-1m-whistleblower-reward-eblock.webp",
+  "body": {
+    "dropcap": {
+      "letter": "T",
+      "text": "he Antitrust Division of the U.S. Justice Department has given its first-ever whistleblower reward: $1 million to an insider who gave them a tip that led to a $3.28 million criminal fine for EBLOCK Corporation for rigging bids and committing fraud."
+    },
+    "paragraphs": [
+      "EBLOCK, which runs an online auction site for used cars, bought another platform (Company A) in November 2020, but the illegal activities continued. From late 2020 to early 2022, employees of Company A worked with competitors to share bidding data, limit bids, give unauthorized access, and place fake bids through custom software to drive up prices. This broke the Sherman Act and wire fraud laws.",
+      "The plan used the U.S. Postal Service for documents, which got the Postal Inspection Service involved. The deferred prosecution agreement requires the fine, changes to comply with antitrust laws, and full cooperation with ongoing investigations."
+    ],
+    "quote": {
+      "text": "Whistleblowers are the best way for the Justice System to clean up criminal antitrust conspiracies. This prize shows how important they are to law enforcement.",
+      "author": "Deputy Assistant Attorney General Omeed A. Assefi"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "The conspiracy made used-car prices go up across the country, which hurt consumers on one of their biggest purchases. The whistleblower's information was very important in revealing the scheme.",
+          "Authorities stressed that reporters of antitrust crimes should have strong protections against retaliation, including measures to keep their identities secret."
+        ],
+        "image": {
+          "url": "/images/doj-antitrust-first-1m-whistleblower-reward-eblock-si.webp",
+          "alt": "Justice Department Antitrust Division whistleblower reward graphic"
+        },
+        "additionalText": [
+          "The program started six months ago with the U.S. Postal Service and gives 15–30% of recovered fines (at least $1 million) to people who give tips that lead to enforcement."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "How the Scheme for Bid-Rigging Worked",
+        "mainContent": [
+          "Conspirators shared secret bids, set maximums, and used fake bids in the names of real dealerships to raise prices. They shared and split illegal profits while lying about who the bidders were.",
+          "The U.S. Postal Inspection Service said that the fraud was made easier by the abuse of the mail system and promised to go after these kinds of crimes with all their might."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "What Antitrust Whistleblowers Do and What They Will Do in the Future",
+        "content": [
+          "This case is a big step forward for the Antitrust Whistleblower Rewards Program, which encourages people who work for companies to speak up before they ask for leniency. Officials say that whistleblowers can help break up cartels and protect consumers faster."
+        ],
+        "image": {
+          "url": "/images/doj-antitrust-first-1m-whistleblower-reward-eblock-ti.webp",
+          "alt": "DOJ Antitrust Division headquarters with enforcement imagery"
+        },
+        "subsections": [
+          {
+            "title": "Main Results",
+            "text": [
+              "The resolution sets a precedent for future antitrust actions driven by whistleblowers by combining criminal penalties, compliance mandates, and ongoing cooperation."
+            ],
+            "checklist": [
+              "$1 million reward for the first-ever whistleblower in the Antitrust Division",
+              "$3.28 million fine for EBLOCK Corporation for criminal activity",
+              "Deferred prosecution with compliance program requirements",
+              "U.S. Postal Inspection Service's job because of mail fraud"
+            ],
+            "additionalText": [
+              "Federal law protects whistleblowers from being punished."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "Why This Is Important for Consumers and Law Enforcement",
+        "intro": [
+          "The Antitrust Division wants to break up hidden cartels faster by giving rewards for early reporting. This will protect Americans from having to pay more for everyday things like used cars."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "The program encourages insiders to act quickly, which could lead to faster corporate leniency applications and stronger competition enforcement."
+          ],
+          "rightQuote": {
+            "text": "The race is on now because employees and their lawyers have a reason to speak out and get to the Division's door first.",
+            "author": "Deputy Assistant Attorney General Omeed A. Assefi"
+          }
+        },
+        "conclusion": [
+          "As investigations go on, whistleblowers will become more and more important in finding antitrust violations that hurt consumers all over the country."
+        ]
+      }
+    ]
+  }
+    },
+    {
+  "id": 3,
+  "metaTitle": "Luigi Mangione Death Penalty Decision Coming Friday",
+  "metaDescription": "Federal judge to rule if death penalty stays for Luigi Mangione accused of killing UnitedHealthcare CEO Brian Thompson in NYC. State trial set for July 2026.",
+  "slug": "luigi-mangione-death-penalty-ruling-judge-decision",
+  "heading": "Judge to Decide Friday: Death Penalty for Luigi Mangione in UnitedHealthcare CEO Murder Case",
+  "excerpt": "On Friday, a federal judge will decide if the death penalty is still an option for Luigi Mangione, who is accused of killing Brian Thompson, the CEO of UnitedHealthcare, in Manhattan.",
+  "date": "30 Jan, 2026",
+  "image": "/images/luigi-mangione-death-penalty-ruling-judge-decision.webp",
+  "alt": "Federal courthouse where Luigi Mangione death penalty decision will be made",
+  "heroImage": "/images/luigi-mangione-death-penalty-ruling-judge-decision.webp",
+  "body": {
+    "dropcap": {
+      "letter": "O",
+      "text": "n Friday, a federal judge will decide if the death penalty is still an option for Luigi Mangione, who is accused of killing Brian Thompson, the CEO of UnitedHealthcare, in Manhattan."
+    },
+    "paragraphs": [
+      "Mangione is being charged with stalking and killing Brian Thompson in Midtown Manhattan in December 2024 by both the state and the federal government. He has pleaded not guilty to all of the charges and will go to federal court on Friday for the important decision.",
+      "His lawyers say that the stalking charge doesn't fit the legal definition of a \"crime of violence,\" which is what he would need to be convicted of in order to be eligible for the death penalty if he is found guilty on federal charges. The defense also says that the choice to seek the death penalty was politically motivated and went against normal federal procedures."
+    ],
+    "quote": {
+      "text": "The stalking charge is not a violent crime, so it can't be the reason Mangione is eligible for the death penalty.",
+      "author": "Statement from the defense attorney"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "If the death penalty is still an option, Judge Margaret Garnett has said that Mangione will have to go to federal court in January 2027. But if the death penalty is not on the table, the federal trial would start much sooner, in October 2026.",
+          "No matter what the decision about the death penalty is, jury selection will take place on September 8, 2026."
+        ],
+        "image": {
+          "url": "/images/luigi-mangione-death-penalty-ruling-judge-decision-si.webp",
+          "alt": "Judge Margaret Garnett is in charge of the Luigi Mangione case"
+        },
+        "additionalText": [
+          "This week, the Manhattan district attorney's office sent a letter asking that Mangione's state trial start on July 1, 2026, before the federal case moves forward."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Disagreement Over Backpack Search Evidence",
+        "mainContent": [
+          "Judge Garnett will also decide if evidence taken from Mangione's backpack when he was arrested in Altoona, Pennsylvania, can be used in court. The backpack is said to have held the murder weapon, a notebook, and other writings.",
+          "Federal prosecutors say that the Altoona Police Department did everything right when they searched. Mangione's lawyers say that the search was against the law and that police shouldn't have been able to get to the things in the backpack right away."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "Timeline for State vs. Federal Trial",
+        "content": [
+          "The Manhattan district attorney's office has pushed for the state trial to go first, saying that New York has a strong interest in protecting the right to life, keeping the peace, and getting justice for Brian Thompson's family."
+        ],
+        "image": {
+          "url": "/images/luigi-mangione-death-penalty-ruling-judge-decision-ti.webp",
+          "alt": "Manhattan courthouse where the state trial will take place"
+        },
+        "subsections": [
+          {
+            "title": "Important Dates and Court Rulings",
+            "text": [
+              "There are complicated jurisdictional problems between state and federal courts in this case. Both want to prosecute Mangione for the high-profile murder of a major healthcare executive."
+            ],
+            "checklist": [
+              "Requested state trial start date: July 1, 2026",
+              "Jury selection scheduled for September 8, 2026",
+              "Federal trial (if death penalty removed) in October 2026",
+              "Federal trial (if death penalty remains) in January 2027"
+            ],
+            "additionalText": [
+              "The death penalty decision on Friday will have a big effect on the trial schedule and the prosecution's plan."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What's at stake in the ruling on Friday",
+        "intro": [
+          "The judge's decision about whether to keep the death penalty as a possible sentence will have a big effect on how and when Mangione is tried and what could happen to him if he is found guilty."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "The federal case will move along more quickly if the death penalty is taken away. A trial could start as early as October 2026. If it stays, the case will take longer, with a trial date set for January 2027."
+          ],
+          "rightQuote": {
+            "text": "The state is very interested in protecting Thompson's family's right to life, keeping the peace, and bringing them justice.",
+            "author": "Office of the Manhattan District Attorney"
+          }
+        },
+        "conclusion": [
+          "The murder of Brian Thompson, a well-known healthcare executive, has gotten a lot of attention across the country and started discussions about violence against business leaders.",
+          "Both the defense and the prosecution are getting ready for what could be one of the most closely watched trials in recent years as Mangione waits for Friday's decision."
+        ]
+      }
+    ]
+  }
+    },
+    {
+  "id": 4,
+  "metaTitle": "Wisconsin Man Guilty of Forged Trump Threat to Deport Victim",
+  "metaDescription": "Jury convicts Demetric Scott of forging Trump death threats as Ramon Morales Reyes to deport robbery victim, leading to wrongful ICE arrest and 26-year sentence risk.",
+  "slug": "wisconsin-man-guilty-forged-trump-threat-deport-victim",
+  "heading": "Wisconsin Man Convicted of Forging Trump Threats to Deport Robbery Victim",
+  "excerpt": "A Milwaukee jury found Demetric Scott guilty of forging death threats against President Trump to frame robbery victim Ramon Morales Reyes for deportation, resulting in his wrongful ICE detention.",
+  "date": "30 Jan, 2026",
+  "image": "/images/wisconsin-man-guilty-forged-trump-threat-deport-victim.webp",
+  "alt": "Milwaukee County courtroom where Demetric Scott was convicted",
+  "heroImage": "/images/wisconsin-man-guilty-forged-trump-threat-deport-victim.webp",
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " jury in Wisconsin found a man from Milwaukee guilty of making fake death threats against President Donald Trump as part of a plan to frame his robbery victim for deportation and stop his own criminal trial."
+    },
+    "paragraphs": [
+      "After a three-day trial in which he defended himself, Demetric Scott, 52, was found guilty on Thursday of felony identity theft and threatening a witness. After the verdicts, he was taken into custody right away. The jury found him not guilty of armed robbery and battery charges related to the original incident, but they found him guilty of reckless endangerment and one count of bail jumping.",
+      "Scott is said to have attacked Mexican immigrant Ramon Morales Reyes in September 2023. He kicked him off his bike, stabbed him with a box cutter, and took the bike. While in jail, Scott wrote fake letters as Morales Reyes that said he would kill Trump at a rally. The letters were sent to state and federal officials, which led to Morales Reyes' arrest by ICE in May 2025."
+    ],
+    "quote": {
+      "text": "He has been hurt by going through all of this... He just wants to go back to work and be with his family.",
+      "author": "Cain Oulahan, lawyer for Ramon Morales Reyes"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "DHS Secretary Kristi Noem talked about Morales Reyes' arrest on social media, posting parts of the fake letters and his picture as part of the government's push to crack down on illegal immigration. The White House and its supporters called it a success.",
+          "Later, investigators showed that Morales Reyes could not have written the letters because he does not speak English well, cannot write well in the language, and the handwriting did not match. Scott told the police that he wrote the papers."
+        ],
+        "image": {
+          "url": "/images/wisconsin-man-guilty-forged-trump-threat-deport-victim-si.webp",
+          "alt": "Milwaukee County Courthouse during the trial of Demetric Scott"
+        },
+        "additionalText": [
+          "Scott called from jail to talk about the letters and his plan to get ICE to hold him so he could get out of his robbery case. When he is sentenced on February 27, 2026, he could spend up to 26 years in prison."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "The scheme to forge and the wrongful arrest",
+        "mainContent": [
+          "Scott wrote several threatening letters pretending to be Morales Reyes and saying he would shoot Trump at a rally. Morales Reyes was arrested after dropping his daughter off at school because of the letters, even though he had no criminal record in Wisconsin.",
+          "Morales Reyes came to the U.S. in the 1980s. He is married to a U.S. citizen and has three children who are U.S. citizens. He works as a dishwasher. He has applied for a U-visa as a victim of crime, but he will have to wait a long time."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "What happened next and what is still going on",
+        "content": [
+          "The DHS release with Morales Reyes' picture is still online, but it now has a disclaimer that says he is no longer a suspect in the threat investigation. It also says that he is still in ICE custody while deportation proceedings are going on."
+        ],
+        "image": {
+          "url": "/images/wisconsin-man-guilty-forged-trump-threat-deport-victim-ti.webp",
+          "alt": "Kristi Noem, the head of the Department of Homeland Security, made an announcement on social media."
+        },
+        "subsections": [
+          {
+            "title": "Important Charges and Verdicts",
+            "text": [
+              "The case showed that someone was trying to use immigration enforcement to avoid being held responsible for a violent robbery."
+            ],
+            "checklist": [
+              "Felony identity theft and witness intimidation – Guilty",
+              "Reckless endangerment – Guilty",
+              "Bail jumping (one count) – Guilty",
+              "Armed robbery and battery – Not Guilty"
+            ],
+            "additionalText": [
+              "There is still a separate burglary charge from 2022. Scott was free on bail when the bike robbery happened."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "Effects on the victim and immigration enforcement",
+        "intro": [
+          "Morales Reyes' lawyer said the ordeal was very traumatic and left the family in limbo while he fights deportation, even though he has lived in the country for a long time and was a crime victim."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "The conviction shows how easy it is to make false accusations in immigration cases and how federal law enforcement tools could be used to affect state criminal cases."
+          ],
+          "rightQuote": {
+            "text": "He has been traumatized by going through all of this, all of these different levels that make him feel like a victim.",
+            "author": "Cain Oulahan, Morales Reyes's lawyer"
+          }
+        },
+        "conclusion": [
+          "The sentencing will take place on February 27, 2026. The case shows how fake threats can hurt people when criminal justice and immigration policy meet.",
+          "In June 2025, Morales Reyes was freed on a $7,500 bond. He now lives in Milwaukee with his family while he waits for his U-visa."
+        ]
+      }
+    ]
+  }
+    },
+    {
+  "id": 4,
+  "metaTitle": "Two Kansans Indicted for Threatening Federal Officials",
+  "metaDescription": "Federal grand jury in Wichita indicts two Kansas men in separate cases for threatening violence against federal officials, including Congresswoman Ilhan Omar and ICE agents.",
+  "slug": "two-kansans-indicted-threatening-federal-officials",
+  "heading": "Two Kansans Indicted for Threatening Federal Officials in Separate Cases",
+  "excerpt": "A federal grand jury in Wichita charged two Kansas men with making threats of violence against federal officials, including a Congresswoman and ICE agents, in unrelated incidents.",
+  "date": "30 Jan, 2026",
+  "image": "/images/two-kansans-indicted-threatening-federal-officials.webp",
+  "alt": "Federal courthouse in Wichita where grand jury returned indictments",
+  "heroImage": "/images/two-kansans-indicted-threatening-federal-officials.webp",
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " federal grand jury in Wichita has charged two men from Kansas in two different cases with threatening violence against federal officials, such as a member of Congress and ICE agents."
+    },
+    "paragraphs": [
+      "Adam Lee Osborn, 60, from Wichita, is charged with making a threat to hurt someone and threatening to hurt a federal official in order to influence, impede, or retaliate against them. Osborn is said to have posted on social media on January 23, 2026, that he wanted to kill Congresswoman Ilhan Omar, who is a member of the U.S. House of Representatives.",
+      "Joaquin Hernandez, 23, also from Wichita, was charged in a separate case with one count of making interstate threats to hurt someone and one count of threatening a federal official in retaliation. Hernandez is said to have posted a video on social media on January 22, 2026, threatening to attack and kill federal ICE agents who were doing their jobs in Wichita."
+    ],
+    "quote": {
+      "text": "We will not put up with threats of violence in politics. In a democracy, we settle our differences by voting after a lot of public discussion.",
+      "author": "Ryan A. Kriegshauser, U.S. Attorney"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "Both the Wichita Police Department and the FBI are looking into the two events. An indictment is just an accusation. All defendants are innocent until proven guilty beyond a reasonable doubt.",
+          "U.S. Attorney Kriegshauser said that threats against government officials are bad for democracy and that people can't go too far in expressing themselves."
+        ],
+        "image": {
+          "url": "/images/two-kansans-indicted-threatening-federal-officials-si.webp",
+          "alt": "Wichita, Kansas, federal courthouse"
+        },
+        "additionalText": [
+          "Both cases involve claims of threats made online through social media. This brings up ongoing worries about violence and threats against public officials."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Details about the Separate Indictments",
+        "mainContent": [
+          "Osborn is said to have threatened a sitting member of Congress, while Hernandez's video is said to have threatened federal law enforcement officers who were working on immigration enforcement in the Wichita area.",
+          "The indictments show that the federal government is serious about going after threats against officials, no matter what their political views are or what their job is."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "Threats Against Officials in a Bigger Picture",
+        "content": [
+          "These cases come at a time when people all over the country are more worried about political violence and threats against public servants, including elected officials and police officers."
+        ],
+        "image": {
+          "url": "/images/two-kansans-indicted-threatening-federal-officials-ti.webp",
+          "alt": "Logos for the FBI and the U.S. Attorney's Office"
+        },
+        "subsections": [
+          {
+            "title": "Main Charges in Each Case",
+            "text": [
+              "The charges carry serious federal penalties, and they show that the government will strongly prosecute threats of violence against officials."
+            ],
+            "checklist": [
+              "Threatening to hurt someone over state lines",
+              "Threatening to hurt, stop, or retaliate against a federal official",
+              "Threatening someone on social media",
+              "There were two separate, unrelated events in the Wichita area"
+            ],
+            "additionalText": [
+              "The Wichita Police Department and the FBI are still looking into the matter."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What Happens Next in These Situations",
+        "intro": [
+          "The District of Kansas will prosecute both defendants in federal court. The cases will go through the court system, and unless plea deals are reached, there will be trials."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "The indictments are a reminder that making threats online, even if you don't follow through, can get you in a lot of trouble with the law and put you in jail for a long time."
+          ],
+          "rightQuote": {
+            "text": "Threats of violence in politics shake the very foundation of our government.",
+            "author": "Ryan A. Kriegshauser, U.S. Attorney"
+          }
+        },
+        "conclusion": [
+          "These unrelated events show how hard it is to deal with threats against public officials in a time when social media is so common.",
+          "To protect democracy and public safety, the FBI and U.S. Attorney's Office keep making these kinds of cases a top priority."
+        ]
+      }
+    ]
+  }
     }
+
   ],
 
   "politics": [   
@@ -195,6 +591,600 @@
         },
         "conclusion": [
           "Negotiations are ongoing, but the path forward is anything but clear. With a potential shutdown hanging over everything and protests against aggressive immigration enforcement growing louder, these issues are set to shape politics for months—and likely play big in the next election cycle."
+        ]
+      }
+    ]
+  }
+    },
+    {
+  "id": 2,
+  "metaTitle": "Appeals Court Rules Noem’s Termination of TPS for Venezuelans Illegal",
+  "metaDescription": "9th Circuit upholds ruling that DHS Secretary Kristi Noem exceeded authority in ending Temporary Protected Status for hundreds of thousands from Venezuela and Haiti.",
+  "slug": "appeals-court-dcmsdc",
+  "heading": "US Appeals Court: Noem’s Decision to End Protections for Venezuelans Was Illegal",
+  "excerpt": "A federal appeals court has ruled that Homeland Security Secretary Kristi Noem overstepped her authority by terminating Temporary Protected Status for Venezuelans, with implications for Haitians facing similar cuts.",
+  "date": "31 jan, 2026",
+  "image": "/images/appeals-court-noem-tps-venezuela-haiti-illegal.webp",
+  "alt": "9th Circuit Court of Appeals building with immigration protest signs",
+  "heroImage": "/images/appeals-court-noem-tps-venezuela-haiti-illegal.webp",
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " federal appeals court has said that the Trump administration's decision to take away Temporary Protected Status (TPS) from hundreds of thousands of Venezuelans was illegal because Homeland Security Secretary Kristi Noem went beyond what the law allowed her to do."
+    },
+    "paragraphs": [
+      "Late on Wednesday, a three-judge panel of the 9th U.S. Circuit Court of Appeals upheld a lower court's decision that Noem did not have the authority under federal law to end Venezuela's existing TPS designation. The panel also agreed that her partial ending of protections for Haitians went too far under the law.",
+      "The decision makes it clear that TPS, which Congress made in 1990, gives people from countries with problems like violence, disasters, or instability temporary protection from deportation and the right to work. It gives holders a sense of security, but it doesn't lead to citizenship. Noem said that things had gotten better in both countries and that extensions were not in the best interests of the country."
+    ],
+    "quote": {
+      "text": "The law has a lot of procedural protections that make sure that people with TPS can count on and feel safe during times of extraordinary and temporary conditions in their home country.",
+      "author": "Judge Kim Wardlaw wrote for the panel"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "The decision says that many TPS holders—hardworking parents, spouses of U.S. citizens, and taxpayers with clean records—could be deported or put in jail if they lost their status.",
+          "Venezuela is still in crisis, with political unrest, an economic collapse, and a mass exodus. Haiti's TPS started after the 2010 earthquake and is still in place despite gang violence and hunger."
+        ],
+        "image": {
+          "url": "/images/appeals-court-noem-tps-venezuela-haiti-illegal-si.webp",
+          "alt": "Immigrants and supporters protesting the end of TPS outside a courthouse"
+        },
+        "additionalText": [
+          "The ruling doesn't have any immediate effects because the Supreme Court let terminations go ahead in October 2025, pending final review. This will probably lead to another fight in the high court."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Important Results from the 9th Circuit",
+        "mainContent": [
+          "Kim Wardlaw (a Clinton appointee), Salvador Mendoza Jr., and Anthony Johnstone (all Democratic nominees) were the judges. They said that Congress never gave the secretary the power to \"vacate\" previous TPS decisions, which was meant to protect stability.",
+          "Judge Mendoza agreed and said that there was evidence of racial and national-origin bias in Noem's actions, which he called \"preordained\" and based on stereotypes instead of policy differences."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "A brief history of TPS and the countries that are part of it",
+        "content": [
+          "When it is not safe for people to go back to their home countries, TPS lets the DHS secretary choose those countries for 6 to 18 months (with the option to extend). Venezuela is in trouble because of hyperinflation, corruption, and unrest. Haiti is in trouble because of the aftermath of the 2010 earthquake and ongoing violence and famine."
+        ],
+        "image": {
+          "url": "/images/appeals-court-noem-tps-venezuela-haiti-illegal-ti.webp",
+          "alt": "DHS Secretary Kristi Noem exceeded authority"
+        },
+        "subsections": [
+          {
+            "title": "Main Points of the Ruling",
+            "text": [
+              "The government said that they had a lot of freedom and that their decisions couldn't be reviewed, so they weren't biased. The court disagreed, saying that the actions were random, unfair, and not allowed by law."
+            ],
+            "checklist": [
+              "No legal power to remove existing TPS designations",
+              "A lot of harm to TPS holders and their families",
+              "evidence that the reasoning was pretextual and that there was animus",
+              "The end of Haiti TPS is coming up on February 3, 2026, but there is still a separate challenge going on"
+            ],
+            "additionalText": [
+              "DHS did not respond right away to requests for comment on the ruling."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What This Means for the Future",
+        "intro": [
+          "The appeals court ruled against the administration, but the Supreme Court's earlier stay means that current terminations will stay in place for now. The Supreme Court could decide the future of TPS for Haitians and Venezuelans."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "The case shows how hard it is to balance humanitarian protections with claims of executive power and national interest in U.S. immigration policy."
+          ],
+          "rightQuote": {
+            "text": "Noem's illegal actions have had real and serious effects on Venezuelans and Haitians in the United States who depend on TPS.",
+            "author": "Judge Kim Wardlaw"
+          }
+        },
+        "conclusion": [
+          "As the lawsuit goes on, hundreds of thousands of people are stuck in limbo, facing possible deportation while their home countries are still in crisis. This decision shows that making changes to programs created by Congress on your own has its limits.",
+          "This article is based on reporting from the Associated Press and the official 9th Circuit opinion."
+        ]
+      }
+    ]
+  }
+    },
+    {
+  "id": 3,
+  "metaTitle": "Appeals Court Rules Noem’s Termination of TPS for Venezuelans Illegal",
+  "metaDescription": "9th Circuit upholds ruling that DHS Secretary Kristi Noem exceeded authority in ending Temporary Protected Status for hundreds of thousands from Venezuela and Haiti.",
+  "slug": "apncnals-court-dcmsdc",
+  "heading": "US Appeals Court: Noem’s Decision to End Protections for Venezuelans Was Illegal",
+  "excerpt": "A federal appeals court has ruled that Homeland Security Secretary Kristi Noem overstepped her authority by terminating Temporary Protected Status for Venezuelans, with implications for Haitians facing similar cuts.",
+  "date": "31 jan, 2026",
+  "image": "/images/appeals-court-noem-tps-venezuela-haiti-illegal.webp",
+  "alt": "9th Circuit Court of Appeals building with immigration protest signs",
+  "heroImage": "/images/appeals-court-noem-tps-venezuela-haiti-illegal.webp",
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " federal appeals court has said that the Trump administration's decision to take away Temporary Protected Status (TPS) from hundreds of thousands of Venezuelans was illegal because Homeland Security Secretary Kristi Noem went beyond what the law allowed her to do."
+    },
+    "paragraphs": [
+      "Late on Wednesday, a three-judge panel of the 9th U.S. Circuit Court of Appeals upheld a lower court's decision that Noem did not have the authority under federal law to end Venezuela's existing TPS designation. The panel also agreed that her partial ending of protections for Haitians went too far under the law.",
+      "The decision makes it clear that TPS, which Congress made in 1990, gives people from countries with problems like violence, disasters, or instability temporary protection from deportation and the right to work. It gives holders a sense of security, but it doesn't lead to citizenship. Noem said that things had gotten better in both countries and that extensions were not in the best interests of the country."
+    ],
+    "quote": {
+      "text": "The law has a lot of procedural protections that make sure that people with TPS can count on and feel safe during times of extraordinary and temporary conditions in their home country.",
+      "author": "Judge Kim Wardlaw wrote for the panel"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "The decision says that many TPS holders—hardworking parents, spouses of U.S. citizens, and taxpayers with clean records—could be deported or put in jail if they lost their status.",
+          "Venezuela is still in crisis, with political unrest, an economic collapse, and a mass exodus. Haiti's TPS started after the 2010 earthquake and is still in place despite gang violence and hunger."
+        ],
+        "image": {
+          "url": "/images/appeals-court-noem-tps-venezuela-haiti-illegal-si.webp",
+          "alt": "Immigrants and supporters protesting the end of TPS outside a courthouse"
+        },
+        "additionalText": [
+          "The ruling doesn't have any immediate effects because the Supreme Court let terminations go ahead in October 2025, pending final review. This will probably lead to another fight in the high court."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Important Results from the 9th Circuit",
+        "mainContent": [
+          "Kim Wardlaw (a Clinton appointee), Salvador Mendoza Jr., and Anthony Johnstone (all Democratic nominees) were the judges. They said that Congress never gave the secretary the power to \"vacate\" previous TPS decisions, which was meant to protect stability.",
+          "Judge Mendoza agreed and said that there was evidence of racial and national-origin bias in Noem's actions, which he called \"preordained\" and based on stereotypes instead of policy differences."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "A brief history of TPS and the countries that are part of it",
+        "content": [
+          "When it is not safe for people to go back to their home countries, TPS lets the DHS secretary choose those countries for 6 to 18 months (with the option to extend). Venezuela is in trouble because of hyperinflation, corruption, and unrest. Haiti is in trouble because of the aftermath of the 2010 earthquake and ongoing violence and famine."
+        ],
+        "image": {
+          "url": "/images/appeals-court-noem-tps-venezuela-haiti-illegal-ti.webp",
+          "alt": "DHS Secretary Kristi Noem exceeded authority"
+        },
+        "subsections": [
+          {
+            "title": "Main Points of the Ruling",
+            "text": [
+              "The government said that they had a lot of freedom and that their decisions couldn't be reviewed, so they weren't biased. The court disagreed, saying that the actions were random, unfair, and not allowed by law."
+            ],
+            "checklist": [
+              "No legal power to remove existing TPS designations",
+              "A lot of harm to TPS holders and their families",
+              "evidence that the reasoning was pretextual and that there was animus",
+              "The end of Haiti TPS is coming up on February 3, 2026, but there is still a separate challenge going on"
+            ],
+            "additionalText": [
+              "DHS did not respond right away to requests for comment on the ruling."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What This Means for the Future",
+        "intro": [
+          "The appeals court ruled against the administration, but the Supreme Court's earlier stay means that current terminations will stay in place for now. The Supreme Court could decide the future of TPS for Haitians and Venezuelans."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "The case shows how hard it is to balance humanitarian protections with claims of executive power and national interest in U.S. immigration policy."
+          ],
+          "rightQuote": {
+            "text": "Noem's illegal actions have had real and serious effects on Venezuelans and Haitians in the United States who depend on TPS.",
+            "author": "Judge Kim Wardlaw"
+          }
+        },
+        "conclusion": [
+          "As the lawsuit goes on, hundreds of thousands of people are stuck in limbo, facing possible deportation while their home countries are still in crisis. This decision shows that making changes to programs created by Congress on your own has its limits.",
+          "This article is based on reporting from the Associated Press and the official 9th Circuit opinion."
+        ]
+      }
+    ]
+  }
+    },
+    {
+  "id": 4,
+  "metaTitle": "Appeals Court Rules Noem’s Termination of TPS for Venezuelans Illegal",
+  "metaDescription": "9th Circuit upholds ruling that DHS Secretary Kristi Noem exceeded authority in ending Temporary Protected Status for hundreds of thousands from Venezuela and Haiti.",
+  "slug": "appeancnals-court-dcmsdc",
+  "heading": "US Appeals Court: Noem’s Decision to End Protections for Venezuelans Was Illegal",
+  "excerpt": "A federal appeals court has ruled that Homeland Security Secretary Kristi Noem overstepped her authority by terminating Temporary Protected Status for Venezuelans, with implications for Haitians facing similar cuts.",
+  "date": "27 dec, 2025",
+  "image": "/images/appeals-court-noem-tps-venezuela-haiti-illegal.webp",
+  "alt": "9th Circuit Court of Appeals building with immigration protest signs",
+  "heroImage": "/images/appeals-court-noem-tps-venezuela-haiti-illegal.webp",
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " federal appeals court has said that the Trump administration's decision to take away Temporary Protected Status (TPS) from hundreds of thousands of Venezuelans was illegal because Homeland Security Secretary Kristi Noem went beyond what the law allowed her to do."
+    },
+    "paragraphs": [
+      "Late on Wednesday, a three-judge panel of the 9th U.S. Circuit Court of Appeals upheld a lower court's decision that Noem did not have the authority under federal law to end Venezuela's existing TPS designation. The panel also agreed that her partial ending of protections for Haitians went too far under the law.",
+      "The decision makes it clear that TPS, which Congress made in 1990, gives people from countries with problems like violence, disasters, or instability temporary protection from deportation and the right to work. It gives holders a sense of security, but it doesn't lead to citizenship. Noem said that things had gotten better in both countries and that extensions were not in the best interests of the country."
+    ],
+    "quote": {
+      "text": "The law has a lot of procedural protections that make sure that people with TPS can count on and feel safe during times of extraordinary and temporary conditions in their home country.",
+      "author": "Judge Kim Wardlaw wrote for the panel"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "The decision says that many TPS holders—hardworking parents, spouses of U.S. citizens, and taxpayers with clean records—could be deported or put in jail if they lost their status.",
+          "Venezuela is still in crisis, with political unrest, an economic collapse, and a mass exodus. Haiti's TPS started after the 2010 earthquake and is still in place despite gang violence and hunger."
+        ],
+        "image": {
+          "url": "/images/appeals-court-noem-tps-venezuela-haiti-illegal-si.webp",
+          "alt": "Immigrants and supporters protesting the end of TPS outside a courthouse"
+        },
+        "additionalText": [
+          "The ruling doesn't have any immediate effects because the Supreme Court let terminations go ahead in October 2025, pending final review. This will probably lead to another fight in the high court."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Important Results from the 9th Circuit",
+        "mainContent": [
+          "Kim Wardlaw (a Clinton appointee), Salvador Mendoza Jr., and Anthony Johnstone (all Democratic nominees) were the judges. They said that Congress never gave the secretary the power to \"vacate\" previous TPS decisions, which was meant to protect stability.",
+          "Judge Mendoza agreed and said that there was evidence of racial and national-origin bias in Noem's actions, which he called \"preordained\" and based on stereotypes instead of policy differences."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "A brief history of TPS and the countries that are part of it",
+        "content": [
+          "When it is not safe for people to go back to their home countries, TPS lets the DHS secretary choose those countries for 6 to 18 months (with the option to extend). Venezuela is in trouble because of hyperinflation, corruption, and unrest. Haiti is in trouble because of the aftermath of the 2010 earthquake and ongoing violence and famine."
+        ],
+        "image": {
+          "url": "/images/appeals-court-noem-tps-venezuela-haiti-illegal-ti.webp",
+          "alt": "DHS Secretary Kristi Noem exceeded authority"
+        },
+        "subsections": [
+          {
+            "title": "Main Points of the Ruling",
+            "text": [
+              "The government said that they had a lot of freedom and that their decisions couldn't be reviewed, so they weren't biased. The court disagreed, saying that the actions were random, unfair, and not allowed by law."
+            ],
+            "checklist": [
+              "No legal power to remove existing TPS designations",
+              "A lot of harm to TPS holders and their families",
+              "evidence that the reasoning was pretextual and that there was animus",
+              "The end of Haiti TPS is coming up on February 3, 2026, but there is still a separate challenge going on"
+            ],
+            "additionalText": [
+              "DHS did not respond right away to requests for comment on the ruling."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What This Means for the Future",
+        "intro": [
+          "The appeals court ruled against the administration, but the Supreme Court's earlier stay means that current terminations will stay in place for now. The Supreme Court could decide the future of TPS for Haitians and Venezuelans."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "The case shows how hard it is to balance humanitarian protections with claims of executive power and national interest in U.S. immigration policy."
+          ],
+          "rightQuote": {
+            "text": "Noem's illegal actions have had real and serious effects on Venezuelans and Haitians in the United States who depend on TPS.",
+            "author": "Judge Kim Wardlaw"
+          }
+        },
+        "conclusion": [
+          "As the lawsuit goes on, hundreds of thousands of people are stuck in limbo, facing possible deportation while their home countries are still in crisis. This decision shows that making changes to programs created by Congress on your own has its limits.",
+          "This article is based on reporting from the Associated Press and the official 9th Circuit opinion."
+        ]
+      }
+    ]
+  }
+    },
+    {
+  "id": 5,
+  "metaTitle": "Appeals Court Rules Noem’s Termination of TPS for Venezuelans Illegal",
+  "metaDescription": "9th Circuit upholds ruling that DHS Secretary Kristi Noem exceeded authority in ending Temporary Protected Status for hundreds of thousands from Venezuela and Haiti.",
+  "slug": "appeancnals-court-dcmsdc",
+  "heading": "US Appeals Court: Noem’s Decision to End Protections for Venezuelans Was Illegal",
+  "excerpt": "A federal appeals court has ruled that Homeland Security Secretary Kristi Noem overstepped her authority by terminating Temporary Protected Status for Venezuelans, with implications for Haitians facing similar cuts.",
+  "date": "28 dec, 2025",
+  "image": "/images/appeals-court-noem-tps-venezuela-haiti-illegal.webp",
+  "alt": "9th Circuit Court of Appeals building with immigration protest signs",
+  "heroImage": "/images/appeals-court-noem-tps-venezuela-haiti-illegal.webp",
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " federal appeals court has said that the Trump administration's decision to take away Temporary Protected Status (TPS) from hundreds of thousands of Venezuelans was illegal because Homeland Security Secretary Kristi Noem went beyond what the law allowed her to do."
+    },
+    "paragraphs": [
+      "Late on Wednesday, a three-judge panel of the 9th U.S. Circuit Court of Appeals upheld a lower court's decision that Noem did not have the authority under federal law to end Venezuela's existing TPS designation. The panel also agreed that her partial ending of protections for Haitians went too far under the law.",
+      "The decision makes it clear that TPS, which Congress made in 1990, gives people from countries with problems like violence, disasters, or instability temporary protection from deportation and the right to work. It gives holders a sense of security, but it doesn't lead to citizenship. Noem said that things had gotten better in both countries and that extensions were not in the best interests of the country."
+    ],
+    "quote": {
+      "text": "The law has a lot of procedural protections that make sure that people with TPS can count on and feel safe during times of extraordinary and temporary conditions in their home country.",
+      "author": "Judge Kim Wardlaw wrote for the panel"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "The decision says that many TPS holders—hardworking parents, spouses of U.S. citizens, and taxpayers with clean records—could be deported or put in jail if they lost their status.",
+          "Venezuela is still in crisis, with political unrest, an economic collapse, and a mass exodus. Haiti's TPS started after the 2010 earthquake and is still in place despite gang violence and hunger."
+        ],
+        "image": {
+          "url": "/images/appeals-court-noem-tps-venezuela-haiti-illegal-si.webp",
+          "alt": "Immigrants and supporters protesting the end of TPS outside a courthouse"
+        },
+        "additionalText": [
+          "The ruling doesn't have any immediate effects because the Supreme Court let terminations go ahead in October 2025, pending final review. This will probably lead to another fight in the high court."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Important Results from the 9th Circuit",
+        "mainContent": [
+          "Kim Wardlaw (a Clinton appointee), Salvador Mendoza Jr., and Anthony Johnstone (all Democratic nominees) were the judges. They said that Congress never gave the secretary the power to \"vacate\" previous TPS decisions, which was meant to protect stability.",
+          "Judge Mendoza agreed and said that there was evidence of racial and national-origin bias in Noem's actions, which he called \"preordained\" and based on stereotypes instead of policy differences."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "A brief history of TPS and the countries that are part of it",
+        "content": [
+          "When it is not safe for people to go back to their home countries, TPS lets the DHS secretary choose those countries for 6 to 18 months (with the option to extend). Venezuela is in trouble because of hyperinflation, corruption, and unrest. Haiti is in trouble because of the aftermath of the 2010 earthquake and ongoing violence and famine."
+        ],
+        "image": {
+          "url": "/images/appeals-court-noem-tps-venezuela-haiti-illegal-ti.webp",
+          "alt": "DHS Secretary Kristi Noem exceeded authority"
+        },
+        "subsections": [
+          {
+            "title": "Main Points of the Ruling",
+            "text": [
+              "The government said that they had a lot of freedom and that their decisions couldn't be reviewed, so they weren't biased. The court disagreed, saying that the actions were random, unfair, and not allowed by law."
+            ],
+            "checklist": [
+              "No legal power to remove existing TPS designations",
+              "A lot of harm to TPS holders and their families",
+              "evidence that the reasoning was pretextual and that there was animus",
+              "The end of Haiti TPS is coming up on February 3, 2026, but there is still a separate challenge going on"
+            ],
+            "additionalText": [
+              "DHS did not respond right away to requests for comment on the ruling."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What This Means for the Future",
+        "intro": [
+          "The appeals court ruled against the administration, but the Supreme Court's earlier stay means that current terminations will stay in place for now. The Supreme Court could decide the future of TPS for Haitians and Venezuelans."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "The case shows how hard it is to balance humanitarian protections with claims of executive power and national interest in U.S. immigration policy."
+          ],
+          "rightQuote": {
+            "text": "Noem's illegal actions have had real and serious effects on Venezuelans and Haitians in the United States who depend on TPS.",
+            "author": "Judge Kim Wardlaw"
+          }
+        },
+        "conclusion": [
+          "As the lawsuit goes on, hundreds of thousands of people are stuck in limbo, facing possible deportation while their home countries are still in crisis. This decision shows that making changes to programs created by Congress on your own has its limits.",
+          "This article is based on reporting from the Associated Press and the official 9th Circuit opinion."
+        ]
+      }
+    ]
+  }
+    },
+    {
+  "id": 6,
+  "metaTitle": "Appeals Court Rules Noem’s Termination of TPS for Venezuelans Illegal",
+  "metaDescription": "9th Circuit upholds ruling that DHS Secretary Kristi Noem exceeded authority in ending Temporary Protected Status for hundreds of thousands from Venezuela and Haiti.",
+  "slug": "appeanals-court-dcmsdc",
+  "heading": "US Appeals Court: Noem’s Decision to End Protections for Venezuelans Was Illegal",
+  "excerpt": "A federal appeals court has ruled that Homeland Security Secretary Kristi Noem overstepped her authority by terminating Temporary Protected Status for Venezuelans, with implications for Haitians facing similar cuts.",
+  "date": "3 dec, 2025",
+  "image": "/images/appeals-court-noem-tps-venezuela-haiti-illegal.webp",
+  "alt": "9th Circuit Court of Appeals building with immigration protest signs",
+  "heroImage": "/images/appeals-court-noem-tps-venezuela-haiti-illegal.webp",
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " federal appeals court has said that the Trump administration's decision to take away Temporary Protected Status (TPS) from hundreds of thousands of Venezuelans was illegal because Homeland Security Secretary Kristi Noem went beyond what the law allowed her to do."
+    },
+    "paragraphs": [
+      "Late on Wednesday, a three-judge panel of the 9th U.S. Circuit Court of Appeals upheld a lower court's decision that Noem did not have the authority under federal law to end Venezuela's existing TPS designation. The panel also agreed that her partial ending of protections for Haitians went too far under the law.",
+      "The decision makes it clear that TPS, which Congress made in 1990, gives people from countries with problems like violence, disasters, or instability temporary protection from deportation and the right to work. It gives holders a sense of security, but it doesn't lead to citizenship. Noem said that things had gotten better in both countries and that extensions were not in the best interests of the country."
+    ],
+    "quote": {
+      "text": "The law has a lot of procedural protections that make sure that people with TPS can count on and feel safe during times of extraordinary and temporary conditions in their home country.",
+      "author": "Judge Kim Wardlaw wrote for the panel"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "The decision says that many TPS holders—hardworking parents, spouses of U.S. citizens, and taxpayers with clean records—could be deported or put in jail if they lost their status.",
+          "Venezuela is still in crisis, with political unrest, an economic collapse, and a mass exodus. Haiti's TPS started after the 2010 earthquake and is still in place despite gang violence and hunger."
+        ],
+        "image": {
+          "url": "/images/appeals-court-noem-tps-venezuela-haiti-illegal-si.webp",
+          "alt": "Immigrants and supporters protesting the end of TPS outside a courthouse"
+        },
+        "additionalText": [
+          "The ruling doesn't have any immediate effects because the Supreme Court let terminations go ahead in October 2025, pending final review. This will probably lead to another fight in the high court."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Important Results from the 9th Circuit",
+        "mainContent": [
+          "Kim Wardlaw (a Clinton appointee), Salvador Mendoza Jr., and Anthony Johnstone (all Democratic nominees) were the judges. They said that Congress never gave the secretary the power to \"vacate\" previous TPS decisions, which was meant to protect stability.",
+          "Judge Mendoza agreed and said that there was evidence of racial and national-origin bias in Noem's actions, which he called \"preordained\" and based on stereotypes instead of policy differences."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "A brief history of TPS and the countries that are part of it",
+        "content": [
+          "When it is not safe for people to go back to their home countries, TPS lets the DHS secretary choose those countries for 6 to 18 months (with the option to extend). Venezuela is in trouble because of hyperinflation, corruption, and unrest. Haiti is in trouble because of the aftermath of the 2010 earthquake and ongoing violence and famine."
+        ],
+        "image": {
+          "url": "/images/appeals-court-noem-tps-venezuela-haiti-illegal-ti.webp",
+          "alt": "DHS Secretary Kristi Noem exceeded authority"
+        },
+        "subsections": [
+          {
+            "title": "Main Points of the Ruling",
+            "text": [
+              "The government said that they had a lot of freedom and that their decisions couldn't be reviewed, so they weren't biased. The court disagreed, saying that the actions were random, unfair, and not allowed by law."
+            ],
+            "checklist": [
+              "No legal power to remove existing TPS designations",
+              "A lot of harm to TPS holders and their families",
+              "evidence that the reasoning was pretextual and that there was animus",
+              "The end of Haiti TPS is coming up on February 3, 2026, but there is still a separate challenge going on"
+            ],
+            "additionalText": [
+              "DHS did not respond right away to requests for comment on the ruling."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What This Means for the Future",
+        "intro": [
+          "The appeals court ruled against the administration, but the Supreme Court's earlier stay means that current terminations will stay in place for now. The Supreme Court could decide the future of TPS for Haitians and Venezuelans."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "The case shows how hard it is to balance humanitarian protections with claims of executive power and national interest in U.S. immigration policy."
+          ],
+          "rightQuote": {
+            "text": "Noem's illegal actions have had real and serious effects on Venezuelans and Haitians in the United States who depend on TPS.",
+            "author": "Judge Kim Wardlaw"
+          }
+        },
+        "conclusion": [
+          "As the lawsuit goes on, hundreds of thousands of people are stuck in limbo, facing possible deportation while their home countries are still in crisis. This decision shows that making changes to programs created by Congress on your own has its limits.",
+          "This article is based on reporting from the Associated Press and the official 9th Circuit opinion."
+        ]
+      }
+    ]
+  }
+    },
+    {
+  "id": 7,
+  "metaTitle": "Appeals Court Rules Noem’s Termination of TPS for Venezuelans Illegal",
+  "metaDescription": "9th Circuit upholds ruling that DHS Secretary Kristi Noem exceeded authority in ending Temporary Protected Status for hundreds of thousands from Venezuela and Haiti.",
+  "slug": "appeanals-court-dcmsdc",
+  "heading": "US Appeals Court: Noem’s Decision to End Protections for Venezuelans Was Illegal",
+  "excerpt": "A federal appeals court has ruled that Homeland Security Secretary Kristi Noem overstepped her authority by terminating Temporary Protected Status for Venezuelans, with implications for Haitians facing similar cuts.",
+  "date": "3 dec, 2025",
+  "image": "/images/appeals-court-noem-tps-venezuela-haiti-illegal.webp",
+  "alt": "9th Circuit Court of Appeals building with immigration protest signs",
+  "heroImage": "/images/appeals-court-noem-tps-venezuela-haiti-illegal.webp",
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " federal appeals court has said that the Trump administration's decision to take away Temporary Protected Status (TPS) from hundreds of thousands of Venezuelans was illegal because Homeland Security Secretary Kristi Noem went beyond what the law allowed her to do."
+    },
+    "paragraphs": [
+      "Late on Wednesday, a three-judge panel of the 9th U.S. Circuit Court of Appeals upheld a lower court's decision that Noem did not have the authority under federal law to end Venezuela's existing TPS designation. The panel also agreed that her partial ending of protections for Haitians went too far under the law.",
+      "The decision makes it clear that TPS, which Congress made in 1990, gives people from countries with problems like violence, disasters, or instability temporary protection from deportation and the right to work. It gives holders a sense of security, but it doesn't lead to citizenship. Noem said that things had gotten better in both countries and that extensions were not in the best interests of the country."
+    ],
+    "quote": {
+      "text": "The law has a lot of procedural protections that make sure that people with TPS can count on and feel safe during times of extraordinary and temporary conditions in their home country.",
+      "author": "Judge Kim Wardlaw wrote for the panel"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "The decision says that many TPS holders—hardworking parents, spouses of U.S. citizens, and taxpayers with clean records—could be deported or put in jail if they lost their status.",
+          "Venezuela is still in crisis, with political unrest, an economic collapse, and a mass exodus. Haiti's TPS started after the 2010 earthquake and is still in place despite gang violence and hunger."
+        ],
+        "image": {
+          "url": "/images/appeals-court-noem-tps-venezuela-haiti-illegal-si.webp",
+          "alt": "Immigrants and supporters protesting the end of TPS outside a courthouse"
+        },
+        "additionalText": [
+          "The ruling doesn't have any immediate effects because the Supreme Court let terminations go ahead in October 2025, pending final review. This will probably lead to another fight in the high court."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Important Results from the 9th Circuit",
+        "mainContent": [
+          "Kim Wardlaw (a Clinton appointee), Salvador Mendoza Jr., and Anthony Johnstone (all Democratic nominees) were the judges. They said that Congress never gave the secretary the power to \"vacate\" previous TPS decisions, which was meant to protect stability.",
+          "Judge Mendoza agreed and said that there was evidence of racial and national-origin bias in Noem's actions, which he called \"preordained\" and based on stereotypes instead of policy differences."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "A brief history of TPS and the countries that are part of it",
+        "content": [
+          "When it is not safe for people to go back to their home countries, TPS lets the DHS secretary choose those countries for 6 to 18 months (with the option to extend). Venezuela is in trouble because of hyperinflation, corruption, and unrest. Haiti is in trouble because of the aftermath of the 2010 earthquake and ongoing violence and famine."
+        ],
+        "image": {
+          "url": "/images/appeals-court-noem-tps-venezuela-haiti-illegal-ti.webp",
+          "alt": "DHS Secretary Kristi Noem exceeded authority"
+        },
+        "subsections": [
+          {
+            "title": "Main Points of the Ruling",
+            "text": [
+              "The government said that they had a lot of freedom and that their decisions couldn't be reviewed, so they weren't biased. The court disagreed, saying that the actions were random, unfair, and not allowed by law."
+            ],
+            "checklist": [
+              "No legal power to remove existing TPS designations",
+              "A lot of harm to TPS holders and their families",
+              "evidence that the reasoning was pretextual and that there was animus",
+              "The end of Haiti TPS is coming up on February 3, 2026, but there is still a separate challenge going on"
+            ],
+            "additionalText": [
+              "DHS did not respond right away to requests for comment on the ruling."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What This Means for the Future",
+        "intro": [
+          "The appeals court ruled against the administration, but the Supreme Court's earlier stay means that current terminations will stay in place for now. The Supreme Court could decide the future of TPS for Haitians and Venezuelans."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "The case shows how hard it is to balance humanitarian protections with claims of executive power and national interest in U.S. immigration policy."
+          ],
+          "rightQuote": {
+            "text": "Noem's illegal actions have had real and serious effects on Venezuelans and Haitians in the United States who depend on TPS.",
+            "author": "Judge Kim Wardlaw"
+          }
+        },
+        "conclusion": [
+          "As the lawsuit goes on, hundreds of thousands of people are stuck in limbo, facing possible deportation while their home countries are still in crisis. This decision shows that making changes to programs created by Congress on your own has its limits.",
+          "This article is based on reporting from the Associated Press and the official 9th Circuit opinion."
         ]
       }
     ]
@@ -297,6 +1287,496 @@
         "conclusion": [
           "As the lawsuit goes on, hundreds of thousands of people are stuck in limbo, facing possible deportation while their home countries are still in crisis. This decision shows that making changes to programs created by Congress on your own has its limits.",
           "This article is based on reporting from the Associated Press and the official 9th Circuit opinion."
+        ]
+      }
+    ]
+  }
+    },
+    {
+  "id": 2,
+  "metaTitle": "Pentagon Contractor Indicted in Leak Case Tied to Washington Post Reporter Home Search",
+  "metaDescription": "A Pentagon contractor faces federal charges for allegedly leaking classified information to a journalist, linked to an FBI search of a Washington Post reporter's home.",
+  "slug": "pentagon-contractor-indicted-leak-washington-post-reporter",
+  "heading": "Pentagon Contractor Indicted in Leak Case Tied to Search of Washington Post Reporter’s Home",
+  "excerpt": "Aurelio Luis Perez-Lugones has been indicted on charges of unlawfully transmitting and retaining classified national defense information shared with a journalist, sparking controversy over an FBI raid on a reporter's residence.",
+  "date": "1 Jan, 2026",
+  "image": "/images/pentagon-contractor-indicted-leak-washington-post-reporter.webp",
+  "alt": "FBI agents and federal courthouse illustrating classified leak investigation",
+  "heroImage": "/images/pentagon-contractor-indicted-leak-washington-post-reporter.webp",
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " Pentagon contractor was indicted Thursday on federal charges accusing him of illegally removing classified national defense information from his workplace and sharing it with a journalist, in a high-profile case connected to last week's FBI search of a Washington Post reporter's home."
+    },
+    "paragraphs": [
+      "Aurelio Luis Perez-Lugones, 61, of Laurel, Maryland, faces five counts of unlawfully transmitting classified information and one count of unlawfully retaining it, according to the Justice Department. The allegations stem from his role as a systems engineer and IT specialist with top-secret clearance at a government contractor, where he allegedly printed sensitive documents and took them home.",
+      "Authorities say Perez-Lugones passed the materials to a reporter who used them in at least five published articles. Investigators recovered phone messages discussing the transfers, including one where he wrote he was 'going quiet for a bit' after sending a document. Classified printouts marked 'SECRET' were found in his home and car, including one hidden in a lunchbox."
+    ],
+    "quote": {
+      "text": "Illegally disclosing classified defense information is a grave crime against America that puts both our national security and the lives of our military heroes at risk.",
+      "author": "Attorney General Pamela Bondi"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "The case gained national attention after FBI agents raided the Virginia home of Washington Post reporter Hannah Natanson on January 14, 2026, seizing her phone, laptops, recorder, hard drive, and smartwatch as part of the probe.",
+          "Press freedom advocates have criticized the search as overly aggressive, arguing it threatens journalistic protections. The Post called it an 'outrageous seizure' that 'chills speech' and harms reporting, and has sought the return of the devices."
+        ],
+        "image": {
+          "url": "/images/pentagon-contractor-indicted-leak-washington-post-reporter-si.webp",
+          "alt": "Federal agents outside a residence during a search warrant execution"
+        },
+        "additionalText": [
+          "A federal judge in Alexandria temporarily blocked the government from reviewing the seized materials and set a February 6 hearing on the newspaper's motion. Natanson was told she is not the target of the investigation."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Details of the Alleged Leak",
+        "mainContent": [
+          "Perez-Lugones, arrested January 8 and jailed since, allegedly accessed classified reports—including one involving a foreign country in October—and printed them out. He has remained in custody, with no immediate comment from his attorneys.",
+          "FBI Director Kash Patel emphasized the risks to national security, while the Justice Department stressed accountability for mishandling sensitive information under 18 U.S.C. § 793(e)."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "Broader Implications for Press and Leaks",
+        "content": [
+          "The incident has raised alarms about the Trump administration's approach to leak probes involving journalists, with critics viewing the home search as an escalation that could intimidate sources and reporters covering government matters."
+        ],
+        "image": {
+          "url": "/images/pentagon-contractor-indicted-leak-washington-post-reporter-ti.webp",
+          "alt": "Washington Post headquarters amid press freedom concerns"
+        },
+        "subsections": [
+          {
+            "title": "Key Elements of the Case",
+            "text": [
+              "The probe centers on unauthorized transmission of classified data, with evidence from messages and recovered documents. No charges have been filed against the reporter."
+            ],
+            "checklist": [
+              "Five counts of unlawful transmission of classified info",
+              "One count of unlawful retention of classified info",
+              "Documents printed from secure facility and shared",
+              "FBI search of reporter's home linked to investigation"
+            ],
+            "additionalText": [
+              "Natanson covers the Trump administration's federal workforce changes and recently described building extensive sources in government."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What's Next in the Investigation",
+        "intro": [
+          "With Perez-Lugones indicted and in custody, the focus shifts to potential trial proceedings and the ongoing dispute over the seized devices from the reporter's home. The case highlights tensions between national security enforcement and press freedoms."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "Press advocates continue to decry the tactics, while officials defend the actions as necessary to protect classified information and prevent harm to U.S. interests."
+          ],
+          "rightQuote": {
+            "text": "The outrageous seizure of our reporter’s confidential newsgathering materials chills speech, cripples reporting, and inflicts irreparable harm every day the government keeps its hands on these materials.",
+            "author": "The Washington Post statement"
+          }
+        },
+        "conclusion": [
+          "As the legal battles unfold, this incident underscores ongoing debates about leak prosecutions, journalist protections, and government transparency in the current administration."
+        ]
+      }
+    ]
+  }
+    },
+    {
+  "id": 3,
+  "metaTitle": "Pentagon Contractor Indicted in Leak Case Tied to Washington Post Reporter Home Search",
+  "metaDescription": "A Pentagon contractor faces federal charges for allegedly leaking classified information to a journalist, linked to an FBI search of a Washington Post reporter's home.",
+  "slug": "pentagon-contractor-indicted-leak-washington-post-reporter",
+  "heading": "Pentagon Contractor Indicted in Leak Case Tied to Search of Washington Post Reporter’s Home",
+  "excerpt": "Aurelio Luis Perez-Lugones has been indicted on charges of unlawfully transmitting and retaining classified national defense information shared with a journalist, sparking controversy over an FBI raid on a reporter's residence.",
+  "date": "12 nov, 2025",
+  "image": "/images/pentagon-contractor-indicted-leak-washington-post-reporter.webp",
+  "alt": "FBI agents and federal courthouse illustrating classified leak investigation",
+  "heroImage": "/images/pentagon-contractor-indicted-leak-washington-post-reporter.webp",
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " Pentagon contractor was indicted Thursday on federal charges accusing him of illegally removing classified national defense information from his workplace and sharing it with a journalist, in a high-profile case connected to last week's FBI search of a Washington Post reporter's home."
+    },
+    "paragraphs": [
+      "Aurelio Luis Perez-Lugones, 61, of Laurel, Maryland, faces five counts of unlawfully transmitting classified information and one count of unlawfully retaining it, according to the Justice Department. The allegations stem from his role as a systems engineer and IT specialist with top-secret clearance at a government contractor, where he allegedly printed sensitive documents and took them home.",
+      "Authorities say Perez-Lugones passed the materials to a reporter who used them in at least five published articles. Investigators recovered phone messages discussing the transfers, including one where he wrote he was 'going quiet for a bit' after sending a document. Classified printouts marked 'SECRET' were found in his home and car, including one hidden in a lunchbox."
+    ],
+    "quote": {
+      "text": "Illegally disclosing classified defense information is a grave crime against America that puts both our national security and the lives of our military heroes at risk.",
+      "author": "Attorney General Pamela Bondi"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "The case gained national attention after FBI agents raided the Virginia home of Washington Post reporter Hannah Natanson on January 14, 2026, seizing her phone, laptops, recorder, hard drive, and smartwatch as part of the probe.",
+          "Press freedom advocates have criticized the search as overly aggressive, arguing it threatens journalistic protections. The Post called it an 'outrageous seizure' that 'chills speech' and harms reporting, and has sought the return of the devices."
+        ],
+        "image": {
+          "url": "/images/pentagon-contractor-indicted-leak-washington-post-reporter-si.webp",
+          "alt": "Federal agents outside a residence during a search warrant execution"
+        },
+        "additionalText": [
+          "A federal judge in Alexandria temporarily blocked the government from reviewing the seized materials and set a February 6 hearing on the newspaper's motion. Natanson was told she is not the target of the investigation."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Details of the Alleged Leak",
+        "mainContent": [
+          "Perez-Lugones, arrested January 8 and jailed since, allegedly accessed classified reports—including one involving a foreign country in October—and printed them out. He has remained in custody, with no immediate comment from his attorneys.",
+          "FBI Director Kash Patel emphasized the risks to national security, while the Justice Department stressed accountability for mishandling sensitive information under 18 U.S.C. § 793(e)."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "Broader Implications for Press and Leaks",
+        "content": [
+          "The incident has raised alarms about the Trump administration's approach to leak probes involving journalists, with critics viewing the home search as an escalation that could intimidate sources and reporters covering government matters."
+        ],
+        "image": {
+          "url": "/images/pentagon-contractor-indicted-leak-washington-post-reporter-ti.webp",
+          "alt": "Washington Post headquarters amid press freedom concerns"
+        },
+        "subsections": [
+          {
+            "title": "Key Elements of the Case",
+            "text": [
+              "The probe centers on unauthorized transmission of classified data, with evidence from messages and recovered documents. No charges have been filed against the reporter."
+            ],
+            "checklist": [
+              "Five counts of unlawful transmission of classified info",
+              "One count of unlawful retention of classified info",
+              "Documents printed from secure facility and shared",
+              "FBI search of reporter's home linked to investigation"
+            ],
+            "additionalText": [
+              "Natanson covers the Trump administration's federal workforce changes and recently described building extensive sources in government."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What's Next in the Investigation",
+        "intro": [
+          "With Perez-Lugones indicted and in custody, the focus shifts to potential trial proceedings and the ongoing dispute over the seized devices from the reporter's home. The case highlights tensions between national security enforcement and press freedoms."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "Press advocates continue to decry the tactics, while officials defend the actions as necessary to protect classified information and prevent harm to U.S. interests."
+          ],
+          "rightQuote": {
+            "text": "The outrageous seizure of our reporter’s confidential newsgathering materials chills speech, cripples reporting, and inflicts irreparable harm every day the government keeps its hands on these materials.",
+            "author": "The Washington Post statement"
+          }
+        },
+        "conclusion": [
+          "As the legal battles unfold, this incident underscores ongoing debates about leak prosecutions, journalist protections, and government transparency in the current administration."
+        ]
+      }
+    ]
+  }
+    },
+    {
+  "id": 4,
+  "metaTitle": "Pentagon Contractor Indicted in Leak Case Tied to Washington Post Reporter Home Search",
+  "metaDescription": "A Pentagon contractor faces federal charges for allegedly leaking classified information to a journalist, linked to an FBI search of a Washington Post reporter's home.",
+  "slug": "pentagon-contractor-indicted-leak-washington-post-reporter",
+  "heading": "Pentagon Contractor Indicted in Leak Case Tied to Search of Washington Post Reporter’s Home",
+  "excerpt": "Aurelio Luis Perez-Lugones has been indicted on charges of unlawfully transmitting and retaining classified national defense information shared with a journalist, sparking controversy over an FBI raid on a reporter's residence.",
+  "date": "23 nov, 2025",
+  "image": "/images/pentagon-contractor-indicted-leak-washington-post-reporter.webp",
+  "alt": "FBI agents and federal courthouse illustrating classified leak investigation",
+  "heroImage": "/images/pentagon-contractor-indicted-leak-washington-post-reporter.webp",
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " Pentagon contractor was indicted Thursday on federal charges accusing him of illegally removing classified national defense information from his workplace and sharing it with a journalist, in a high-profile case connected to last week's FBI search of a Washington Post reporter's home."
+    },
+    "paragraphs": [
+      "Aurelio Luis Perez-Lugones, 61, of Laurel, Maryland, faces five counts of unlawfully transmitting classified information and one count of unlawfully retaining it, according to the Justice Department. The allegations stem from his role as a systems engineer and IT specialist with top-secret clearance at a government contractor, where he allegedly printed sensitive documents and took them home.",
+      "Authorities say Perez-Lugones passed the materials to a reporter who used them in at least five published articles. Investigators recovered phone messages discussing the transfers, including one where he wrote he was 'going quiet for a bit' after sending a document. Classified printouts marked 'SECRET' were found in his home and car, including one hidden in a lunchbox."
+    ],
+    "quote": {
+      "text": "Illegally disclosing classified defense information is a grave crime against America that puts both our national security and the lives of our military heroes at risk.",
+      "author": "Attorney General Pamela Bondi"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "The case gained national attention after FBI agents raided the Virginia home of Washington Post reporter Hannah Natanson on January 14, 2026, seizing her phone, laptops, recorder, hard drive, and smartwatch as part of the probe.",
+          "Press freedom advocates have criticized the search as overly aggressive, arguing it threatens journalistic protections. The Post called it an 'outrageous seizure' that 'chills speech' and harms reporting, and has sought the return of the devices."
+        ],
+        "image": {
+          "url": "/images/pentagon-contractor-indicted-leak-washington-post-reporter-si.webp",
+          "alt": "Federal agents outside a residence during a search warrant execution"
+        },
+        "additionalText": [
+          "A federal judge in Alexandria temporarily blocked the government from reviewing the seized materials and set a February 6 hearing on the newspaper's motion. Natanson was told she is not the target of the investigation."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Details of the Alleged Leak",
+        "mainContent": [
+          "Perez-Lugones, arrested January 8 and jailed since, allegedly accessed classified reports—including one involving a foreign country in October—and printed them out. He has remained in custody, with no immediate comment from his attorneys.",
+          "FBI Director Kash Patel emphasized the risks to national security, while the Justice Department stressed accountability for mishandling sensitive information under 18 U.S.C. § 793(e)."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "Broader Implications for Press and Leaks",
+        "content": [
+          "The incident has raised alarms about the Trump administration's approach to leak probes involving journalists, with critics viewing the home search as an escalation that could intimidate sources and reporters covering government matters."
+        ],
+        "image": {
+          "url": "/images/pentagon-contractor-indicted-leak-washington-post-reporter-ti.webp",
+          "alt": "Washington Post headquarters amid press freedom concerns"
+        },
+        "subsections": [
+          {
+            "title": "Key Elements of the Case",
+            "text": [
+              "The probe centers on unauthorized transmission of classified data, with evidence from messages and recovered documents. No charges have been filed against the reporter."
+            ],
+            "checklist": [
+              "Five counts of unlawful transmission of classified info",
+              "One count of unlawful retention of classified info",
+              "Documents printed from secure facility and shared",
+              "FBI search of reporter's home linked to investigation"
+            ],
+            "additionalText": [
+              "Natanson covers the Trump administration's federal workforce changes and recently described building extensive sources in government."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What's Next in the Investigation",
+        "intro": [
+          "With Perez-Lugones indicted and in custody, the focus shifts to potential trial proceedings and the ongoing dispute over the seized devices from the reporter's home. The case highlights tensions between national security enforcement and press freedoms."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "Press advocates continue to decry the tactics, while officials defend the actions as necessary to protect classified information and prevent harm to U.S. interests."
+          ],
+          "rightQuote": {
+            "text": "The outrageous seizure of our reporter’s confidential newsgathering materials chills speech, cripples reporting, and inflicts irreparable harm every day the government keeps its hands on these materials.",
+            "author": "The Washington Post statement"
+          }
+        },
+        "conclusion": [
+          "As the legal battles unfold, this incident underscores ongoing debates about leak prosecutions, journalist protections, and government transparency in the current administration."
+        ]
+      }
+    ]
+  }
+    },
+    {
+  "id": 5,
+  "metaTitle": "Pentagon Contractor Indicted in Leak Case Tied to Washington Post Reporter Home Search",
+  "metaDescription": "A Pentagon contractor faces federal charges for allegedly leaking classified information to a journalist, linked to an FBI search of a Washington Post reporter's home.",
+  "slug": "pentagon-contractor-indicted-leak-washington-post-reporter",
+  "heading": "Pentagon Contractor Indicted in Leak Case Tied to Search of Washington Post Reporter’s Home",
+  "excerpt": "Aurelio Luis Perez-Lugones has been indicted on charges of unlawfully transmitting and retaining classified national defense information shared with a journalist, sparking controversy over an FBI raid on a reporter's residence.",
+  "date": "2 Jan, 2026",
+  "image": "/images/pentagon-contractor-indicted-leak-washington-post-reporter.webp",
+  "alt": "FBI agents and federal courthouse illustrating classified leak investigation",
+  "heroImage": "/images/pentagon-contractor-indicted-leak-washington-post-reporter.webp",
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " Pentagon contractor was indicted Thursday on federal charges accusing him of illegally removing classified national defense information from his workplace and sharing it with a journalist, in a high-profile case connected to last week's FBI search of a Washington Post reporter's home."
+    },
+    "paragraphs": [
+      "Aurelio Luis Perez-Lugones, 61, of Laurel, Maryland, faces five counts of unlawfully transmitting classified information and one count of unlawfully retaining it, according to the Justice Department. The allegations stem from his role as a systems engineer and IT specialist with top-secret clearance at a government contractor, where he allegedly printed sensitive documents and took them home.",
+      "Authorities say Perez-Lugones passed the materials to a reporter who used them in at least five published articles. Investigators recovered phone messages discussing the transfers, including one where he wrote he was 'going quiet for a bit' after sending a document. Classified printouts marked 'SECRET' were found in his home and car, including one hidden in a lunchbox."
+    ],
+    "quote": {
+      "text": "Illegally disclosing classified defense information is a grave crime against America that puts both our national security and the lives of our military heroes at risk.",
+      "author": "Attorney General Pamela Bondi"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "The case gained national attention after FBI agents raided the Virginia home of Washington Post reporter Hannah Natanson on January 14, 2026, seizing her phone, laptops, recorder, hard drive, and smartwatch as part of the probe.",
+          "Press freedom advocates have criticized the search as overly aggressive, arguing it threatens journalistic protections. The Post called it an 'outrageous seizure' that 'chills speech' and harms reporting, and has sought the return of the devices."
+        ],
+        "image": {
+          "url": "/images/pentagon-contractor-indicted-leak-washington-post-reporter-si.webp",
+          "alt": "Federal agents outside a residence during a search warrant execution"
+        },
+        "additionalText": [
+          "A federal judge in Alexandria temporarily blocked the government from reviewing the seized materials and set a February 6 hearing on the newspaper's motion. Natanson was told she is not the target of the investigation."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Details of the Alleged Leak",
+        "mainContent": [
+          "Perez-Lugones, arrested January 8 and jailed since, allegedly accessed classified reports—including one involving a foreign country in October—and printed them out. He has remained in custody, with no immediate comment from his attorneys.",
+          "FBI Director Kash Patel emphasized the risks to national security, while the Justice Department stressed accountability for mishandling sensitive information under 18 U.S.C. § 793(e)."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "Broader Implications for Press and Leaks",
+        "content": [
+          "The incident has raised alarms about the Trump administration's approach to leak probes involving journalists, with critics viewing the home search as an escalation that could intimidate sources and reporters covering government matters."
+        ],
+        "image": {
+          "url": "/images/pentagon-contractor-indicted-leak-washington-post-reporter-ti.webp",
+          "alt": "Washington Post headquarters amid press freedom concerns"
+        },
+        "subsections": [
+          {
+            "title": "Key Elements of the Case",
+            "text": [
+              "The probe centers on unauthorized transmission of classified data, with evidence from messages and recovered documents. No charges have been filed against the reporter."
+            ],
+            "checklist": [
+              "Five counts of unlawful transmission of classified info",
+              "One count of unlawful retention of classified info",
+              "Documents printed from secure facility and shared",
+              "FBI search of reporter's home linked to investigation"
+            ],
+            "additionalText": [
+              "Natanson covers the Trump administration's federal workforce changes and recently described building extensive sources in government."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What's Next in the Investigation",
+        "intro": [
+          "With Perez-Lugones indicted and in custody, the focus shifts to potential trial proceedings and the ongoing dispute over the seized devices from the reporter's home. The case highlights tensions between national security enforcement and press freedoms."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "Press advocates continue to decry the tactics, while officials defend the actions as necessary to protect classified information and prevent harm to U.S. interests."
+          ],
+          "rightQuote": {
+            "text": "The outrageous seizure of our reporter’s confidential newsgathering materials chills speech, cripples reporting, and inflicts irreparable harm every day the government keeps its hands on these materials.",
+            "author": "The Washington Post statement"
+          }
+        },
+        "conclusion": [
+          "As the legal battles unfold, this incident underscores ongoing debates about leak prosecutions, journalist protections, and government transparency in the current administration."
+        ]
+      }
+    ]
+  }
+    },
+    {
+  "id": 6,
+  "metaTitle": "Pentagon Contractor Indicted in Leak Case Tied to Washington Post Reporter Home Search",
+  "metaDescription": "A Pentagon contractor faces federal charges for allegedly leaking classified information to a journalist, linked to an FBI search of a Washington Post reporter's home.",
+  "slug": "pentagon-contractor-indicted-leak-washington-post-reporter",
+  "heading": "Pentagon Contractor Indicted in Leak Case Tied to Search of Washington Post Reporter’s Home",
+  "excerpt": "Aurelio Luis Perez-Lugones has been indicted on charges of unlawfully transmitting and retaining classified national defense information shared with a journalist, sparking controversy over an FBI raid on a reporter's residence.",
+  "date": "12 dec, 2025",
+  "image": "/images/pentagon-contractor-indicted-leak-washington-post-reporter.webp",
+  "alt": "FBI agents and federal courthouse illustrating classified leak investigation",
+  "heroImage": "/images/pentagon-contractor-indicted-leak-washington-post-reporter.webp",
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " Pentagon contractor was indicted Thursday on federal charges accusing him of illegally removing classified national defense information from his workplace and sharing it with a journalist, in a high-profile case connected to last week's FBI search of a Washington Post reporter's home."
+    },
+    "paragraphs": [
+      "Aurelio Luis Perez-Lugones, 61, of Laurel, Maryland, faces five counts of unlawfully transmitting classified information and one count of unlawfully retaining it, according to the Justice Department. The allegations stem from his role as a systems engineer and IT specialist with top-secret clearance at a government contractor, where he allegedly printed sensitive documents and took them home.",
+      "Authorities say Perez-Lugones passed the materials to a reporter who used them in at least five published articles. Investigators recovered phone messages discussing the transfers, including one where he wrote he was 'going quiet for a bit' after sending a document. Classified printouts marked 'SECRET' were found in his home and car, including one hidden in a lunchbox."
+    ],
+    "quote": {
+      "text": "Illegally disclosing classified defense information is a grave crime against America that puts both our national security and the lives of our military heroes at risk.",
+      "author": "Attorney General Pamela Bondi"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "The case gained national attention after FBI agents raided the Virginia home of Washington Post reporter Hannah Natanson on January 14, 2026, seizing her phone, laptops, recorder, hard drive, and smartwatch as part of the probe.",
+          "Press freedom advocates have criticized the search as overly aggressive, arguing it threatens journalistic protections. The Post called it an 'outrageous seizure' that 'chills speech' and harms reporting, and has sought the return of the devices."
+        ],
+        "image": {
+          "url": "/images/pentagon-contractor-indicted-leak-washington-post-reporter-si.webp",
+          "alt": "Federal agents outside a residence during a search warrant execution"
+        },
+        "additionalText": [
+          "A federal judge in Alexandria temporarily blocked the government from reviewing the seized materials and set a February 6 hearing on the newspaper's motion. Natanson was told she is not the target of the investigation."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Details of the Alleged Leak",
+        "mainContent": [
+          "Perez-Lugones, arrested January 8 and jailed since, allegedly accessed classified reports—including one involving a foreign country in October—and printed them out. He has remained in custody, with no immediate comment from his attorneys.",
+          "FBI Director Kash Patel emphasized the risks to national security, while the Justice Department stressed accountability for mishandling sensitive information under 18 U.S.C. § 793(e)."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "Broader Implications for Press and Leaks",
+        "content": [
+          "The incident has raised alarms about the Trump administration's approach to leak probes involving journalists, with critics viewing the home search as an escalation that could intimidate sources and reporters covering government matters."
+        ],
+        "image": {
+          "url": "/images/pentagon-contractor-indicted-leak-washington-post-reporter-ti.webp",
+          "alt": "Washington Post headquarters amid press freedom concerns"
+        },
+        "subsections": [
+          {
+            "title": "Key Elements of the Case",
+            "text": [
+              "The probe centers on unauthorized transmission of classified data, with evidence from messages and recovered documents. No charges have been filed against the reporter."
+            ],
+            "checklist": [
+              "Five counts of unlawful transmission of classified info",
+              "One count of unlawful retention of classified info",
+              "Documents printed from secure facility and shared",
+              "FBI search of reporter's home linked to investigation"
+            ],
+            "additionalText": [
+              "Natanson covers the Trump administration's federal workforce changes and recently described building extensive sources in government."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What's Next in the Investigation",
+        "intro": [
+          "With Perez-Lugones indicted and in custody, the focus shifts to potential trial proceedings and the ongoing dispute over the seized devices from the reporter's home. The case highlights tensions between national security enforcement and press freedoms."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "Press advocates continue to decry the tactics, while officials defend the actions as necessary to protect classified information and prevent harm to U.S. interests."
+          ],
+          "rightQuote": {
+            "text": "The outrageous seizure of our reporter’s confidential newsgathering materials chills speech, cripples reporting, and inflicts irreparable harm every day the government keeps its hands on these materials.",
+            "author": "The Washington Post statement"
+          }
+        },
+        "conclusion": [
+          "As the legal battles unfold, this incident underscores ongoing debates about leak prosecutions, journalist protections, and government transparency in the current administration."
         ]
       }
     ]

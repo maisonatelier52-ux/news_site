@@ -2,9 +2,17 @@ import React from "react";
 import Link from "next/link";
 import categoryPageData from "../public/data/category/categorypagedata.json";
 import authorsData from "../public/data/authors.json";
+import DailyNews from "../components/DailyNews"
+import CrimeNews from "../components/CrimeNews"
+import PoliticsNews from '../components/PoliticsNews';
+import CourtNews from '../components/CourtNews'
+import Image from "next/image";
+
 
 const MainSection = () => {
-// Category → Author map
+
+  // LATEST NEWS SECTION
+  // Category → Author map
 const authorsByCategory = authorsData.categories.reduce((acc, item) => {
   acc[item.category] = item.author;
   return acc;
@@ -31,214 +39,82 @@ const heroPost = sortedPosts[0];
 // Small posts (next 4 posts)
 const smallPosts = sortedPosts.slice(1, 5);
 
+// CRIME NEWS SECTION
+// Filter only crime category posts
+  const crimePosts = sortedPosts.filter(
+    (post) => post.category.toLowerCase() === 'crime'
+  );
+
+  // Remove any that are already shown in hero or small posts
+  const uniqueCrimePosts = crimePosts.filter((post) => {
+    // Skip if it's the hero post
+    if (heroPost && post.slug === heroPost.slug) return false;
+    // Skip if it's one of the small/latest posts
+    return !smallPosts.some((small) => small.slug === post.slug);
+  });
+
+  // Take the first 4 most recent unique crime posts
+  const latestCrimePosts = uniqueCrimePosts.slice(0, 4);
+
+  // Only render section if we have something to show
+  if (latestCrimePosts.length === 0) return null;
+
+ 
+  //POLICTCS NEWS SECTION
+    // Filter only politics category posts
+    const politicsPosts = sortedPosts.filter(
+      (post) => post.category.toLowerCase() === 'politics'
+    );
+  
+    // Remove any that are already shown in hero or small posts (Latest News section)
+    const uniquePoliticsPosts = politicsPosts.filter((post) => {
+      // Skip if it's the hero post
+      if (heroPost && post.slug === heroPost.slug) return false;
+      // Skip if it's one of the small/latest posts
+      return !smallPosts.some((small) => small.slug === post.slug);
+    });
+  
+    // Only render section if we have enough politics posts to show
+    if (uniquePoliticsPosts.length === 0) return null;
+  
+    // Get posts for each column
+    const featuredPost = uniquePoliticsPosts[0]; // Big featured post (Column 1)
+    const textPosts = uniquePoliticsPosts.slice(1, 3); // Text-only posts (Column 2)
+    const imagePosts = uniquePoliticsPosts.slice(3, 5); // Image posts (Column 3)
+
+
+    // COURT NEWS SECTION
+    // Filter only court category posts
+    const courtPosts = sortedPosts.filter(
+      (post) => post.category.toLowerCase() === 'courts'
+    );
+
+    // Remove any that are already shown in hero or small posts
+    const uniqueCourtPosts = courtPosts.filter((post) => {
+      // Skip if it's the hero post
+      if (heroPost && post.slug === heroPost.slug) return false;
+      // Skip if it's one of the small/latest posts
+      if (smallPosts.some((small) => small.slug === post.slug)) return false;
+      // Skip if it's already in crime posts (if you want to avoid duplication across sections)
+      if (latestCrimePosts && latestCrimePosts.some((crime) => crime.slug === post.slug)) return false;
+      return true;
+    });
+
+    // Take the first 4 most recent unique court posts
+    const latestCourtPosts = uniqueCourtPosts.slice(0, 4);
+  
 
 
   return (
     <main>
       {/* FIRST SECTION - Hero + Small Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 px-5 py-5 max-w-[1300px] mx-auto border-b border-[#414141]">
-        
-        {/* First column - One large card */}
-        {heroPost && (
-          <div className="bg-white overflow-hidden">
-            <img
-              className="w-full h-[400px] object-cover"
-              src={heroPost.image}
-              alt={heroPost.heading}
-            />
-
-            <h1 className="text-[25px] font-black text-black p-[15px]">
-              <Link 
-                href={`/${heroPost.category}/${heroPost.slug}`}
-                className="no-underline text-inherit relative hover:text-orange-500 transition-colors"
-              >
-                {heroPost.heading}
-              </Link>
-            </h1>
-
-            <p className="text-sm text-black px-[15px] pb-[15px]">
-              {heroPost.metaDescription}
-            </p>
-
-            <span className="text-xs text-black px-[15px] pb-[15px] block">
-              By {heroPost.author?.name} | {heroPost.date}
-            </span>
-          </div>
-        )}
-
-        {/* Second column - 4 smaller cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          {smallPosts.map((post, index) => (
-            <div key={index} className="bg-white overflow-hidden">
-              <img
-                className="w-full h-[150px] object-cover"
-                src={post.image}
-                alt={post.heading}
-              />
-
-              <h2 className="text-lg font-bold text-black p-[15px]">
-                <Link 
-                  href={`/${post.category}/${post.slug}`}
-                  className="no-underline text-inherit relative hover:text-orange-500 transition-colors"
-                >
-                  {post.heading}
-                </Link>
-              </h2>
-
-              <span className="text-xs text-black px-[15px] pb-[15px] block">
-                By {post.author?.name} | {post.date}
-              </span>
-            </div>
-          ))}
-        </div>
-      </div>
+        <DailyNews heroPost={heroPost} smallPosts={smallPosts}/>
 
       {/* SECOND SECTION - Four Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 max-w-[1300px] mx-auto pt-5 border-b border-[#414141] p-5">
-        <div className="bg-white overflow-hidden">
-          <img
-            src="https://images.unsplash.com/photo-1509395176047-4a66953fd231"
-            alt="Energy Consumption of Full Electric Vehicles"
-            className="w-full h-[190px] object-cover"
-          />
-          <h3 className="text-lg font-bold leading-[1.3] px-[14px] pt-3 pb-[6px]">
-            Energy Consumption of Full Electric Vehicles
-          </h3>
-          <div className="text-[13px] text-black px-[14px] pb-[14px]">
-            <span>Business</span> · <span>4 years ago</span>
-          </div>
-        </div>
-
-        <div className="bg-white overflow-hidden">
-          <img
-            src="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144"
-            alt="New Covid Variants"
-            className="w-full h-[190px] object-cover"
-          />
-          <h3 className="text-lg font-bold leading-[1.3] px-[14px] pt-3 pb-[6px]">
-            What You Need to Know about New Covid Variants
-          </h3>
-          <div className="text-[13px] text-black px-[14px] pb-[14px]">
-            <span>Wellness</span> · <span>4 years ago</span>
-          </div>
-        </div>
-
-        <div className="bg-white overflow-hidden">
-          <img
-            src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72"
-            alt="Stock Market Opens"
-            className="w-full h-[190px] object-cover"
-          />
-          <h3 className="text-lg font-bold leading-[1.3] px-[14px] pt-3 pb-[6px]">
-            5 Things to Know before The Stock Market Opens Monday
-          </h3>
-          <div className="text-[13px] text-black px-[14px] pb-[14px]">
-            <span>Economics</span> · <span>4 years ago</span>
-          </div>
-        </div>
-
-        <div className="bg-white overflow-hidden">
-          <img
-            src="https://images.unsplash.com/photo-1621761191319-c6fb62004040"
-            alt="Crypto Restricted Countries"
-            className="w-full h-[190px] object-cover"
-          />
-          <h3 className="text-lg font-bold leading-[1.3] px-[14px] pt-3 pb-[6px]">
-            These are The Countries Where Crypto is Restricted or Illegal
-          </h3>
-          <div className="text-[13px] text-black px-[14px] pb-[14px]">
-            <span>Economics</span> · <span>4 years ago</span>
-          </div>
-        </div>
-      </div>
+       <CrimeNews latestCrimePosts={latestCrimePosts} />
 
       {/* THIRD SECTION - Three Column News */}
-      <div className="grid grid-cols-1 lg:grid-cols-[2.2fr_1.2fr_1.2fr] gap-5 max-w-[1300px] mx-auto pt-5 border-b border-[#414141] pb-[10px] p-5">
-        
-        {/* COLUMN 1 – BIG FEATURED */}
-        <div>
-          <article>
-            <img
-              src="https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba"
-              alt="National Day Rally"
-              className="w-full h-[380px] object-cover"
-            />
-            <h2 className="text-[32px] font-extrabold">
-              National Day Rally 2023: Sacrifice, Effort Needed to Preserve Harmony
-            </h2>
-            <p className="text-base text-black leading-[1.6]">
-              Politics is the art of looking for trouble, finding it everywhere,
-              diagnosing it incorrectly and applying the wrong remedies.
-            </p>
-            <span className="text-[13px] text-black">By Hugh Son · 4 years ago</span>
-          </article>
-        </div>
-
-        {/* COLUMN 2 – ADS + TEXT NEWS */}
-        <div className="flex flex-col gap-6">
-          {/* ADVERTISEMENT */}
-          <div>
-            <span className="block text-xs text-[#1c1c1c] text-center mb-[6px]">
-              -Advertisement-
-            </span>
-            <img
-              src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b35-860x561.jpg"
-              alt="Advertisement"
-              className="w-full h-auto"
-            />
-          </div>
-
-          {/* TEXT-ONLY NEWS */}
-          <article className="bg-white p-[15px]">
-            <h3 className="text-lg font-bold mb-[6px]">
-              High Number of EV Chargers Did Not Jump Start The Market
-            </h3>
-            <p className="text-sm text-black">
-              The real test is not whether you avoid failure...
-            </p>
-            <span className="text-[13px] text-black">Economics · 4 years ago</span>
-          </article>
-
-          <article className="bg-white p-[15px]">
-            <h3 className="text-lg font-bold mb-[6px]">
-              New Census Data Will Shake Up Alabama Politics
-            </h3>
-            <p className="text-sm text-black">
-              Politics is the art of looking for trouble...
-            </p>
-            <span className="text-[13px] text-black">Politics · 4 years ago</span>
-          </article>
-
-
-        </div>
-
-        {/* COLUMN 3 – IMAGE NEWS */}
-        <div className="flex flex-col gap-6">
-          <article>
-            <img
-              src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7"
-              alt="Social Media Safety"
-              className="w-full h-[200px] object-cover"
-            />
-            <h3 className="text-lg font-bold mt-[10px]">
-              How to Mark Yourself 'Safe' on Social Media
-            </h3>
-            <span className="text-[13px] text-black">Technology · 4 years ago</span>
-          </article>
-
-          <article>
-            <img
-              src="https://images.unsplash.com/photo-1603988363607-e1e4a66962c6"
-              alt="Election Ballot"
-              className="w-full h-[200px] object-cover"
-            />
-            <h3 className="text-lg font-bold mt-[10px]">
-              It's Final: 12 Names on The 2025 Ballot for President, 9 for VP
-            </h3>
-            <span className="text-[13px] text-black">Politics · 4 years ago</span>
-          </article>
-        </div>
-      </div>
+      <PoliticsNews featuredPost={featuredPost} textPosts={textPosts} imagePosts={imagePosts}/>
 
       {/* SPONSORED AD SECTION */}
       <div className="w-full bg-white py-[30px] pb-10 mx-auto text-center border-b border-[#414141] p-5 max-w-[1300px]">
@@ -246,119 +122,25 @@ const smallPosts = sortedPosts.slice(1, 5);
 
         <div className="max-w-[1100px] mx-auto">
           <Link href="https://www.progresskingdom.com/" target="_blank" rel="noopener noreferrer">
-  <img
-    src="/images/progresskingdom.png"
-    alt="Progress Kingdom"
-    className="w-full h-32 object-fit rounded-md"
-  />
-</Link>
-
+            <Image
+              src="/images/progresskingdom.png"
+              alt="Progress Kingdom"
+              className="w-full h-32 object-fit rounded-md"
+              width={1100}  // specify the width
+              height={125}  // specify the height to match your original h-32
+            />
+          </Link>
         </div>
       </div>
 
       {/* FOURTH SECTION - Image List */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-x-[50px] lg:gap-y-10 max-w-[1300px] mx-auto pt-5 pb-[10px] p-5">
-        
-        {/* ITEM 1 */}
-        <article className="grid grid-cols-1 md:grid-cols-[1.4fr_1fr] gap-6 pb-[10px] border-b border-[#eee]">
-          <div>
-            <span className="text-[13px] font-bold uppercase inline-flex items-center gap-[6px] before:content-[''] before:w-2 before:h-2 before:bg-orange-500 before:rounded-full">
-              Economics
-            </span>
-            <h3 className="text-xl font-extrabold leading-[1.35] my-3">
-              <Link href="#" className="hover:text-orange-500 transition-colors">
-                High Number Of EV Chargers Did Not Jump Start The Market
-              </Link>
-            </h3>
-            <div className="text-[13px] text-black flex items-center gap-[10px]">
-              By Hugh Son · 4 years ago
-            </div>
-          </div>
-
-          <div>
-            <img
-              src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
-              alt="EV Chargers"
-              className="w-full h-[150px] object-cover rounded"
-            />
-          </div>
-        </article>
-
-        {/* ITEM 2 */}
-        <article className="grid grid-cols-1 md:grid-cols-[1.4fr_1fr] gap-6 pb-[10px] border-b border-[#eee]">
-          <div>
-            <span className="text-[13px] font-bold uppercase inline-flex items-center gap-[6px] before:content-[''] before:w-2 before:h-2 before:bg-orange-500 before:rounded-full">
-              Politics
-            </span>
-            <h3 className="text-xl font-extrabold leading-[1.35] my-3">
-              <Link href="" className="hover:text-orange-500 transition-colors">
-                High Number Of EV Chargers Did Not Jump Start The Market
-              </Link>
-            </h3>
-            <div className="text-[13px] text-black flex items-center gap-[10px]">
-              By Hugh Son · 4 years ago
-            </div>
-          </div>
-
-          <div>
-            <img
-              src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
-              alt="Protest"
-              className="w-full h-[150px] object-cover rounded"
-            />
-          </div>
-        </article>
-
-        {/* ITEM 3 */}
-        <article className="grid grid-cols-1 md:grid-cols-[1.4fr_1fr] gap-6 pb-[10px] border-b border-[#eee]">
-          <div>
-            <span className="text-[13px] font-bold uppercase inline-flex items-center gap-[6px] before:content-[''] before:w-2 before:h-2 before:bg-orange-500 before:rounded-full">
-              Economics
-            </span>
-            <h3 className="text-xl font-extrabold leading-[1.35] my-3">
-              <Link href="" className="hover:text-orange-500 transition-colors">
-                High Number Of EV Chargers Did Not Jump Start The Market
-              </Link>
-            </h3>
-            <div className="text-[13px] text-black flex items-center gap-[10px]">
-              By Hugh Son · 4 years ago
-            </div>
-          </div>
-
-          <div>
-            <img
-              src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
-              alt="Factory Emissions"
-              className="w-full h-[150px] object-cover rounded"
-            />
-          </div>
-        </article>
-
-        {/* ITEM 4 */}
-        <article className="grid grid-cols-1 md:grid-cols-[1.4fr_1fr] gap-6 pb-[10px] border-b border-[#eee]">
-          <div>
-            <span className="text-[13px] font-bold uppercase inline-flex items-center gap-[6px] before:content-[''] before:w-2 before:h-2 before:bg-orange-500 before:rounded-full">
-              Business
-            </span>
-            <h3 className="text-xl font-extrabold leading-[1.35] my-3">
-              <Link href="" className="hover:text-orange-500 transition-colors">
-                High Number Of EV Chargers Did Not Jump Start The Market
-              </Link>
-            </h3>
-            <div className="text-[13px] text-black flex items-center gap-[10px]">
-              By Hugh Son · 4 years ago
-            </div>
-          </div>
-
-          <div>
-            <img
-              src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
-              alt="Office Workers"
-              className="w-full h-[150px] object-cover rounded"
-            />
-          </div>
-        </article>
-      </div>
+      {/* Court News Section */}
+        {latestCourtPosts.length > 0 && (
+          <section>
+            <CourtNews latestCourtPosts={latestCourtPosts} />
+          </section>
+        )}
+    
 
       {/* FIFTH SECTION - What to Watch */}
       <div className="bg-gradient-to-b from-[#1b1446] via-[#0e0a2b] to-[#07051c] py-[25px] px-0 text-white">
@@ -458,15 +240,15 @@ const smallPosts = sortedPosts.slice(1, 5);
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr_1fr] gap-5 p-5 max-w-[1300px] mx-auto">
         
         {/* Left Column */}
-        <div className="flex flex-col gap-5">
-          <div className="bg-[#f0f0f0] p-5 text-center">
-            <p>Advertisement</p>
+        <div className="flex flex-col gap-5 ">
+          <div className="bg-[#f0f0f0] p-5 text-center rounded-lg">
+            <p>-Advertisement-</p>
             
             <Link href="https://www.morenews.org/" target="_blank" rel="noopener noreferrer">
           <img
             src="/images/morenews.png"
             alt="More News"
-            className="w-full h-25 "
+            className="w-full h-25 rounded-md"
           />
         </Link>
           </div>

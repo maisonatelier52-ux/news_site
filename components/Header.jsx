@@ -18,9 +18,9 @@ const Header = ({ allSearchItems = [] }) => {
     { name: "Politics", slug: "/politics" },
     { name: "Courts", slug: "/courts" },
     { name: "Investigations", slug: "/investigations" },
-    { name: "U.S. News", slug: "/us-news" },
     { name: "Civil Rights", slug: "/civil-rights" },
     { name: "Law & Justice", slug: "/law-and-justice" },
+    { name: "U.S. News", slug: "/us-news" },
   ];
 
   function handleSearchInput(e) {

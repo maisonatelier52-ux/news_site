@@ -3,6 +3,7 @@ import { FaPlus } from "react-icons/fa";
 import Link from 'next/link';
 import categoryPageData from "../public/data/category/categorypagedata.json"; // Assuming the path to the data
 import authorsData from "../public/data/authors.json"; // Assuming the path to the data
+import Image from "next/image";
 
 const Sidecontent = () => {
   // Check if categoryPageData and authorsData are available
@@ -91,10 +92,12 @@ const Sidecontent = () => {
             {heroPost && (
               <>
                 <div className="news-image mt-4">
-                  <img
+                  <Image
                     src={heroPost.image}
                     alt={heroPost.heading}
                     className="w-full h-auto object-cover"
+                    width={1200}  // Specify the width (adjust as needed based on your design)
+                    height={800}  // Specify the height (adjust as needed based on your design)
                   />
                 </div>
 
@@ -105,11 +108,13 @@ const Sidecontent = () => {
                 </h3>
 
                 <div className="flex items-center gap-4 mt-2">
-                  <img
-                    src={heroPost.author?.profileImage || "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b48-420x280.jpg"}
-                    alt={heroPost.author?.name || "Author"}
-                    className="w-10 h-10 rounded-full"
-                  />
+                  <Image
+                      src={heroPost.author?.profileImage || "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b48-420x280.jpg"}
+                      alt={heroPost.author?.name || "Author"}
+                      className="w-10 h-10 rounded-full"
+                      width={40}  // 10 * 4 (adjust based on your design)
+                      height={40} // 10 * 4 (adjust based on your design)
+                    />
 
                   <div>
                     <p className="text-sm font-semibold">
@@ -146,10 +151,12 @@ const Sidecontent = () => {
           <div className="ad-image mt-8">
             <p className="text-center text-sm mb-2">- Ads -</p>
             <Link href="https://www.morenews.org/" target="_blank" rel="noopener noreferrer">
-              <img
+              <Image
                 src="/images/morenews.png"
                 alt="More News"
-                className="w-full h-25"
+                className="w-full h-25 rounded-lg"
+                width={1000}  // Adjust the width based on your design
+                height={100}  // Adjust the height based on your design
               />
             </Link>
           </div>

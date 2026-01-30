@@ -421,7 +421,10 @@ export default async function Page({ params }) {
         </div>
         
         {/* related news components */}
-        <RelatedNews />
+        <RelatedNews 
+            currentCategory={category} 
+            currentSlug={slug}
+          />
 
       </section>
 
