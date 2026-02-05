@@ -144,7 +144,7 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost }) => {
             key={post.id || index}
             href={`/${post.category}/${post.slug}`}
           >
-            <div className="bg-white p-[15px] group cursor-pointer">
+            <div className="bg-white p-[10px] group cursor-pointer">
               <h3 className="text-lg font-bold group-hover:text-orange-500 transition">
                 {post.heading}
               </h3>

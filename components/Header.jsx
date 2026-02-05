@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { HiMenu } from 'react-icons/hi';
 import { FaFacebookF } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { BsSubstack } from "react-icons/bs";
@@ -164,9 +165,7 @@ const Header = () => {
           className="md:hidden flex flex-col justify-between w-7 h-6"
           aria-label="Menu"
         >
-          <span className="block h-[3px] bg-gray-800"></span>
-          <span className="block h-[3px] bg-gray-800"></span>
-          <span className="block h-[3px] bg-gray-800"></span>
+          <HiMenu size={28} />
         </button>
       </div>
 
@@ -217,8 +216,11 @@ const Header = () => {
           {/* Sidebar */}
           <div className="fixed top-0 right-0 h-full w-[280px] bg-white z-50 shadow-xl overflow-y-auto md:hidden">
             {/* Sidebar Header */}
-            <div className="flex items-center justify-between p-4 border-b border-gray-200">
-              <h2 className="text-lg font-bold text-gray-800">Menu</h2>
+            <div className="flex items-center justify-between p-4 pb-1 pt-6 border-b border-gray-200">
+              <h2 className="text-2xl font-extrabold uppercase tracking-wider text-gray-800">
+  Court News
+</h2>
+
               <button
                 onClick={() => setIsMenuOpen(false)}
                 className="text-gray-600 hover:text-orange-500"
@@ -229,7 +231,7 @@ const Header = () => {
             </div>
 
             {/* Mobile Search */}
-            <div className="p-4 border-b border-gray-200">
+            <div className="p-4  border-b border-gray-200">
               <input
                 type="text"
                 placeholder="Search news..."
@@ -265,7 +267,7 @@ const Header = () => {
             </div>
 
             {/* Navigation Links */}
-            <nav className="p-4">
+            <nav className="p-4 pt-1">
               <ul className="space-y-2">
                 {/* HOME */}
                 <li>

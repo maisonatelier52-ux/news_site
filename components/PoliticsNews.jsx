@@ -68,9 +68,9 @@ const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
             <Image
                 src="/images/morenews.png"
                 alt="More News"
-                className="w-full h-25 rounded-lg"
+                className="w-full h-[300px] rounded-lg"
                 width={1000}  // Specify the width (adjust based on your design)
-                height={100}  // h-25 corresponds to 100px in height
+                height={300}  // h-25 corresponds to 100px in height
                 />
           </Link>
         </div>
@@ -107,9 +107,9 @@ const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
               <Image
                 src={post.image}
                 alt={post.alt || post.heading}
-                className="w-full h-[200px] object-cover"
+                className="w-full h-[150px] object-cover"
                 width={1000}  // Adjust the width based on your design
-                height={200}  // Since h-[200px] is set, this should match the height
+                height={150}  // Since h-[200px] is set, this should match the height
                 />
               <h3 className="text-lg font-bold mt-[10px] group-hover:text-orange-500 transition">
                 {post.heading}

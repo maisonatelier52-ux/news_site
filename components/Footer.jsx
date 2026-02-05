@@ -16,8 +16,7 @@ const Footer = () => {
             className="w-[180px] mb-3"
           />
           <p className="text-sm text-gray-300">
-            We influence 20 million users and are the number one business and
-            technology news network on the planet.
+            Court News is a U.S.-based legal news platform covering courts, crime, civil rights, investigations, and law & justice across America.
           </p>
         </div>
 
@@ -70,7 +69,7 @@ const Footer = () => {
 
       {/* Bottom */}
       <div className="text-center text-xs text-gray-500 mt-8 px-4">
-        © News Network. Ruby Design Company. All Rights Reserved.
+        Copyright © Court News {new Date().getFullYear()}. All rights reserved
       </div>
     </footer>
   );

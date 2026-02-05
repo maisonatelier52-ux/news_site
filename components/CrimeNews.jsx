@@ -36,7 +36,7 @@ const CrimeNews = ({latestCrimePosts}) => {
             height={190}  // Since h-[190px] is set, this should match the height
             />
           <h3 className="text-lg font-bold leading-[1.3] px-[14px] pt-3 pb-[6px] group-hover:text-orange-500 transition">
-            {post.heading}
+             {post.heading.slice(0,53)}..
           </h3>
           <div className="text-[13px] text-black px-[14px] pb-[14px]">
             <span className="capitalize">{post.category.replace('-', ' ')}</span> · <span>{formatDate(post.date)}</span>

@@ -49,7 +49,8 @@ const InvestigationNews = ({investiagtionPost, row2Posts }) => {
                 {formatCategoryName(investiagtionPost.category)}
               </span>
               <h1 className="text-[42px] font-extrabold leading-[1.2] my-[14px] group-hover:text-orange-500 transition">
-                {investiagtionPost.heading}
+                {/* {investiagtionPost.heading} */}
+                {investiagtionPost.heading.slice(0,60)}..
               </h1>
               <p className="text-[15px] text-[#cfcfe6] max-w-[420px] pb-[10px]">
                 {investiagtionPost.excerpt}
