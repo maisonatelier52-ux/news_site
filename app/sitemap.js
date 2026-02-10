@@ -1,7 +1,7 @@
 import categoryPageData from "./public/data/category/categorypagedata.json";
 import authorsData from "./public/data/authors.json";
 
-// const SITE_URL = "https://news-site-hazel.vercel.app";
+
 const SITE_URL = "https://courtnews.org";
 
 export default function sitemap() {
