@@ -324,12 +324,14 @@ export default async function CategoryPage({ params }) {
                         <Image
                           src={article.image || article.heroImage}
                           alt={article.alt || article.heading || 'Article image'}
-                          width={1200}                     // ← reasonable intrinsic width (adjust to your typical image size)
-                          height={675}                     // ← example aspect ratio ~16:9, change to match your images
+                          width={1200}
+                          height={675}
+                          priority
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px"
-                          
                         />
+
+                        
                       </div>
                       
                       {/* Dark Overlay */}

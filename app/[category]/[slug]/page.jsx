@@ -311,11 +311,12 @@ export default async function Page({ params }) {
               <Image
                 src={author.profileImage}
                 alt={author.name || "Author"}
-                width={48}                    // w-12 = 48px
-                height={48}                   // h-12 = 48px
-                className="w-12 h-12 rounded-full object-cover" 
-                priority
+                width={48}
+                height={48}
+                sizes="48px"
+                className="w-12 h-12 rounded-full object-cover"
               />
+
 
               <div className="text-sm">
                 <p className="font-semibold text-black">
@@ -392,9 +393,11 @@ export default async function Page({ params }) {
               alt={post.heading}
               width={1200}
               height={630}
-              className="w-full h-auto object-cover"
               priority
+              sizes="100vw"
+              className="w-full h-auto object-cover"
             />
+
             
             <section className="max-w-7xl mx-auto px-4 mt-4">
               <div className="grid grid-cols-1 lg:grid-cols-[60px_1fr] gap-6">
@@ -507,9 +510,11 @@ export default async function Page({ params }) {
                                   alt={section.image.alt}
                                   width={1200}
                                   height={800}
+                                  sizes="(max-width: 768px) 100vw, 700px"
                                   className="w-full h-auto object-cover"
                                   loading="lazy"
                                 />
+
                               </div>
                             )}
 
@@ -559,10 +564,11 @@ export default async function Page({ params }) {
                                     alt={section.image.alt}
                                     width={1200}
                                     height={800}
-                                    sizes="100vw"
+                                    sizes="(max-width: 768px) 100vw, 700px"
                                     className="object-cover w-full h-auto"
                                     loading="lazy"
                                   />
+
                                 </div>
                               )}
 

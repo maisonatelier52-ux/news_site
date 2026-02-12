@@ -121,7 +121,7 @@ export default async function AuthorPage({ params }) {
           </p>
           <Link
             href="/"
-            className="inline-block px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition"
+            className="inline-block px-8 py-4 bg-orange-700 text-white font-semibold rounded-lg hover:bg-orange-800 transition"
           >
             ← Back to Home
           </Link>
@@ -283,7 +283,7 @@ export default async function AuthorPage({ params }) {
               </span>
               <Link
                 href={`/${authorData.category}`} title={`View articles in ${authorData.category}`}
-                className="px-3 py-1 bg-orange-500 text-white text-sm font-semibold rounded hover:bg-orange-600 transition"
+                className="px-3 py-1 bg-orange-700 text-white text-sm font-semibold rounded hover:bg-orange-800 transition"
               >
                 {authorData.category.replace(/-/g, " ")}
               </Link>
@@ -309,7 +309,7 @@ export default async function AuthorPage({ params }) {
                     href={authorData.social.instagram}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-red-700 hover:text-white transition"
+                    className="p-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-pink-500 hover:text-white transition"
                     title="Instagram"
                     aria-label={`${authorData.name} on Instagram`}
                   >
@@ -321,7 +321,7 @@ export default async function AuthorPage({ params }) {
                     href={authorData.social.reddit}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-orange-600 hover:text-white transition"
+                    className="p-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-red-700 hover:text-white transition"
                     title="Reddit"
                     aria-label={`${authorData.name} on Reddit`}
                   >
@@ -333,7 +333,7 @@ export default async function AuthorPage({ params }) {
                     href={authorData.social.substack}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-black hover:text-white transition"
+                    className="p-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-orange-500 hover:text-white transition"
                     title="substack"
                     aria-label={`${authorData.name} on substack`}
                   >
@@ -391,7 +391,7 @@ export default async function AuthorPage({ params }) {
                     {/* Article Content */}
                     <div className="pt-6 px-6 pb-6">
                       {/* Article Title - H3 */}
-                      <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-orange-600 transition">
+                      <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-orange-500 transition">
                         {article.heading || article.metaTitle}
                       </h3>
 
@@ -400,7 +400,7 @@ export default async function AuthorPage({ params }) {
                         <time dateTime={new Date(article.date).toISOString()}>
                           {article.date}
                         </time>
-                        <span className="font-semibold text-orange-600">
+                        <span className="font-semibold text-black">
                           {authorData.name}
                         </span>
                       </div>

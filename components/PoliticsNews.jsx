@@ -67,13 +67,14 @@ const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
           
           <Link href="https://www.morenews.org/" title='More News Website' target="_blank" rel="noopener noreferrer">
             <Image
-                src="/images/morenews.webp"
-                alt="More News"
-                className="w-full h-[300px] rounded-lg"
-                width={1000}  // Specify the width (adjust based on your design)
-                height={300}  // h-25 corresponds to 100px in height
-                loading="lazy"
-                />
+              src="/images/morenews.webp"
+              alt="More News"
+              width={850}
+              height={801}
+              sizes="100vw"
+              className="w-full h-auto rounded-lg"
+              loading="lazy"
+            />
           </Link>
         </div>
 

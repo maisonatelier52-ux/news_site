@@ -89,7 +89,7 @@ export default function About() {
         <div className="max-w-4xl mx-auto">
           {/* Header */}
           <div className="text-center mb-16">
-            <span className="inline-block bg-orange-500 text-white px-5 py-2 text-sm font-bold rounded-full mb-6 tracking-wide">
+            <span className="inline-block bg-red-600 text-black px-5 py-2 text-sm font-bold rounded-full mb-6 tracking-wide">
               ABOUT US
             </span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
@@ -160,7 +160,7 @@ export default function About() {
 
           {/* Final Statement */}
           <div className="bg-indigo-50 border border-indigo-100 rounded-2xl p-10 md:p-16 text-center">
-            <h2 className="text-3xl font-bold mb-6 text-orange-500">
+            <h2 className="text-3xl font-bold mb-6 text-black">
               Why CourtNews Exists
             </h2>
             <p className="text-lg text-gray-800 max-w-3xl mx-auto leading-relaxed">
@@ -168,7 +168,7 @@ export default function About() {
               Because courtrooms shape the country more than most headlines admit.<br />
               Because power must be watched — especially when it wears a robe.
             </p>
-            <p className="mt-10 text-xl font-semibold text-orange-500">
+            <p className="mt-10 text-xl font-semibold text-black">
               This is CourtNews.<br />
               We cover the courts so you don’t have to look away.
             </p>

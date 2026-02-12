@@ -89,13 +89,15 @@ const Sidecontent = ({heroPost, smallPosts}) => {
 
                 <div className="flex items-center gap-4 mt-2">
                   <Image
-                      src={heroPost.author?.profileImage }
-                      alt={heroPost.author?.name || "Author"}
-                      className="w-10 h-10 rounded-full"
-                      width={40}  // 10 * 4 (adjust based on your design)
-                      height={40} // 10 * 4 (adjust based on your design)
-                      loading="lazy"
-                    />
+                    src={heroPost.author?.profileImage}
+                    alt={heroPost.author?.name || "Author"}
+                    width={40}
+                    height={40}
+                    sizes="40px"
+                    className="w-10 h-10 rounded-full object-cover"
+                    loading="lazy"
+                  />
+
 
                   <div>
                     <p className="text-sm font-semibold">
