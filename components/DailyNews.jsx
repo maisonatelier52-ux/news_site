@@ -16,12 +16,15 @@ const DailyNews = ({heroPost,smallPosts}) => {
         {heroPost && (
           <div className="bg-white overflow-hidden">
             <Image
-                className="w-full h-[400px] object-cover"
-                src={heroPost.image}
-                alt={heroPost.alt}
-                width={1600}  // Specify the width (adjust as needed based on your design)
-                height={400}  // Specify the height to match your original h-[400px]  
+              src={heroPost.image}
+              alt={heroPost.alt}
+              width={1600}
+              height={400}
+              priority
+              sizes="100vw"
+              className="w-full h-[400px] object-cover"
             />
+
 
             <h1 className="text-[25px] font-black text-black p-[15px]">
               <Link 
@@ -48,13 +51,14 @@ const DailyNews = ({heroPost,smallPosts}) => {
           {smallPosts.map((post, index) => (
             <div key={index} className="bg-white overflow-hidden">
               <Image
-                className="w-full h-[150px] object-cover"
                 src={post.image}
                 alt={post.heading}
-                width={1500}  // Specify the width (adjust as needed based on your design)
-                height={150}  // Specify the height to match your original h-[150px]
-                
-            />
+                width={700}
+                height={400}
+                sizes="(max-width: 768px) 100vw, 700px"
+                className="w-full h-[150px] object-cover"
+              />
+
 
               <h2 className="text-lg font-bold text-black p-[15px]">
                 <Link 

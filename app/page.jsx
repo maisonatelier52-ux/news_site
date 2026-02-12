@@ -269,12 +269,12 @@ const MainSection = async ({ searchParams }) => {
         <div className="max-w-[1100px] mx-auto">
           <Link href="https://www.progresskingdom.com/" title="Progress Kingdom" target="_blank" rel="noopener noreferrer">
             <Image
-              src="/images/progresskingdom.webp"
-              alt="Progress Kingdom"
-              className="w-full h-32 object-fit rounded-md"
-              width={1100}
-              height={125}
-            />
+                src="/images/progresskingdom.webp"
+                alt="Progress Kingdom"
+                width={1100}
+                height={125}
+                className="w-full h-auto rounded-md"
+              />
           </Link>
         </div>
       </div>

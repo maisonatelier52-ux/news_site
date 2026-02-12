@@ -39,7 +39,7 @@ const Footer = () => {
 
         {/* Categories */}
         <div>
-          <h4 className="mb-4 font-semibold text-lg text-white">Categories</h4>
+          <p className="mb-4 font-semibold text-lg text-white">Categories</p>
           <div className="grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-300 md:flex md:flex-col md:gap-2">
             {categories.map((cat) => (
               <Link
@@ -56,7 +56,7 @@ const Footer = () => {
 
         {/* Authors */}
         <div>
-          <h4 className="mb-4 font-semibold text-lg text-white">Authors</h4>
+          <p className="mb-4 font-semibold text-lg text-white">Authors</p>
           <div className="grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-300 md:flex md:flex-col md:gap-2">
             {authors.length > 0 ? (
               authors.map((item) => {
@@ -80,7 +80,7 @@ const Footer = () => {
 
         {/* Social & More */}
         <div className="text-center md:text-left">
-          <h4 className="mb-4 font-semibold text-lg text-white">Follow Us</h4>
+          <p className="mb-4 font-semibold text-lg text-white">Follow Us</p>
           <div className="flex justify-center md:justify-start gap-5 text-2xl text-gray-300 mb-6">
              <Link href="#" aria-label="x" title="Follow us on X" className="hover:text-orange-500 transition-colors">
               <FaXTwitter />
@@ -98,7 +98,7 @@ const Footer = () => {
           </div>
 
           {/* Extra links (optional) */}
-          <div className="flex flex-col gap-2 text-sm text-gray-300">
+          <div className="flex flex-col gap-2 text-sm text-gray-300 ">
             <Link href="/about-us" title="Learn more about Court News" className="hover:text-orange-500 transition-colors">About Us</Link>
             <Link href="/privacy-policy" title="View our privacy policy" className="hover:text-orange-500 transition-colors">Privacy Policy</Link>
             <Link href="/terms-and-conditions" title="View our terms and conditions" className="hover:text-orange-500 transition-colors">Terms & Conditions</Link>

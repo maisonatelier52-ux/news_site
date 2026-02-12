@@ -201,7 +201,7 @@ const Header = () => {
           className="md:hidden flex flex-col justify-between w-7 h-6"
           aria-label="Menu" title="Open menu"
         >
-          <HiMenu size={28} />
+          <HiMenu size={30} />
         </button>
       </div>
 
@@ -253,16 +253,16 @@ const Header = () => {
           <div className="fixed top-0 right-0 h-full w-[280px] bg-white z-50 shadow-xl overflow-y-auto md:hidden">
             {/* Sidebar Header */}
             <div className="flex items-center justify-between p-4 pb-1 pt-6 border-b border-gray-200">
-              <h2 className="text-2xl font-extrabold uppercase tracking-wider text-gray-800">
+              <p className="text-2xl font-extrabold uppercase tracking-wider text-gray-800">
                 Court News
-              </h2>
+              </p>
 
               <button
                 onClick={() => setIsMenuOpen(false)}
                 className="text-gray-600 hover:text-orange-500"
                 aria-label="Close menu" title="Close menu"
               >
-                <IoClose size={28} />
+                <IoClose size={30} />
               </button>
             </div>
 
@@ -336,7 +336,7 @@ const Header = () => {
 
             {/* Social Media Links */}
             <div className="p-4 border-t border-gray-200">
-              <h3 className="text-sm font-bold text-gray-800 mb-3">Follow Us</h3>
+              <p className="text-sm font-bold text-gray-800 mb-3">Follow Us</p>
               <div className="flex items-center gap-4 text-gray-700 text-xl">
                 <Link
                   href="https://x.com/yourusername"
