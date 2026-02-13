@@ -6,8 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        serif: ['Merriweather', 'serif'],
-        sans: ['Roboto', 'sans-serif'],
+        roboto: ["var(--font-roboto-condensed)", "sans-serif"],
       },
     },
   },
