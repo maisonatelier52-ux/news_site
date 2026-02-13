@@ -62,7 +62,7 @@ const UsNews = ({ posts }) => {
         <div className="flex justify-center mt-8">
           <button
             onClick={() => setShowAll(!showAll)}
-            className="px-8 py-3 bg-orange-500 text-white font-semibold rounded-full hover:bg-orange-600 transition-colors duration-300"
+            className="px-8 py-3 bg-orange-600 text-white font-semibold rounded-full hover:bg-orange-700 transition-colors duration-300"
             title={showAll ? "Show fewer posts" : "Show more posts"}
           >
             {showAll ? "Show Less" : "More"}

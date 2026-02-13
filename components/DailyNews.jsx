@@ -48,37 +48,42 @@ const DailyNews = ({heroPost,smallPosts}) => {
           //     By {heroPost.author?.name} | {heroPost.date}
           //   </span>
           // </div>
-          <div className="bg-white overflow-hidden h-full flex flex-col">
-            
-            {/* Image wrapper */}
-            <div className="relative w-full h-[400px] md:h-[100%]">
+          <div className="bg-white overflow-hidden flex flex-col h-full">
+            {/* Image container - responsive height control */}
+            <div className="relative w-full aspect-[16/9] md:aspect-auto md:h-full">
               <Image
                 src={heroPost.image}
                 alt={heroPost.alt}
                 fill
                 priority
-                sizes="100vw"
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"
+                quality={82}
               />
             </div>
 
-            <h1 className="text-[25px] font-black text-black p-[15px]">
-              <Link 
-                href={`/${heroPost.category}/${heroPost.slug}`}
-                title={heroPost.heading}
-                className="no-underline text-inherit relative hover:text-orange-500 transition-colors"
-              >
-                {heroPost.heading}
-              </Link>
-            </h1>
+            {/* Text content - always below image on mobile, can be positioned differently on desktop if needed */}
+            <div className="flex flex-col flex-grow p-4 md:p-[15px]">
+              <h1 className="text-[22px] md:text-[25px] font-black text-black mb-2 md:mb-0">
+                <Link
+                  href={`/${heroPost.category}/${heroPost.slug}`}
+                  title={heroPost.heading}
+                  className="no-underline text-inherit hover:text-orange-500 transition-colors"
+                >
+                  {heroPost.heading}
+                </Link>
+              </h1>
 
-            <p className="hidden md:block text-sm text-black px-[15px] pb-[15px]">
-              {heroPost.metaDescription}
-            </p>
+              {/* Description - hidden on mobile, visible on desktop */}
+              <p className="hidden md:block text-sm text-gray-700 mb-3">
+                {heroPost.metaDescription}
+              </p>
 
-            <span className="text-xs text-black px-[15px] pb-[15px] block">
-              By {heroPost.author?.name} | {heroPost.date}
-            </span>
+              {/* Author & date - smaller on mobile */}
+              <span className="text-xs text-gray-600">
+                By {heroPost.author?.name || "Court News"} • {heroPost.date}
+              </span>
+            </div>
           </div>
 
         )}
