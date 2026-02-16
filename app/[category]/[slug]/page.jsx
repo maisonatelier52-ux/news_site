@@ -13,6 +13,7 @@ import PrevNextArticles from "../../../components/PrevNextArticles";
 
 import categoryPageData from "../../../public/data/category/categorypagedata.json";
 import authorsData from "../../../public/data/authors.json";
+import CaseInformation from "../../../components/CaseInformation";
 
 
 const SITE_URL = "https://courtnews.org";
@@ -302,6 +303,11 @@ export default async function Page({ params }) {
           <p className="text-lg md:text-xl text-black max-w-3xl mb-6">
             {post.metaDescription}
           </p>
+
+        {/* Case Information */}
+        <CaseInformation caseInfo={post.caseInformation} />
+
+
 
           {/* Author + Meta */}
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 border-t border-b py-4">

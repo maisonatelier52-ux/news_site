@@ -8,7 +8,7 @@ const openai = new OpenAI({
 
 const categories = [
   "crime",
-  "politics",
+  "political",
   "courts",
   "investigations",
   "civil-rights",
@@ -60,7 +60,7 @@ You are a senior US court reporter writing for courtnews.org.
 
 Write a realistic, SEO-optimized United States legal news article for 2026.
 
-The topic MUST relate to US courts, law, justice, crime, civil rights, investigations, or legal politics.
+The topic MUST relate to US courts, law, justice, crime, civil rights, investigations, or legal political.
 
 Category: "${category}"
 

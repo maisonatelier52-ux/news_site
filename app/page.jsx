@@ -20,7 +20,7 @@ const SITE_URL = "https://courtnews.org";
 export const metadata = {
   title: "CourtNews — Independent U.S. Courts, Justice & Legal News",
   description:
-    "CourtNews delivers fast, factual reporting on U.S. courts, criminal justice, civil rights, federal investigations, law, politics, and major national cases.",
+    "CourtNews delivers fast, factual reporting on U.S. courts, criminal justice, civil rights, federal investigations, law, political, and major national cases.",
   alternates: {
     canonical: SITE_URL,
     languages: {
@@ -122,10 +122,10 @@ const MainSection = async ({ searchParams }) => {
   const latestCrimePosts = uniqueCrimePosts.slice(0, 4);
 
   // ──────────────────────────────────────────────
-  // POLITICS NEWS SECTION
+  // POLITICAL NEWS SECTION
   // ──────────────────────────────────────────────
   const politicsPosts = sortedPosts.filter(
-    (post) => post.category?.toLowerCase() === "politics"
+    (post) => post.category?.toLowerCase() === "political"
   );
 
   const uniquePoliticsPosts = politicsPosts.filter((post) => {
@@ -260,7 +260,7 @@ const MainSection = async ({ searchParams }) => {
       {/* SECOND SECTION - Crime News */}
       <CrimeNews latestCrimePosts={latestCrimePosts} />
 
-      {/* THIRD SECTION - Politics News */}
+      {/* THIRD SECTION - political News */}
       <PoliticsNews featuredPost={featuredPost} textPosts={textPosts} imagePosts={imagePosts} />
 
       {/* SPONSORED AD SECTION */}

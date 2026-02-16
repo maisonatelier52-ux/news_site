@@ -20,15 +20,15 @@ const categoryConfig = {
     heroImage: "/images/crime-hero.webp",
     keywords: "crime news, criminal justice, law enforcement, investigations, breaking crime"
   },
-  politics: {
-    title: "Politics",
-    metaTitle: "Politics News & Analysis — CourtNews",
+  political: {
+    title: "Political",
+    metaTitle: "Political News & Analysis — CourtNews",
     metaDescription:
       "Stay updated with the latest political news and analysis. Congressional coverage, White House policies, elections, and national debates from CourtNews.",
     heroDescription:
-      "Our politics section delivers original journalism focused on accuracy, accountability, and insight. Our editorial team covers breaking political developments, congressional actions, White House policies, elections, and national policy debates.",
+      "Our Political section delivers original journalism focused on accuracy, accountability, and insight. Our editorial team covers breaking political developments, congressional actions, White House policies, elections, and national policy debates.",
     heroImage: "/images/politics-hero.webp",
-    keywords: "politics news, elections, congress, white house, policy"
+    keywords: "Political news, elections, congress, white house, policy"
   },
   courts: {
     title: "Courts",

@@ -23,7 +23,7 @@ const Header = () => {
   // ✅ Categories with slugs (FINAL ORDER)
   const categories = [
     { name: "Crime", slug: "/crime" },
-    { name: "Politics", slug: "/politics" },
+    { name: "Political", slug: "/political" },
     { name: "Courts", slug: "/courts" },
     { name: "Investigations", slug: "/investigations" },
     { name: "Civil Rights", slug: "/civil-rights" },

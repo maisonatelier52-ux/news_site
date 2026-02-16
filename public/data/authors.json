@@ -20,12 +20,12 @@
       }
     },
     {
-      "category": "politics",
+      "category": "political",
       "author": {
         "id": 2,
         "name": "Andrew Collins",
         "slug": "andrew-collins",
-        "jobtitle":"Politics News Author ",
+        "jobtitle":"Political News Author ",
         "gender": "Male",
         "profileImage": "/images/andrew-collins.webp",
         "country": "USA",

@@ -93,7 +93,7 @@ const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
                 {post.excerpt}
               </p> */}
               <span className="text-[13px] text-black">
-                Politics · {formatDate(post.date)}
+                Political · {formatDate(post.date)}
               </span>
             </article>
           </Link>

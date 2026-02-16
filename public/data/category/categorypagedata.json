@@ -600,7 +600,7 @@
     }
   ],
 
-  "politics": [
+  "political": [
     {
       "id": 1,
       "metaTitle": "Shutdown Looms as ICE Shootings Fuel DHS Funding Clash",
@@ -3327,6 +3327,17 @@
       "image": "/images/epstein-survivors-bondi-refused-face-hearing.webp",
       "alt": "Epstein survivors raising hands during congressional hearing with Pam Bondi testifying",
       "heroImage": "/images/epstein-survivors-bondi-refused-face-hearing.webp",
+
+        "caseInformation": {
+        "countryState": "United States / Federal (NY & FL)",
+        "caseNumber": "1:15-cv-07433-LAP",
+        "status": {
+          "accusation": "Multiple survivors alleged sex trafficking and sexual abuse by Jeffrey Epstein and associates.",
+          "onTrial": "Congressional oversight hearing reviewing the Department of Justice’s handling and release of Epstein-related records.",
+          "currentStatus": "Oversight and document disclosure efforts ongoing.",
+          "outcome": "Jeffrey Epstein died in federal custody in August 2019, ending criminal prosecution against him. Survivor claims were resolved through the Epstein Victims’ Compensation Program (2020–2021)."
+        }
+      },
       "body": {
         "dropcap": {
           "letter": "S",
@@ -3418,7 +3429,7 @@
         ]
       }
     }
-  ],
+  ], 
 
   "us-news": [
     {
