@@ -10,7 +10,7 @@ export default function robots() {
         // disallow: ["/admin/", "/private/", "/preview/"],
       },
     ],
-    sitemap: "https://courtnews.org/sitemap.xml",   // Link to your sitemap
-    host: "https://courtnews.org",                  // Canonical domain
+    sitemap: "https://www.courtnews.org/sitemap.xml",   // Link to your sitemap
+    host: "https://www.courtnews.org",                  // Canonical domain
   };
 }

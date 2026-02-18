@@ -1,6 +1,6 @@
 import Link from "next/link"; // only if you need it later — not used here
 
-const SITE_URL = "https://courtnews.org";
+const SITE_URL = "https://www.courtnews.org";
 
 export const metadata = {
   title: "Privacy Policy — CourtNews",

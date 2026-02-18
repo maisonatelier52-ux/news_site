@@ -13,9 +13,7 @@ import LawandJusticeNews from "../components/LawandjusticeNews";
 import UsNews from "../components/UsNews";
 import Image from "next/image";
 
-  
-const SITE_URL = "https://courtnews.org";
-
+const SITE_URL = "https://www.courtnews.org";
 
 export const metadata = {
   title: "CourtNews — Independent U.S. Courts, Justice & Legal News",
@@ -24,7 +22,7 @@ export const metadata = {
   alternates: {
     canonical: SITE_URL,
     languages: {
-      "en": SITE_URL,
+      en: SITE_URL,
       "en-US": SITE_URL,
     },
   },
@@ -65,17 +63,18 @@ const MainSection = async ({ searchParams }) => {
   }, {});
 
   // Collect all posts and add author information
-  const allPosts = Object.entries(categoryPageData).flatMap(([category, posts]) =>
-    posts.map((post) => ({
-      ...post,
-      category,
-      author: authorsByCategory[category] || {},
-    }))
+  const allPosts = Object.entries(categoryPageData).flatMap(
+    ([category, posts]) =>
+      posts.map((post) => ({
+        ...post,
+        category,
+        author: authorsByCategory[category] || {},
+      })),
   );
 
   // Sort posts by date (latest first)
   const sortedPosts = [...allPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
+    (a, b) => new Date(b.date) - new Date(a.date),
   );
 
   // Hero post (most recent)
@@ -88,7 +87,7 @@ const MainSection = async ({ searchParams }) => {
   // US NEWS SECTION – now safe with awaited params
   // ──────────────────────────────────────────────
   const usNewsPosts = sortedPosts.filter(
-    (post) => post.category?.toLowerCase() === "us-news"
+    (post) => post.category?.toLowerCase() === "us-news",
   );
 
   const uniqueUsNewsPosts = usNewsPosts.filter((post) => {
@@ -111,7 +110,7 @@ const MainSection = async ({ searchParams }) => {
   // CRIME NEWS SECTION
   // ──────────────────────────────────────────────
   const crimePosts = sortedPosts.filter(
-    (post) => post.category?.toLowerCase() === "crime"
+    (post) => post.category?.toLowerCase() === "crime",
   );
 
   const uniqueCrimePosts = crimePosts.filter((post) => {
@@ -125,7 +124,7 @@ const MainSection = async ({ searchParams }) => {
   // POLITICAL NEWS SECTION
   // ──────────────────────────────────────────────
   const politicsPosts = sortedPosts.filter(
-    (post) => post.category?.toLowerCase() === "political"
+    (post) => post.category?.toLowerCase() === "political",
   );
 
   const uniquePoliticsPosts = politicsPosts.filter((post) => {
@@ -141,13 +140,14 @@ const MainSection = async ({ searchParams }) => {
   // COURT NEWS SECTION
   // ──────────────────────────────────────────────
   const courtPosts = sortedPosts.filter(
-    (post) => post.category?.toLowerCase() === "courts"
+    (post) => post.category?.toLowerCase() === "courts",
   );
 
   const uniqueCourtPosts = courtPosts.filter((post) => {
     if (heroPost && post.slug === heroPost.slug) return false;
     if (smallPosts.some((small) => small.slug === post.slug)) return false;
-    if (latestCrimePosts.some((crime) => crime.slug === post.slug)) return false;
+    if (latestCrimePosts.some((crime) => crime.slug === post.slug))
+      return false;
     return true;
   });
 
@@ -157,7 +157,7 @@ const MainSection = async ({ searchParams }) => {
   // INVESTIGATION NEWS SECTION
   // ──────────────────────────────────────────────
   const investigationPosts = sortedPosts.filter(
-    (post) => post.category?.toLowerCase() === "investigations"
+    (post) => post.category?.toLowerCase() === "investigations",
   );
 
   const uniqueInvestigationPosts = investigationPosts.filter((post) => {
@@ -171,16 +171,20 @@ const MainSection = async ({ searchParams }) => {
   // ──────────────────────────────────────────────
   // CATEGORY CARDS
   // ──────────────────────────────────────────────
-  const allCategories = Object.entries(categoryPageData).map(([category, posts]) => {
-    const sorted = [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
-    const latest = sorted[0];
-    return {
-      name: category,
-      postCount: posts.length,
-      image: latest?.image,
-      slug: category,
-    };
-  });
+  const allCategories = Object.entries(categoryPageData).map(
+    ([category, posts]) => {
+      const sorted = [...posts].sort(
+        (a, b) => new Date(b.date) - new Date(a.date),
+      );
+      const latest = sorted[0];
+      return {
+        name: category,
+        postCount: posts.length,
+        image: latest?.image,
+        slug: category,
+      };
+    },
+  );
 
   const desktopCategories = allCategories.slice(0, 5);
 
@@ -188,7 +192,7 @@ const MainSection = async ({ searchParams }) => {
   // CIVIL RIGHTS NEWS SECTION
   // ──────────────────────────────────────────────
   const civilRightsPosts = sortedPosts.filter(
-    (post) => post.category?.toLowerCase() === "civil-rights"
+    (post) => post.category?.toLowerCase() === "civil-rights",
   );
 
   const uniqueCivilRightsPosts = civilRightsPosts.filter((post) => {
@@ -205,7 +209,7 @@ const MainSection = async ({ searchParams }) => {
   // LAW AND JUSTICE NEWS SECTION
   // ──────────────────────────────────────────────
   const lawAndJusticePosts = sortedPosts.filter(
-    (post) => post.category?.toLowerCase() === "law-and-justice"
+    (post) => post.category?.toLowerCase() === "law-and-justice",
   );
 
   const uniqueLawAndJusticePosts = lawAndJusticePosts.filter((post) => {
@@ -216,7 +220,6 @@ const MainSection = async ({ searchParams }) => {
   const lawfirstpost = uniqueLawAndJusticePosts[0];
   const lawsecondpsot = uniqueLawAndJusticePosts[1];
   const lawthirdpost = uniqueLawAndJusticePosts[2];
-
 
   /* ---------- JSON-LD (Homepage) ---------- */
   const websiteJsonLd = {
@@ -244,10 +247,6 @@ const MainSection = async ({ searchParams }) => {
     },
   };
 
-
-
-
-
   return (
     <main>
       <script
@@ -262,7 +261,11 @@ const MainSection = async ({ searchParams }) => {
       <CrimeNews latestCrimePosts={latestCrimePosts} />
 
       {/* THIRD SECTION - political News */}
-      <PoliticsNews featuredPost={featuredPost} textPosts={textPosts} imagePosts={imagePosts} />
+      <PoliticsNews
+        featuredPost={featuredPost}
+        textPosts={textPosts}
+        imagePosts={imagePosts}
+      />
 
       {/* SPONSORED AD SECTION */}
       {/* <div className="w-full bg-white py-[30px] pb-10 mx-auto text-center border-b border-[#414141] p-5 max-w-[1300px]">
@@ -295,7 +298,10 @@ const MainSection = async ({ searchParams }) => {
           investiagtionPost={investiagtionPost}
           row2Posts={row2Posts}
         />
-        <CategoryCards allCategories={allCategories} desktopCategories={desktopCategories} />
+        <CategoryCards
+          allCategories={allCategories}
+          desktopCategories={desktopCategories}
+        />
       </div>
 
       {/* SIXTH SECTION - CIVIL RIGHTS NEWS */}

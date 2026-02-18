@@ -2,8 +2,7 @@
 import categoryPageData from "../public/data/category/categorypagedata.json";
 import authorsData from "../public/data/authors.json";
 
-
-const SITE_URL = "https://courtnews.org";
+const SITE_URL = "https://www.courtnews.org";
 
 export default function sitemap() {
   const now = new Date();
@@ -70,10 +69,5 @@ export default function sitemap() {
   });
 
   /* ---------------- COMBINE ALL ---------------- */
-  return [
-    ...staticPages,
-    ...categoryPages,
-    ...articlePages,
-    ...authorPages,
-  ];
+  return [...staticPages, ...categoryPages, ...articlePages, ...authorPages];
 }

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const SITE_URL = "https://courtnews.org";
+const SITE_URL = "https://www.courtnews.org";
 
 export const metadata = {
   title: "About CourtNews – Independent U.S. Justice & Legal News",
@@ -103,13 +103,20 @@ export default function About() {
           {/* Introduction */}
           <div className="prose prose-lg prose-indigo max-w-none mb-16 leading-relaxed">
             <p>
-              Welcome to <strong>CourtNews</strong> — an independent American news outlet focused on the justice system, courts, legal developments, and government accountability.
+              Welcome to <strong>CourtNews</strong> — an independent American
+              news outlet focused on the justice system, courts, legal
+              developments, and government accountability.
             </p>
             <p>
-              We launched because too many stories about the courts, civil rights, police accountability, federal prosecutions, Supreme Court decisions, and legal corruption are underreported, delayed, or softened.
+              We launched because too many stories about the courts, civil
+              rights, police accountability, federal prosecutions, Supreme Court
+              decisions, and legal corruption are underreported, delayed, or
+              softened.
             </p>
             <p>
-              Our commitment is straightforward: deliver accurate, timely, and unfiltered reporting on what happens inside America’s courtrooms and justice institutions — before the narrative is shaped for you.
+              Our commitment is straightforward: deliver accurate, timely, and
+              unfiltered reporting on what happens inside America’s courtrooms
+              and justice institutions — before the narrative is shaped for you.
             </p>
           </div>
 
@@ -133,7 +140,9 @@ export default function About() {
                 key={i}
                 className="bg-gray-50 p-8 rounded-xl border border-gray-200 hover:shadow-lg transition-shadow duration-200"
               >
-                <h2 className="text-xl font-bold text-gray-900 mb-4">{item.title}</h2>
+                <h2 className="text-xl font-bold text-gray-900 mb-4">
+                  {item.title}
+                </h2>
                 <p className="text-gray-700">{item.desc}</p>
               </div>
             ))}
@@ -145,7 +154,9 @@ export default function About() {
               Our Reporting Team
             </h2>
             <p className="text-center text-lg text-gray-700 mb-10 max-w-3xl mx-auto">
-              CourtNews is driven by experienced legal journalists, court watchers, investigative reporters, and analysts who understand legal documents and courtroom procedure.
+              CourtNews is driven by experienced legal journalists, court
+              watchers, investigative reporters, and analysts who understand
+              legal documents and courtroom procedure.
             </p>
             <div className="text-center">
               {/* <Link
@@ -164,12 +175,16 @@ export default function About() {
               Why CourtNews Exists
             </h2>
             <p className="text-lg text-gray-800 max-w-3xl mx-auto leading-relaxed">
-              Because justice delayed is justice denied.<br />
-              Because courtrooms shape the country more than most headlines admit.<br />
+              Because justice delayed is justice denied.
+              <br />
+              Because courtrooms shape the country more than most headlines
+              admit.
+              <br />
               Because power must be watched — especially when it wears a robe.
             </p>
             <p className="mt-10 text-xl font-semibold text-black">
-              This is CourtNews.<br />
+              This is CourtNews.
+              <br />
               We cover the courts so you don’t have to look away.
             </p>
           </div>
