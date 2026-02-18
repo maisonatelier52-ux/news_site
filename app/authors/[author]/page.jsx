@@ -9,6 +9,7 @@ import { FaTwitter, FaQuora, FaReddit, FaFacebook } from "react-icons/fa";
 import { FaXTwitter,FaInstagram } from "react-icons/fa6";
 import { FaRedditAlien } from "react-icons/fa";
 import { BsSubstack } from "react-icons/bs";
+import { notFound } from "next/navigation";
 
 
 const SITE_URL = "https://www.courtnews.org";
@@ -41,13 +42,6 @@ export async function generateMetadata({ params }) {
 
   const authorData = getAuthorBySlug(authorSlug);
 
-  if (!authorData) {
-    return {
-      title: "Author Not Found — CourtNews",
-      description: "The author you are looking for does not exist on CourtNews.",
-      robots: "noindex",
-    };
-  }
 
   const profileImageUrl = authorData.profileImage.startsWith("http")
     ? authorData.profileImage
@@ -109,25 +103,10 @@ export default async function AuthorPage({ params }) {
 
   const authorData = getAuthorBySlug(authorSlug);
 
+
+
   if (!authorData) {
-    return (
-      <main className="min-h-screen flex items-center justify-center bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 py-16 text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-6">
-            Author Not Found
-          </h1>
-          <p className="text-xl text-gray-600 mb-8">
-            Sorry, we couldn't find an author with that name on CourtNews.
-          </p>
-          <Link
-            href="/"
-            className="inline-block px-8 py-4 bg-orange-700 text-white font-semibold rounded-lg hover:bg-orange-800 transition"
-          >
-            ← Back to Home
-          </Link>
-        </div>
-      </main>
-    );
+    notFound();
   }
 
   // Get and sort articles

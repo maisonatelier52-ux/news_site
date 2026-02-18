@@ -15,6 +15,8 @@ import categoryPageData from "../../../public/data/category/categorypagedata.jso
 import authorsData from "../../../public/data/authors.json";
 import CaseInformation from "../../../components/CaseInformation";
 
+import { notFound } from "next/navigation";
+
 const SITE_URL = "https://www.courtnews.org";
 
 export async function generateMetadata({ params }) {
@@ -23,13 +25,6 @@ export async function generateMetadata({ params }) {
   // Find the article
   const post = categoryPageData[category]?.find((item) => item.slug === slug);
 
-  if (!post) {
-    return {
-      title: "Article Not Found | CourtNews",
-      description: "The requested article could not be found.",
-      robots: "noindex",
-    };
-  }
 
   const fullImageUrl = post.heroImage.startsWith("http")
     ? post.heroImage
@@ -77,7 +72,7 @@ export default async function Page({ params }) {
   const post = categoryPageData[category]?.find((item) => item.slug === slug);
 
   if (!post) {
-    return <div className="max-w-7xl mx-auto px-4 py-8">Post not found</div>;
+    notFound();
   }
 
   // 2️⃣ Build author lookup

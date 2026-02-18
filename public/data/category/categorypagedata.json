@@ -2587,7 +2587,120 @@
           }
         ]
       }
-    }
+    },
+    {
+  "id": 6,
+  "metaTitle": "New Mexico Probes Epstein Ranch Truth Commission",
+  "metaDescription": "New Mexico lawmakers create a bipartisan commission to probe Jeffrey Epstein’s Zorro Ranch, alleged sex trafficking, and possible official corruption.",
+  "slug": "new-mexico-truth-commission-epstein-zorro-ranch-probe",
+  "heading": "New Mexico Forms Truth Commission to Investigate Epstein’s Desert Ranch",
+  "excerpt": "A bipartisan panel of New Mexico state representatives has launched an official inquiry into activities at Jeffrey Epstein’s secluded Zorro Ranch and whether local authorities ignored red flags.",
+  "date": "18 Feb, 2026",
+  "image": "/images/new-mexico-truth-commission-epstein-zorro-ranch-probe.webp",
+  "alt": "Aerial view of Zorro Ranch in New Mexico desert with overlay of official documents",
+  "heroImage": "/images/new-mexico-truth-commission-epstein-zorro-ranch-probe.webp",
+  "caseInformation": {
+  "countryState": "United States / New Mexico (State House of Representatives)",
+  "caseNumber": "House Resolution 1 (HR 1), 2026 Regular Session – House Investigatory Subcommittee",
+  "legislationLink": "https://www.nmlegis.gov/Legislation/Legislation?Chamber=H&LegType=R&LegNo=1&year=26",
+  "status": {
+    "accusation": "Probe into possible sex trafficking, abuse, and official inaction or corruption at Jeffrey Epstein’s former Zorro Ranch in Santa Fe County.",
+    "onTrial": "Not a trial. Legislative subcommittee with subpoena power to hold hearings and issue a report.",
+    "currentStatus": "Active. HR 1 passed House unanimously Feb 16, 2026. First meeting/news conference Feb 17, 2026. No charges filed.",
+    "outcome": "Pending. Final report expected late 2026 or early 2027. May recommend laws or law enforcement referrals."
+  }
+},
+  "body": {
+    "dropcap": {
+      "letter": "N",
+      "text": "ew Mexico state lawmakers have created a special bipartisan truth commission to examine what really happened at Jeffrey Epstein’s remote Zorro Ranch and whether state or local officials failed to act on serious allegations."
+    },
+    "paragraphs": [
+      "On Tuesday, a four-member panel of state House representatives announced they are opening a formal investigation into possible sex trafficking, abuse, and any potential cover-up or negligence by authorities connected to Epstein’s sprawling desert property near Santa Fe.",
+      "The commission wants to understand how Epstein — who pleaded guilty in Florida in 2008 to soliciting prostitution from a minor — was never required to register as a sex offender in New Mexico, and whether any public officials turned a blind eye to suspicious activity at the ranch.",
+      "Rep. Marianna Anaya (D-Albuquerque), a commission member, made an emotional plea during the announcement, asking survivors and witnesses to come forward. She promised strict confidentiality and stressed that justice requires holding not only the main perpetrators accountable, but also anyone who may have enabled or ignored the crimes."
+    ],
+    "quote": {
+      "text": "No one builds and runs a criminal enterprise of this scale alone. Enablers — including government agencies if they failed in their duty — must be held responsible.",
+      "author": "Rep. Marianna Anaya, Truth Commission Member"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "Epstein bought the Zorro Ranch in 1993 and expanded it into a massive estate with a 26,700-square-foot hilltop mansion, private airstrip, and extensive grounds. The property was sold in 2023 by Epstein’s estate to the family of Texas Republican Don Huffines, who renamed it San Rafael Ranch and plans to operate it as a Christian retreat.",
+          "Huffines stated publicly that his family would fully cooperate with any law enforcement request for access to the property."
+        ],
+        "image": {
+          "url": "/images/new-mexico-truth-commission-epstein-zorro-ranch-probe-si.webp",
+          "alt": "Remote Zorro Ranch in New Mexico desert landscape with private runway visible"
+        },
+        "additionalText": [
+          "Epstein died by suicide in 2019 while awaiting federal trial in New York on charges of sex trafficking and abusing dozens of underage girls."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Why the Commission Was Created",
+        "mainContent": [
+          "Chairwoman Rep. Andrea Romero (D-Santa Fe) explained that years of rumors and survivor accounts suggest Epstein’s criminal activity extended to New Mexico. Federal investigations so far have not produced a complete public record of what happened at the ranch.",
+          "The panel includes retired FBI agent Rep. William Hall (R-Aztec) and former prosecutor Rep. Andrea Reeb (R-Clovis). The House voted unanimously Monday to grant the commission subpoena power and a budget exceeding $2 million."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "Survivor Accounts & Official Response",
+        "content": [
+          "Several survivors have reportedly told lawmakers that sex trafficking occurred at Zorro Ranch, located about 35 miles south of Santa Fe. The commission hopes to create the first official state-level record of events there.",
+          "In 2019, New Mexico’s Attorney General confirmed an investigation and interviews with potential victims who visited the ranch. In 2023, Attorney General Raúl Torrez reached settlements with two banks linked to Epstein, securing $17 million for anti-trafficking efforts."
+        ],
+        "image": {
+          "url": "/images/new-mexico-truth-commission-epstein-zorro-ranch-probe-ti.webp",
+          "alt": "New Mexico State Capitol building in Santa Fe where truth commission was announced"
+        },
+        "subsections": [
+          {
+            "title": "Key Questions the Commission Aims to Answer",
+            "text": [
+              "Did Epstein’s 2008 Florida plea deal prevent proper registration as a sex offender in New Mexico?",
+              "Were there signs of abuse or trafficking at Zorro Ranch that local or state officials ignored?",
+              "Was there any corruption or improper influence that protected Epstein’s activities?"
+            ],
+            "checklist": [
+              "Bipartisan panel has subpoena power and $2M+ budget",
+              "Multiple survivors have already indicated activity at the ranch",
+              "Previous AG investigations confirmed interviews with potential victims",
+              "Property now owned by Texas family operating Christian retreat"
+            ],
+            "additionalText": [
+              "The commission emphasized that their work is not about revisiting Epstein’s federal case, but about understanding what happened in New Mexico and ensuring no one else is ever protected by official inaction."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "Looking Ahead",
+        "intro": [
+          "The truth commission represents New Mexico’s determination to confront a dark chapter connected to one of the most notorious sex offenders in modern history. By creating an official record, lawmakers hope to bring clarity, closure, and accountability."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "Survivors and witnesses are encouraged to contact the commission with information. Officials have pledged confidentiality and protection for those who come forward."
+          ],
+          "rightQuote": {
+            "text": "We owe it to the victims to uncover the full truth — no matter how uncomfortable.",
+            "author": "Rep. Andrea Romero, Truth Commission Chairwoman"
+          }
+        },
+        "conclusion": [
+          "The investigation is expected to take months, with public hearings and a final report likely in late 2026 or early 2027. The outcome could lead to new safeguards, policy changes, or even referrals for criminal investigation."
+        ]
+      }
+    ]
+  }
+}
   ],
 
   "civil-rights": [

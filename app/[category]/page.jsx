@@ -5,6 +5,7 @@ import categoryPageData from "../../public/data/category/categorypagedata.json";
 import authorsData from "../../public/data/authors.json";
 import Link from "next/link"; 
 import Image from "next/image";
+import { notFound } from "next/navigation";
 
 const SITE_URL = "https://www.courtnews.org";
 
@@ -89,6 +90,7 @@ export async function generateMetadata({ params }) {
 
   const canonicalUrl = `${SITE_URL}/${categorySlug}`;
 
+
   return {
     title: config.metaTitle,
     description: config.metaDescription,
@@ -128,6 +130,11 @@ export async function generateMetadata({ params }) {
 export default async function CategoryPage({ params }) {
   const { category } = await params;
   const categorySlug = decodeURIComponent(category);
+
+    if (!categorySlug || !categoryConfig[categorySlug]) {
+    notFound();
+  }
+
 
   // Get category configuration
   const config = categoryConfig[categorySlug] || categoryConfig["us-news"];
