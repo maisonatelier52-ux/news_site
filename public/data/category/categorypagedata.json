@@ -1389,7 +1389,109 @@
       }
     ]
   }
-    }
+    },
+{
+  "id": 8,
+  "metaTitle": "Trump Lawyer Pushed Intel Firm for 2020 Fraud Proof",
+  "metaDescription": "Trump-linked lawyer pressed a U.S. intelligence contractor to find voter fraud evidence after the 2020 election, raising misuse concerns.",
+  "slug": "trump-lawyer-pushed-intel-firm-2020-fraud-proof",
+  "heading": "Trump Attorney Urged Intel Contractor to Hunt 2020 Fraud Evidence",
+  "excerpt": "A lawyer linked to President Trump’s 2020 election challenges repeatedly asked an intelligence contractor to look for proof of voter fraud, according to people familiar with the discussions.",
+  "date": "19 Feb, 2026",
+  "image": "/images/trump-lawyer-pushed-intel-firm-2020-fraud-proof.webp",
+  "alt": "Kurt Olsen, attorney connected to Trump’s 2020 election challenges, outside a government office",
+  "heroImage": "/images/trump-lawyer-pushed-intel-firm-2020-fraud-proof.webp",
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " lawyer who played a key role in former President Donald Trump’s push to challenge the 2020 election results repeatedly urged a U.S. intelligence contractor to search for evidence of voter fraud in that race, according to two people familiar with the discussions."
+    },
+    "paragraphs": [
+      "Kurt Olsen, who worked closely with the 'Stop the Steal' movement after Trump’s defeat to Joe Biden, pressed Mojave Research Inc. — a contractor hired by the Office of the Director of National Intelligence (ODNI) — to go beyond its original assignment.",
+      "Mojave had been tasked with examining potential vulnerabilities in voting machines used during Puerto Rico’s 2024 elections. The work centered on security weaknesses that hackers or others could exploit, the sources said, speaking on condition of anonymity to discuss private conversations.",
+      "Rather than staying focused on that limited goal, Olsen repeatedly asked the analysts to look for anything that might support long-standing claims of fraud in the 2020 presidential contest, one person with direct knowledge of the exchanges said."
+    ],
+    "quote": {
+      "text": "No one pulls off something like that alone. Those who helped — including any officials who turned a blind eye — have to be held accountable too.",
+      "author": "Source familiar with the conversations"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "Mojave, a Virginia-based firm with a history of AI-related work for ODNI, ultimately kept its review focused on ways to improve future election security rather than digging into the 2020 results.",
+          "The contract with ODNI ended in October 2025, though the exact reasons remain unclear. Reuters could not independently verify why the agreement was terminated."
+        ],
+        "image": {
+          "url": "/images/trump-lawyer-pushed-intel-firm-2020-fraud-proof-si.webp",
+          "alt": "Voting machines being examined in a secure laboratory setting"
+        },
+        "additionalText": [
+          "An ODNI official said Olsen was not directly involved in the agency’s review of Puerto Rico’s voting equipment, but did not dispute his participation in broader discussions about election security."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Persistent Push on 2020 Claims",
+        "mainContent": [
+          "Olsen’s efforts reflect ongoing attempts by some in the current administration to find support for assertions that the 2020 election was stolen — claims that courts, state election officials, and multiple independent reviews have consistently rejected.",
+          "U.S. intelligence agencies are not permitted to conduct domestic political investigations. Both ODNI and the FBI have repeatedly stated there is no evidence of widespread fraud sufficient to change the outcome of the 2020 presidential election."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "Puerto Rico Review and Shifting Focus",
+        "content": [
+          "In spring 2025, ODNI hired Mojave to assess the security of voting machines used in Puerto Rico’s 2024 elections. The review came after public concerns about potential vulnerabilities in the systems.",
+          "Officials and law enforcement removed and examined the machines in May 2025. ODNI later described the equipment as having systems that were 'highly vulnerable to exploits,' though few details were made public."
+        ],
+        "image": {
+          "url": "/images/trump-lawyer-pushed-intel-firm-2020-fraud-proof-ti.webp",
+          "alt": "Secure review of voting machines in Puerto Rico election security probe"
+        },
+        "subsections": [
+          {
+            "title": "Main Developments",
+            "text": [
+              "Olsen, now working as a special government employee, had been involved in election security discussions before his formal appointment.",
+              "Mojave delivered its findings in July 2025, identifying software and security issues but finding no clear evidence to support claims of 2020 fraud.",
+              "The company also proposed a wider plan to strengthen national election infrastructure, though no implementation has been confirmed."
+            ],
+            "checklist": [
+              "Olsen urged contractor to expand beyond Puerto Rico scope",
+              "Mojave declined to refocus on 2020 election",
+              "Contract ended in October 2025",
+              "ODNI denies Olsen’s direct role in Puerto Rico review"
+            ],
+            "additionalText": [
+              "The president of the Puerto Rico State Elections Commission said the agency would cooperate fully with any appropriate state or federal inquiry."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "Broader Implications",
+        "intro": [
+          "The reported exchanges highlight continued efforts by some in the Trump administration to revisit and substantiate claims of 2020 election fraud, despite repeated findings to the contrary by courts, election officials, and prior investigations."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "Critics say involving intelligence contractors in domestic political questions risks misuse of government resources and further erodes public trust in independent agencies."
+          ],
+          "rightQuote": {
+            "text": "U.S. intelligence agencies are not authorized to engage in domestic politics.",
+            "author": "ODNI official"
+          }
+        },
+        "conclusion": [
+          "It remains unclear whether these efforts will uncover new evidence or lead to any formal action. For now, they underscore the deep and ongoing political divide over the 2020 election and the limits of government authority in reexamining settled matters."
+        ]
+      }
+    ]
+  }
+}
   ],
 
   "courts": [
@@ -2055,7 +2157,120 @@
           }
         ]
       }
+    },
+    {
+  "id": 7,
+  "metaTitle": "Supreme Court Deploys Software to Help Spot Conflicts",
+  "metaDescription": "U.S. Supreme Court launches new software to flag potential conflicts of interest, strengthening ethics compliance as justices retain recusal control.",
+  "slug": "supreme-court-software-helps-spot-conflicts-of-interest",
+  "heading": "Supreme Court Rolls Out Software to Help Flag Conflicts",
+  "excerpt": "The U.S. Supreme Court announced Tuesday it is now using new in-house software to assist justices in screening cases for potential conflicts of interest, supplementing existing self-review procedures.",
+  "date": "18 Feb, 2026",
+  "image": "/images/supreme-court-software-helps-spot-conflicts-of-interest.webp",
+  "alt": "U.S. Supreme Court building with digital conflict-screening interface overlay",
+  "heroImage": "/images/supreme-court-software-helps-spot-conflicts-of-interest.webp",
+  "caseInformation": {
+    "countryState": "United States / Federal (U.S. Supreme Court)",
+    "caseNumber": "No docket number – internal administrative policy update (no litigation)",
+    "status": {
+      "accusation": "No accusation or lawsuit. Voluntary adoption of software to aid conflict screening under the 2023 Supreme Court Code of Conduct.",
+      "onTrial": "Not a trial. Internal court tool to support justices’ self-assessment of recusal obligations.",
+      "currentStatus": "Software deployed and in active use as of February 17, 2026. Publicly announced by the court the same day.",
+      "outcome": "Ongoing implementation. Justices retain final authority on recusal; no external enforcement mechanism."
     }
+  },
+  "body": {
+    "dropcap": {
+      "letter": "T",
+      "text": "he U.S. Supreme Court has begun using new internal software to help its nine justices identify potential conflicts of interest before hearing cases, the court announced Tuesday."
+    },
+    "paragraphs": [
+      "Developed by the court’s own IT team and support staff, the tool automatically cross-checks information about lawyers, parties, and corporate entities involved in a case against financial and professional disclosures submitted by each justice.",
+      "The Supreme Court emphasized that the software is designed to enhance — not replace — the traditional process in which justices personally review cases for possible conflicts and decide whether to recuse themselves.",
+      "Under the Code of Conduct the justices adopted in November 2023, a justice must step aside in any proceeding where their 'impartiality might reasonably be questioned' — a standard each justice applies individually."
+    ],
+    "quote": {
+      "text": "These automated recusal checks will complement the procedures justices already follow to review potential conflicts.",
+      "author": "Supreme Court spokesperson"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "The announcement comes after years of public and congressional scrutiny over ethics at the high court, including undisclosed luxury travel, gifts, and real-estate transactions involving several justices.",
+          "The 2023 ethics code was introduced amid growing pressure for formal rules, but critics have pointed out that it lacks any external enforcement mechanism and continues to leave recusal decisions entirely in the hands of the justices themselves."
+        ],
+        "image": {
+          "url": "/images/supreme-court-software-helps-spot-conflicts-of-interest-si.webp",
+          "alt": "Supreme Court bench with digital conflict-check interface overlay"
+        },
+        "additionalText": [
+          "To support the software’s effectiveness, the court is also updating certain filing requirements. Beginning March 16, 2026, parties must submit more detailed lists of involved entities, including relevant stock ticker symbols, to improve the accuracy of automated screening."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "How the New System Operates",
+        "mainContent": [
+          "The software scans incoming cases against the justices’ annual financial disclosure forms and other provided information, flagging potential matches — such as ownership of stock in a litigant company or prior professional ties — for closer review.",
+          "While lower federal courts have relied on similar automated conflict-detection tools for years, this marks the first time the Supreme Court has implemented such technology at its level."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "Broader Context and Continued Scrutiny",
+        "content": [
+          "The move follows persistent criticism of ethical practices at the Supreme Court, particularly after reports of undisclosed luxury travel, private jet flights, and real-estate deals involving justices.",
+          "The 2023 code was the court’s first formal written ethics framework, but it has faced skepticism because it includes no outside oversight or enforcement body. Justices remain solely responsible for deciding when to step aside from a case."
+        ],
+        "image": {
+          "url": "/images/supreme-court-software-helps-spot-conflicts-of-interest-ti.webp",
+          "alt": "Supreme Court press release on adoption of 2023 ethics code"
+        },
+        "subsections": [
+          {
+            "title": "Main Points from the Announcement",
+            "text": [
+              "Software created entirely in-house by Supreme Court IT and support staff.",
+              "Designed to supplement, not replace, justices’ personal conflict reviews.",
+              "New filing rules requiring more detailed party and stock information take effect March 16, 2026.",
+              "Automated screening already standard practice in many lower federal courts."
+            ],
+            "checklist": [
+              "Announced February 17, 2026",
+              "No external enforcement of recusal decisions",
+              "Justices retain sole authority to recuse",
+              "Part of ongoing effort to strengthen internal ethics procedures"
+            ],
+            "additionalText": [
+              "Advocacy groups such as Fix the Court called the change 'somewhat positive' but continued to argue that justices should be barred from owning individual stocks while serving."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "Implications for the Future",
+        "intro": [
+          "The adoption of automated conflict screening represents a practical, incremental step toward greater transparency at the nation’s highest court."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "While the tool may reduce the chance of overlooked conflicts, it does not address the central criticism that recusal decisions remain entirely self-regulated, with no binding external review."
+          ],
+          "rightQuote": {
+            "text": "Any step that helps justices avoid even the appearance of bias is a step in the right direction.",
+            "author": "Gabe Roth, Executive Director, Fix the Court"
+          }
+        },
+        "conclusion": [
+          "Whether this technological improvement — combined with the 2023 ethics code — will satisfy calls for more robust, externally enforceable rules remains an open question. For now, the court continues to emphasize internal self-regulation while quietly adopting tools to strengthen its processes."
+        ]
+      }
+    ]
+  }
+}
   ],
 
   "investigations": [
