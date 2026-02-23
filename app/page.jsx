@@ -12,7 +12,7 @@ import CivilrightsNews from "../components/CivilrightsNews";
 import LawandJusticeNews from "../components/LawandjusticeNews";
 import UsNews from "../components/UsNews";
 import Image from "next/image";
-
+ 
 const SITE_URL = "https://www.courtnews.org";
 
 export const metadata = {

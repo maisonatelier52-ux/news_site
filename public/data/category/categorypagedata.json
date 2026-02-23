@@ -4069,6 +4069,117 @@
           }
         ]
       }
+    },
+    {
+      "id": 6,
+      "metaTitle": "Utah Supreme Court Dismisses Redistricting Challenge",
+      "metaDescription": "Utah Supreme Court Dismisses Legislature Redistricting Appeal – Court-Ordered Map Stands for 2026 Elections Amid Ongoing Legal Battle",
+      "slug": "utah-supreme-court-dismisses-redistricting-challenge",
+      "heading": "Utah Supreme Court Turns Down Legislature's Redistricting Challenge",
+      "excerpt": "In a procedural dismissal, the Utah Supreme Court has declined to hear the Legislature's appeal against a lower court's decision, leaving the court-imposed congressional map in effect for the next election cycle.",
+      "date": "February 20, 2026",
+      "image": "/images/utah-supreme-court-dismisses-redistricting-challenge.webp",
+      "alt": "Utah Supreme Court exterior with justice symbols",
+      "heroImage": "/images/utah-supreme-court-dismisses-redistricting-challenge.webp",
+      "caseInformation": {
+        "countryState": "United States / Utah",
+        "caseNumber": "Related to League of Women Voters of Utah v. Utah Legislature",
+        "status": {
+          "accusation": "Claims that the 2021 legislative map violated voter-approved redistricting reforms.",
+          "onTrial": "Appellate review of district court order imposing remedial map.",
+          "currentStatus": "Appeal dismissed due to lack of final judgment below; remedial map remains active.",
+          "outcome": "Court-drawn map (one competitive district, three Republican-leaning) set for 2026 unless altered by separate federal case."
+        }
+      },
+      "body": {
+        "dropcap": {
+          "letter": "T",
+          "text": "he Utah Supreme Court has dealt state lawmakers another procedural blow in their years-long battle over congressional boundaries."
+        },
+        "paragraphs": [
+          "The state's highest court threw out the Legislature's attempt to challenge a district judge's decision to throw out the 2021 map that lawmakers had approved. The justices said they couldn't deal with the case because the lower court hadn't made a final decision yet.",
+          "Good-government groups and local voters filed the lawsuit, which said that the Legislature's map went against the spirit of a citizen-backed measure that aimed to limit partisan influence in redistricting. After throwing out the original map, the trial judge oversaw a new drawing process and finally chose a version that combines most of Salt Lake County into a single district with stronger Democratic leanings, while the other three districts stay heavily Republican."
+        ],
+        "quote": {
+          "text": "This choice keeps the process going without any extra delays, which is what voters and election officials need.",
+          "author": "A member of the League of Women Voters of Utah"
+        },
+        "sections": [
+          {
+            "type": "imageWithText",
+            "text": [
+              "Legislative leaders were unhappy and said that only elected officials, not judges, should be able to draw political lines. Senate leaders stressed that they think the state constitution gives the Legislature the power to redraw district lines.",
+              "The dismissal keeps the current court-approved boundaries in place for the 2026 elections, at least until a final judgment or a separate federal challenge changes things."
+            ],
+            "image": {
+              "url": "/images/utah-supreme-court-dismisses-redistricting-challenge-si.webp",
+              "alt": "A picture of Utah's current congressional districts, which were ordered by the court"
+            },
+            "additionalText": [
+              "The map was chosen in part because it doesn't split cities and counties as much as other proposals do."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "There is a parallel federal lawsuit going on",
+            "mainContent": [
+              "In federal court, a different legal battle is going on. Some Republican members of Congress are asking judges to bring back the 2021 boundaries. Recently, there were oral arguments in that case, and the panel seemed interested in how the state-level proceedings might end.",
+              "State election officials have said many times how important it is to get final clarity as soon as possible, since knowing which map will be used affects candidate filing deadlines and efforts to educate voters."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "Long-Running Argument Over Redistricting Power",
+            "content": [
+              "This chapter is part of a larger fight between reforms that voters approve and the traditional power of the legislature. A major Supreme Court decision in 2024 already said that lawmakers can't redraw maps in a way that goes against citizen initiatives because it goes against the Constitution.",
+              "The way the map is set up now is very different from how it was in the past. It could make the partisan landscape more balanced in at least one district while keeping Republican strength in other districts."
+            ],
+            "image": {
+              "url": "/images/utah-supreme-court-dismisses-redistricting-challenge-ti.webp",
+              "alt": "Utah lawmakers are talking about redistricting policy at the state capitol"
+            },
+            "subsections": [
+              {
+                "title": "Key Points of the Most Recent Ruling",
+                "text": [
+                  "Appeal denied because of lack of jurisdiction",
+                  "No injunction was issued against the lower court's order.",
+                  "The remedial map will be used in future elections."
+                ],
+                "checklist": [
+                  "Confirmed procedural dismissal",
+                  "The limits set by the court are still in place.",
+                  "There is still a separate federal challenge going on."
+                ],
+                "additionalText": [
+                  "Election officials now know that they should keep getting ready using the current map unless a court steps in and gives them new instructions."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "What Utah Voters Should Do Next",
+            "intro": [
+              "The way forward is now clearer, but the long-term picture depends on what happens in other court cases."
+            ],
+            "twoColumnContent": {
+              "left": [
+                "The court-drawn map adds a competitive element to one district that wasn't there before, which could change the political conversation as we head into 2026."
+              ],
+              "rightQuote": {
+                "text": "Voters should be sure that maps are fair and take into account the needs of the community rather than giving one party an unfair advantage.",
+                "author": "Person who speaks for an advocacy group"
+              }
+            },
+            "conclusion": [
+              "The Legislature keeps saying that it is the main body that makes decisions about boundaries, but the courts have repeatedly pointed out procedural and constitutional limits.",
+              "In the next few months, we'll find out if this map stays the same through the election cycle or if it needs more legal changes before the ballots are printed."
+            ]
+          }
+        ]
+      }
     }
   ], 
 
