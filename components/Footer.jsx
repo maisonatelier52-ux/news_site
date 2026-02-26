@@ -82,17 +82,17 @@ const Footer = () => {
         <div className="text-center md:text-left">
           <p className="mb-4 font-semibold text-lg text-white">Follow Us</p>
           <div className="flex justify-center md:justify-start gap-5 text-2xl text-gray-300 mb-6">
-             <Link href="#" aria-label="x" title="Follow us on X" className="hover:text-orange-500 transition-colors">
+             <Link href="https://x.com/CourtNews10" aria-label="x" title="Follow us on X" className="hover:text-orange-500 transition-colors">
               <FaXTwitter />
             </Link>
-            <Link href="#" aria-label="Instagram" title="Follow us on Instagram" className="hover:text-orange-500 transition-colors">
+            <Link href="https://www.instagram.com/_court_news/" aria-label="Instagram" title="Follow us on Instagram" className="hover:text-orange-500 transition-colors">
               <FaInstagram />
             </Link>
            
-            <Link href="#" aria-label="Reddit" title="Follow us on Reddit" className="hover:text-orange-500 transition-colors">
+            <Link href="https://www.reddit.com/user/court_news/" aria-label="Reddit" title="Follow us on Reddit" className="hover:text-orange-500 transition-colors">
               <FaRedditAlien />
             </Link>
-            <Link href="#" aria-label="substack" title="Follow us on Substack" className="hover:text-orange-500 transition-colors">
+            <Link href="https://substack.com/@courtnews" aria-label="substack" title="Follow us on Substack" className="hover:text-orange-500 transition-colors">
               <BsSubstack />
             </Link>
           </div>

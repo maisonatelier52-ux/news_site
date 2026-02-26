@@ -250,8 +250,8 @@ export default async function Page({ params }) {
     logo: `${SITE_URL}/images/logo.webp`,
     sameAs: [
       "https://facebook.com/courtnews",
-      "https://twitter.com/courtnews",
-      "https://instagram.com/courtnews",
+      "https://x.com/CourtNews10",
+      "https://www.instagram.com/_court_news/",
     ],
     contactPoint: {
       "@type": "ContactPoint",

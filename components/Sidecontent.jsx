@@ -24,7 +24,7 @@ const Sidecontent = ({heroPost, smallPosts}) => {
             {/* X (Twitter) */}
             <div className="flex flex-col items-center text-lg">
               <span className="w-12 h-12 flex items-center justify-center rounded-full bg-black text-white transition hover:scale-110 hover:shadow-md hover:shadow-black/40">
-                <Link href="https://twitter.com" title="Follow us on Twitter" target="_blank" rel="noopener noreferrer">
+                <Link href="https://x.com/CourtNews10" title="Follow us on Twitter" target="_blank" rel="noopener noreferrer">
                 <FaXTwitter /></Link>
               </span>
             </div>
@@ -32,7 +32,7 @@ const Sidecontent = ({heroPost, smallPosts}) => {
             {/* Instagram */}
             <div className="flex flex-col items-center text-lg">
               <span className="w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-br from-[#E1306C] via-[#C13584] to-[#F56040] text-white transition hover:scale-110 hover:shadow-md hover:shadow-pink-500/40">
-                <Link href="https://instagram.com" title="Follow us on Instagram" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.instagram.com/_court_news/" title="Follow us on Instagram" target="_blank" rel="noopener noreferrer">
                   <FaInstagram /></Link>
               </span>
             </div>
@@ -40,7 +40,7 @@ const Sidecontent = ({heroPost, smallPosts}) => {
             {/* Reddit */}
             <div className="flex flex-col items-center text-lg">
               <span className="w-12 h-12 flex items-center justify-center rounded-full bg-[#FF4500] text-white transition hover:scale-110 hover:shadow-md hover:shadow-orange-700/50">
-                <Link href="https://reddit.com" title="Follow us on Reddit" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.reddit.com/user/court_news/" title="Follow us on Reddit" target="_blank" rel="noopener noreferrer">
                   <FaRedditAlien />
                 </Link>
               </span>
@@ -49,7 +49,7 @@ const Sidecontent = ({heroPost, smallPosts}) => {
             {/* Substack */}
             <div className="flex flex-col items-center text-lg">
               <span className="w-12 h-12 flex items-center justify-center rounded-full bg-[#FF6719] text-white transition hover:scale-110 hover:shadow-md hover:shadow-orange-600/40">
-                <Link href="https://substack.com" title="Follow us on Substack" target="_blank" rel="noopener noreferrer">
+                <Link href="https://substack.com/@courtnews" title="Follow us on Substack" target="_blank" rel="noopener noreferrer">
                   <BsSubstack />
                 </Link>
               </span>

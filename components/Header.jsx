@@ -114,7 +114,7 @@ const Header = () => {
           {/* SOCIAL ICONS */}
           <div className="flex items-center gap-4 text-gray-700 text-lg">
            <Link 
-              href="https://x.com/yourusername" 
+              href="https://x.com/CourtNews10" 
               aria-label="x" 
               title="Follow us on X"
               className="hover:text-orange-500"
@@ -125,7 +125,7 @@ const Header = () => {
             </Link>
 
             <Link 
-              href="https://instagram.com/yourusername" 
+              href="https://www.instagram.com/_court_news/" 
               aria-label="Instagram" 
               title="Follow us on Instagram"
               className="hover:text-orange-500"
@@ -136,7 +136,7 @@ const Header = () => {
             </Link>
 
             <Link 
-              href="https://reddit.com/user/yourusername" 
+              href="https://www.reddit.com/user/court_news/" 
               aria-label="Reddit" 
               title="Follow us on Reddit"
               className="hover:text-orange-500"
@@ -147,7 +147,7 @@ const Header = () => {
             </Link>
 
             <Link 
-              href="https://yourname.substack.com" 
+              href="https://substack.com/@courtnews" 
               aria-label="Substack" 
               title="Follow us on Substack"
               className="hover:text-orange-500"
@@ -339,7 +339,7 @@ const Header = () => {
               <p className="text-sm font-bold text-gray-800 mb-3">Follow Us</p>
               <div className="flex items-center gap-4 text-gray-700 text-xl">
                 <Link
-                  href="https://x.com/yourusername"
+                  href="https://x.com/CourtNews10"
                   aria-label="x"
                   className="hover:text-orange-500"
                   target="_blank"
@@ -350,7 +350,7 @@ const Header = () => {
                 </Link>
 
                 <Link
-                  href="https://instagram.com/yourusername"
+                  href="https://www.instagram.com/_court_news/"
                   aria-label="Instagram"
                   className="hover:text-orange-500"
                   target="_blank"
@@ -361,7 +361,7 @@ const Header = () => {
                 </Link>
 
                 <Link
-                  href="https://www.reddit.com/user/yourusername"
+                  href="https://www.reddit.com/user/court_news/"
                   aria-label="Reddit"
                   className="hover:text-orange-500"
                   target="_blank"
@@ -372,7 +372,7 @@ const Header = () => {
                 </Link>
 
                 <Link
-                  href="https://yourname.substack.com"
+                  href="https://substack.com/@courtnews"
                   aria-label="Substack"
                   className="hover:text-orange-500"
                   target="_blank"

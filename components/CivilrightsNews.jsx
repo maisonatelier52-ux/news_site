@@ -134,7 +134,7 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost, leftPost2 }) => {
             {/* X (Twitter) */}
             <div className="flex flex-col items-center text-sm">
               <span className="w-12 h-12 flex items-center justify-center rounded-full bg-black text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-black/30">
-                <Link href="https://x.com" title="Follow us on X (Twitter)" target="_blank" rel="noopener noreferrer">
+                <Link href="https://x.com/CourtNews10" title="Follow us on X (Twitter)" target="_blank" rel="noopener noreferrer">
                   <FaXTwitter className="text-xl" />
                 </Link> 
               </span>
@@ -143,7 +143,7 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost, leftPost2 }) => {
             {/* Instagram */}
             <div className="flex flex-col items-center text-sm">
               <span className="w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-br from-[#E1306C] via-[#C13584] to-[#F56040] text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-pink-500/40">
-                <Link href="https://instagram.com" title="Follow us on Instagram" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.instagram.com/_court_news/" title="Follow us on Instagram" target="_blank" rel="noopener noreferrer">
                   <FaInstagram className="text-xl" />
                 </Link>
               </span>
@@ -152,7 +152,7 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost, leftPost2 }) => {
             {/* Reddit */}
             <div className="flex flex-col items-center text-sm">
               <span className="w-12 h-12 flex items-center justify-center rounded-full bg-[#FF4500] text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-orange-600/40">
-                <Link href="https://reddit.com" title="Follow us on Reddit" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.reddit.com/user/court_news/" title="Follow us on Reddit" target="_blank" rel="noopener noreferrer">
                   <FaRedditAlien className="text-xl" />
                 </Link>
               </span>
@@ -161,7 +161,7 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost, leftPost2 }) => {
             {/* Substack */}
             <div className="flex flex-col items-center text-sm">
               <span className="w-12 h-12 flex items-center justify-center rounded-full bg-[#FF6719] text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-orange-600/40">
-                <Link href="https://substack.com" title="Follow us on Substack" target="_blank" rel="noopener noreferrer">
+                <Link href="https://substack.com/@courtnews" title="Follow us on Substack" target="_blank" rel="noopener noreferrer">
                   <BsSubstack className="text-xl" />
                 </Link>
               </span>

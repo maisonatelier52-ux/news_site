@@ -223,8 +223,8 @@ export default async function CategoryPage({ params }) {
     description: "Independent reporting on U.S. courts, justice and legal affairs.",
     sameAs: [
       "https://facebook.com/courtnews",
-      "https://twitter.com/courtnews",
-      "https://instagram.com/courtnews",
+      "https://x.com/CourtNews10",
+      "https://www.instagram.com/_court_news/",
       "https://linkedin.com/company/courtnews",
     ],
     contactPoint: {
