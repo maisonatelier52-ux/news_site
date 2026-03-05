@@ -6,6 +6,7 @@ import { FaRedditAlien, FaShareSquare } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiMedium } from "react-icons/si";
 import { BsSubstack } from "react-icons/bs";
+import { FaQuora  } from "react-icons/fa";
 import RelatedNews from "../../../components/RelatedNews";
 import Sidecontent from "../../../components/Sidecontent";
 import AuthorProfile from "../../../components/AuthorProfile";
@@ -332,9 +333,9 @@ export default async function Page({ params }) {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-blue-600 transition"
-                  title="Follow on Twitter"
+                  title="Follow on Medium"
                 >
-                  <FaXTwitter className="w-5 h-5" />
+                  <SiMedium className="w-5 h-5" />
                 </Link>
               )}
               {author.social?.instagram && (
@@ -343,9 +344,9 @@ export default async function Page({ params }) {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-blue-600 transition"
-                  title="Follow on Instagram"
+                  title="Follow on Quora"
                 >
-                  <FaInstagram className="w-5 h-5" />
+                  <FaQuora className="w-5 h-5" />
                 </Link>
               )}
               {author.social?.reddit && (

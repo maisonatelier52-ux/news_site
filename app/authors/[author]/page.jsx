@@ -4,10 +4,8 @@ import categoryPageData from "../../../public/data/category/categorypagedata.jso
 import authorsData from "../../../public/data/authors.json";
 import Link from "next/link";
 import Image from "next/image";
-import { FaTwitter, FaQuora, FaReddit, FaFacebook } from "react-icons/fa";
-
-import { FaXTwitter,FaInstagram } from "react-icons/fa6";
-import { FaRedditAlien } from "react-icons/fa";
+import { FaReddit,FaQuora  } from "react-icons/fa";
+import { SiMedium } from "react-icons/si";
 import { BsSubstack } from "react-icons/bs";
 import { notFound } from "next/navigation";
 
@@ -277,10 +275,10 @@ export default async function AuthorPage({ params }) {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white transition"
-                    title="Twitter"
-                    aria-label={`${authorData.name} on Twitter`}
+                    title="Medium"
+                    aria-label={`${authorData.name} on Medium`}
                   >
-                    <FaXTwitter size={20} />
+                    <SiMedium size={20} />
                   </Link>
                 )}
                 {authorData.social?.instagram && (
@@ -289,10 +287,10 @@ export default async function AuthorPage({ params }) {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-pink-500 hover:text-white transition"
-                    title="Instagram"
-                    aria-label={`${authorData.name} on Instagram`}
+                    title="Quora"
+                    aria-label={`${authorData.name} on Quora`}
                   >
-                    <FaInstagram size={20} />
+                    <FaQuora size={20} />
                   </Link>
                 )}
                 {authorData.social?.reddit && (

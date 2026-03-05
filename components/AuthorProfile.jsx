@@ -1,8 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaXTwitter, FaInstagram } from 'react-icons/fa6';
 import { FaRedditAlien } from "react-icons/fa";
 import { BsSubstack } from "react-icons/bs";
+import { FaQuora  } from "react-icons/fa";
+import { SiMedium } from "react-icons/si";
 
 import { slugify } from "../utils/slugify";   
 
@@ -49,9 +50,9 @@ export default function AuthorProfile({ author }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-blue-600 transition"
-                title="Follow on Twitter"
+                title="Follow on Medium"
               >
-                <FaXTwitter className="w-5 h-5" />
+                <SiMedium className="w-5 h-5" />
               </Link>
             )}
             {author.social?.instagram && (
@@ -60,9 +61,9 @@ export default function AuthorProfile({ author }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-blue-600 transition"
-                title="Follow on Instagram"
+                title="Follow on Quora"
               >
-                <FaInstagram className="w-5 h-5" />
+                <FaQuora className="w-5 h-5" />
               </Link>
             )}
             {author.social?.reddit && (
